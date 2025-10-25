@@ -1,0 +1,41 @@
+project problems
+
+1.registration of member needed captcha
+>tried humanizing code using puppeteer-extra-plugin-stealth which is a stealth plugin
+>gmail annot bu used since google donot allow its service to be automated
+
+2.Dynamic pop up for registration can hamper the flow
+>used a function to check if pop up visible before executing any other function
+
+3. autosuggestion drpdwn flow hampered as page not loaded 
+>waitForSelector and waitForStateLoad used to ensure smooth flow
+
+4.Payment System not included 
+>Ensure the search result has all options eligible to be paid later
+
+5.Data Driven functionality
+>All the test run under a single describe group may face error due to test duplication thus added sl no. from excel to every test header to avoid duplicacy
+>using for(var dt of testData) before beforeEach block can open multiple unused pages reducing optimization ram consumption and increase chances of error also the ss are not proper
+>using for(var dt of testData) before beforeEach block will open only 2 pages to test 2 test block increasing optimization , low ram comsumption, increase success rate and ss are proper
+
+6.After multiple fail; result the port 9323 got jammed
+>after success report the port is not opening and throwing error:listen EADDRINUSE: address already in use ::1:9323
+>to resaolve the running task: netstat -ano | findstr :9323
+>kill the task :taskkill /PID <PID> /F
+>run the report command:npx playwright show-report
+
+
+
+
+
+installed items:
+npm install xlsx ===> excel iterable class
+
+npm i -D @playwright/test --allure-playwright ===>install allure
+npm install -g allure-commandline --save-dev  ===>install allure commandlines
+in config reporter:[['allure-playwright',{outputFile:'results'}]]
+allure generate results -o allure-report --clean ===> generate allure in html
+allure open allure-report===>to open the generated report in understandable format
+
+Help:
+Ctrl+Alt+B
