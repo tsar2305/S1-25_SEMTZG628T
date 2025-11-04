@@ -2,6 +2,7 @@ const { test, expect, chromium } = require('@playwright/test');
 const { BookingPage } = require('../pageObject/booking.po');
 const { EmailPage } = require('../pageObject/email.po');
 const { Data } = require('../pageObject/data.po');
+const { faker } = require('@faker-js/faker');
 const { xlsx } = require('xlsx');
 var browser, page, context;
 var page1 = null;
@@ -32,10 +33,29 @@ test.describe('DataDriven Hotel Booking', () => {
     await page.close();
     await data.writeExcel('data/testData.xlsx', 'Sheet1', testData);
   })
-
+  test('Fill Excel with random data@random', async () => {
+    const booking = new BookingPage(page);
+    console.log('Filling Excel with Random Data');
+      for (const dt of testData) {
+        const randomData =await booking.ranData();
+        data.updateExcel(testData, dt.SerialNo, 'FirstName',  randomData[0]);
+        data.updateExcel(testData, dt.SerialNo, 'LastName',  randomData[1]);
+        data.updateExcel(testData, dt.SerialNo, 'Email',  randomData[2]);
+        data.updateExcel(testData, dt.SerialNo, 'Phone',  randomData[3]);
+        data.updateExcel(testData, dt.SerialNo, 'Country',  randomData[4]);
+        data.updateExcel(testData, dt.SerialNo, 'Filter',  randomData[5]);
+        data.updateExcel(testData, dt.SerialNo, 'Currency',  randomData[6]);
+        data.updateExcel(testData, dt.SerialNo, 'Member',  randomData[7]);
+        data.updateExcel(testData, dt.SerialNo, 'Room',  randomData[8]);
+        data.updateExcel(testData, dt.SerialNo, 'Budget',  randomData[9]);
+        data.updateExcel(testData, dt.SerialNo, 'Arrival',  randomData[10]);
+        data.updateExcel(testData, dt.SerialNo, 'Departure',  randomData[11]);
+        data.updateExcel(testData, dt.SerialNo, 'Destination',  randomData[12]);
+      }
+  })
   for (const dt of testData) {
-    test('Search Filtering by date, location ' + dt.SerialNo, async () => {
-      test.slow();
+    test('Search Filtering by date, location ' + dt.SerialNo + '@run', async () => {
+      // test.slow();
       /**Home Page========================================== */
       const booking = new BookingPage(page);
       //Navigation to Booking Url
@@ -48,7 +68,7 @@ test.describe('DataDriven Hotel Booking', () => {
       expect((await booking.checkCurrency(dt.Currency))).toHaveText(dt.Currency);
       //Destination Selection and Verification
       await booking.selectDestination(dt.Destination)
-      expect(await page.locator(booking.destination).getAttribute('value')).toContain(dt.Destination);
+      expect.soft(await page.locator(booking.destination).getAttribute('value')).toContain(dt.Destination);
       //Scheduling Visit via Calender
       let configDate = (dt.Arrival).split('.');
       configDate = Number(configDate[0]) + ' ' + configDate[1];
@@ -74,20 +94,22 @@ test.describe('DataDriven Hotel Booking', () => {
               expect(str1Parts.some(part => filter.includes(part))).toBeTruthy();
             }
             else {
-              expect(Filter).toContain(filter);
+              expect(filter.includes(Filter)).toBeTruthy();
             }
           }
         }
       }
       await page.waitForSelector(booking.Nopaymnt);
       await page.click(booking.Nopaymnt);
+      // await page.click(booking.NoCredCrd);      
       /**Filter Hotels by review ratings and Price */
       await page.waitForSelector(booking.availablityBtn);
       try {
         hotels = await booking.filterHotel(dt.Budget);
         await page.click(booking.availablityBtn);
       } catch (error) {
-        await page.reload();
+        await page.click(booking.availablityBtn);
+        hotels = [{linkurl:await this.page.getUrl()}];
       }
       /**Open new Window Promise*/
       const promise = context.waitForEvent('page');
@@ -96,7 +118,7 @@ test.describe('DataDriven Hotel Booking', () => {
         await page1.waitForLoadState('load')
       }
     })
-    test("Filtered page handling " + dt.SerialNo, async () => {
+    test("Filtered page handling " + dt.SerialNo + '@run', async () => {
       const booking = new BookingPage(page);
       for (var hotel of hotels) {
         try {
@@ -124,7 +146,7 @@ test.describe('DataDriven Hotel Booking', () => {
       }
       page1 = null;
     })
-    test('Email Verification ' + dt.SerialNo, async () => {
+    test('Email Verification ' + dt.SerialNo + '@run', async () => {
       test.slow();
       /**Email Credential Page========================================== */
       const email = new EmailPage(page);
@@ -140,8 +162,13 @@ test.describe('DataDriven Hotel Booking', () => {
       /**Validate the Contents generated from Booking Site and Extracted from Email Inbox*/
       expect(arry[0]).toBe(dt.PNR);
       expect(arry[1]).toBe(dt.PIN);
-      expect(arry[2]).toContain(dt.Details);
+      expect(dt.Details).toContain(arry[2]);
       expect(arry[3]).toBe(dt.Address);
+      if(test.fail()==true){
+        await data.updateExcel(testData, dt.SerialNo, 'Status', 'Fail');
+      }else{
+        await data.updateExcel(testData, dt.SerialNo, 'Status', 'Pass');
+      }
     })
   }
 });

@@ -1,12 +1,11 @@
 const { test, expect, chromium } = require('@playwright/test');
 const { BookingPage } = require('../pageObject/booking.po');
 const { EmailPage } = require('../pageObject/email.po');
-const { Data } = require('../pageObject/data.po');
 var arry = [];
 var hotels = [];
 // test.setTimeout(60000);
 var page1;
-test('Search Filtering by date, location@test', async () => {
+test('Search Filtering by date, location@run', async () => {
   // test.slow();
   const browser = await chromium.launch();
   const context = await browser.newContext();
@@ -26,8 +25,8 @@ test('Search Filtering by date, location@test', async () => {
   await booking.selectDestination('Kolkata')
   expect(await page.locator(booking.destination).getAttribute('value')).toContain('Kolkata');
   //Scheduling Visit via Calender
-  await booking.selectDate('20.Oct.2025')
-  await booking.selectDate('22.Oct.2025')
+  await booking.selectDate('2.Dec.2025')
+  await booking.selectDate('3.Dec.2025')
   //Occupancy Selection
   await booking.occupancy("Individuals", 2);
   expect(await page.locator(booking.occupancyButton).textContent()).toContain(2 + " adult");
@@ -37,7 +36,7 @@ test('Search Filtering by date, location@test', async () => {
   /**Search Result Page========================================== */
   await page.waitForLoadState('load');
   await page.waitForSelector(booking.searchResultHeader);
-  var Filter = "Parking,Wifi";
+  var Filter = "Parking";
   if (Filter != null) {
     let filters = await booking.filters(Filter);
     for (var filter of filters) {
@@ -47,12 +46,13 @@ test('Search Filtering by date, location@test', async () => {
           expect(str1Parts.some(part => filter.includes(part))).toBeTruthy();
         }
         else {
-          expect(Filter).toContain(filter);
+          expect(filter.includes(Filter)).toBeTruthy();
         }
       }
     }
   }
   await page.click(booking.Nopaymnt);
+  await page.click(booking.NoCredCrd);
   await page.waitForSelector(booking.availablityBtn);
   hotels=(await booking.filterHotel(6000));
   const promise = context.waitForEvent('page');
@@ -60,7 +60,7 @@ test('Search Filtering by date, location@test', async () => {
   page1 = await promise;
   await page.close();
 })
-test("Filtered page handling@test", async () => {
+test("Filtered page handling@confirm", async () => {
   const page = page1;
   // await page.waitForLoadState('load');
   const booking = new BookingPage(page);
@@ -68,14 +68,16 @@ test("Filtered page handling@test", async () => {
     try {
       await booking.navigateToPage(await hotel.linkurl);
       await page.waitForSelector(booking.reserve);
+       await page.waitForTimeout(3000);
       console.log(await booking.getRules());
       await page.waitForTimeout(3000);
       //need change
-      arry.push(await booking.reservation(3, 2));
+      arry.push(await booking.reservation(2, 1));
       await page.waitForLoadState('load');
-      arry.push(await booking.fillDetails("khaja", "Baja", 'testing2406@mailinator.com', '9156789232', 'India'));
+      arry.push(await booking.fillDetails("Rahul", "Maity", 'testing24@mailinator.com', '915342232', 'India'));
       console.log(arry);
       arry.push(await booking.completeBooking());
+      await page.close();
       break;
     } catch (error) {
       console.error(`Error processing hotel ${hotel.name}:`, error);
@@ -83,7 +85,7 @@ test("Filtered page handling@test", async () => {
     }
   }
 })
-test('Email Verification@run', async ({ page }) => {
+test('Email Verification@mail', async ({ page }) => {
   // test.slow();
   /**Email Credential Page========================================== */
   const email = new EmailPage(page);
@@ -91,7 +93,7 @@ test('Email Verification@run', async ({ page }) => {
   await email.navigateToPage(email.emailUrl);
   //Inputing Credentials to login
   await page.waitForSelector(email.username);
-  await page.type(email.username, 'testing2406@mailinator.com', { delay: 120 });
+  await page.type(email.username, 'testing24@mailinator.com', { delay: 120 });
   await page.keyboard.press('Enter');
   await page.waitForLoadState('load');
   /**Inbox Page========================================== */

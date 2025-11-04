@@ -1,0 +1,6 @@
+[
+  '6113000582',
+  '3196',
+  'Swarn Hotel',
+  '43, Lenin Sarani Rd, Esplanade, Janbazar, 4th Floor, 700013 Kolkata, India'
+]

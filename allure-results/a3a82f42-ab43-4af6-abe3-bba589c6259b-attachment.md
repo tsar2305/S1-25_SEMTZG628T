@@ -1,0 +1,1161 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#indexsearch"
+    - generic [ref=e5] [cursor=pointer]: Skip to main content
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+          - img [ref=e16] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Prices in Indian Rupee" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21] [cursor=pointer]: INR
+          - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+          - link "Customer support" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7&source=header&src=profile_contact_cs
+            - img [ref=e31] [cursor=pointer]
+          - link "List your property" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&lang=en-us&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34] [cursor=pointer]: List your property
+          - link "Register an account" [ref=e35] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=index&prompt=signin&state=UrMBYwyIJLYLgpBm3E9JJJSo6aXxnNrh8Xv3K-AKPpWCAT2pBXK7msms_RetwLaBsySCTgUHdtDVUb2Qx6sKUl0jWQPs4f4gmiKKntmXCFz4wmjItsOQ6aLRX8yny_OUBCSD3qwA0VaNxpwP73_T5HXqT5KgXarpPCspApTvpCET73u9sc3AIxHUyiSO6IyNPNe_e9mlkng4uHrUfBl00lDQRPtl_0k188Kl4_0ZbNS9wRJPY8Q%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e36] [cursor=pointer]: Register
+          - link "Sign in" [ref=e38] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=index&prompt=signin&state=UrMBYwyIJLYLgpBm3E9JJJSo6aXxnNrh8Xv3K-AKPpWCAT2pBXK7msms_RetwLaBsySCTgUHdtDVUb2Qx6sKUl0jWQPs4f4gmiKKntmXCFz4wmjItsOQ6aLRX8yny_OUBCSD3qwA0VaNxpwP73_T5HXqT5KgXarpPCspApTvpCET73u9sc3AIxHUyiSO6IyNPNe_e9mlkng4uHrUfBl00lDQRPtl_0k188Kl4_0ZbNS9wRJPY8Q%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e39] [cursor=pointer]: Sign in
+      - navigation "What are you looking for?" [ref=e40]:
+        - menubar [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem "Stays" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45] [cursor=pointer]:
+                - img [ref=e47] [cursor=pointer]
+                - generic [ref=e50] [cursor=pointer]: Stays
+          - listitem [ref=e51]:
+            - menuitem "Flights" [ref=e52] [cursor=pointer]:
+              - generic [ref=e53] [cursor=pointer]:
+                - img [ref=e55] [cursor=pointer]
+                - generic [ref=e58] [cursor=pointer]: Flights
+          - listitem [ref=e59]:
+            - menuitem "Flight + Hotel" [ref=e60] [cursor=pointer]:
+              - generic [ref=e61] [cursor=pointer]:
+                - img [ref=e63] [cursor=pointer]
+                - generic [ref=e66] [cursor=pointer]: Flight + Hotel
+          - listitem [ref=e67]:
+            - menuitem "Car rental" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69] [cursor=pointer]:
+                - img [ref=e71] [cursor=pointer]
+                - generic [ref=e74] [cursor=pointer]: Car rental
+          - listitem [ref=e75]:
+            - menuitem "Attractions" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77] [cursor=pointer]:
+                - img [ref=e79] [cursor=pointer]
+                - generic [ref=e82] [cursor=pointer]: Attractions
+          - listitem [ref=e83]:
+            - menuitem "Airport taxis" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85] [cursor=pointer]:
+                - img [ref=e87] [cursor=pointer]
+                - generic [ref=e90] [cursor=pointer]: Airport taxis
+  - main [ref=e91]:
+    - generic [ref=e96]:
+      - heading "Find your next stay" [level=1] [ref=e98]:
+        - generic [ref=e99]: Find your next stay
+      - paragraph [ref=e100]: Search deals on hotels, homes, and much more...
+    - region "Search properties" [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e110]:
+          - img [ref=e113]
+          - combobox "Where are you going?" [ref=e115]: Kolkata, West Bengal, India
+          - button "Clear" [ref=e118] [cursor=pointer]:
+            - img "Clear" [ref=e119] [cursor=pointer]:
+              - img [ref=e120] [cursor=pointer]
+        - button "Tue, Dec 2 — Wed, Dec 3" [ref=e124] [cursor=pointer]:
+          - generic [ref=e125] [cursor=pointer]:
+            - img [ref=e127] [cursor=pointer]
+            - generic [ref=e129] [cursor=pointer]: Tue, Dec 2
+            - generic [ref=e130] [cursor=pointer]: —
+            - generic [ref=e131] [cursor=pointer]: Wed, Dec 3
+        - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" [active] [ref=e134] [cursor=pointer]':
+          - generic [ref=e135] [cursor=pointer]:
+            - img [ref=e137] [cursor=pointer]
+            - text: 2 adults · 0 children · 1 room
+          - img [ref=e140] [cursor=pointer]
+        - button "Search" [ref=e143] [cursor=pointer]:
+          - generic [ref=e144] [cursor=pointer]: Search
+      - group [ref=e145]:
+        - generic [ref=e146]:
+          - checkbox "I'm looking for an entire home or apartment" [ref=e147]
+          - generic [ref=e148] [cursor=pointer]:
+            - img [ref=e151] [cursor=pointer]
+            - generic [ref=e154] [cursor=pointer]: I'm looking for an entire home or apartment
+        - generic [ref=e155]:
+          - checkbox "Add flights to my search" [ref=e156]
+          - generic [ref=e157] [cursor=pointer]:
+            - img [ref=e160] [cursor=pointer]
+            - generic [ref=e163] [cursor=pointer]: Add flights to my search
+  - generic [ref=e167]:
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e174]: Why Booking.com?
+        - generic [ref=e175]:
+          - heading "Book now, pay at the property" [level=3] [ref=e177]
+          - paragraph [ref=e178]: FREE cancellation on most rooms
+        - generic [ref=e179]:
+          - heading "300M+ reviews from fellow travelers" [level=3] [ref=e181]
+          - paragraph [ref=e182]: Get trusted information from guests like you
+        - generic [ref=e183]:
+          - heading "2+ million properties worldwide" [level=3] [ref=e185]
+          - paragraph [ref=e186]: Hotels, guest houses, apartments, and more…
+        - generic [ref=e187]:
+          - heading "Trusted 24/7 customer service you can rely on" [level=3] [ref=e189]
+          - paragraph [ref=e190]: We're always here to help
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - heading "Offers" [level=2] [ref=e193]
+          - generic [ref=e194]: Promotions, deals, and special offers for you
+        - region "Offers" [ref=e197]:
+          - group [ref=e198]:
+            - generic [ref=e202]:
+              - generic [ref=e204]:
+                - heading "Save at least 15% this Singles Day" [level=3] [ref=e205]
+                - link "Explore deals" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.booking.com/dealspage.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                  - generic [ref=e209] [cursor=pointer]: Explore deals
+              - img "Say yes to one more trip" [ref=e213]
+          - group [ref=e214]:
+            - generic [ref=e217]:
+              - generic [ref=e219]:
+                - generic [ref=e220]: Late Escape Deals
+                - heading "Go for a good time, not a long time" [level=3] [ref=e221]
+                - generic [ref=e222]: Squeeze out the last bit of sun with at least 15% off
+                - link "Search for Late Escape Deals" [ref=e225] [cursor=pointer]:
+                  - /url: https://www.booking.com/dealspage.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&campaign_id=late_escape
+                  - generic [ref=e226] [cursor=pointer]: Find deals
+              - img "A father and child together in a hammock, watching a beautiful sunrise" [ref=e229]
+    - generic [ref=e231]:
+      - generic [ref=e233]:
+        - generic [ref=e235]:
+          - heading "Trending destinations" [level=2] [ref=e236]
+          - generic [ref=e237]: Most popular choices for travelers from India
+        - link "New Delhi India" [ref=e238] [cursor=pointer]:
+          - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2106102&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+          - generic [ref=e241] [cursor=pointer]:
+            - generic [ref=e242] [cursor=pointer]: New Delhi
+            - img "India" [ref=e244] [cursor=pointer]
+        - link "Bangalore India" [ref=e245] [cursor=pointer]:
+          - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2090174&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+          - generic [ref=e248] [cursor=pointer]:
+            - generic [ref=e249] [cursor=pointer]: Bangalore
+            - img "India" [ref=e251] [cursor=pointer]
+        - generic [ref=e252]:
+          - link "Mumbai India" [ref=e253] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2092174&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+            - generic [ref=e256] [cursor=pointer]:
+              - generic [ref=e257] [cursor=pointer]: Mumbai
+              - img "India" [ref=e259] [cursor=pointer]
+          - link "Chennai India" [ref=e260] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2103041&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+            - generic [ref=e263] [cursor=pointer]:
+              - generic [ref=e264] [cursor=pointer]: Chennai
+              - img "India" [ref=e266] [cursor=pointer]
+          - link "Hyderabad India" [ref=e267] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2097701&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+            - generic [ref=e270] [cursor=pointer]:
+              - generic [ref=e271] [cursor=pointer]: Hyderabad
+              - img "India" [ref=e273] [cursor=pointer]
+      - generic [ref=e277]:
+        - heading "Browse by property type" [level=2] [ref=e282]
+        - generic [ref=e283]:
+          - region "Browse by property type" [ref=e284]:
+            - group [ref=e285]:
+              - link "Hotels" [ref=e286] [cursor=pointer]:
+                - /url: https://www.booking.com/hotel/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Hotels" [level=3] [ref=e293] [cursor=pointer]
+            - group [ref=e294]:
+              - link "Apartments" [ref=e295] [cursor=pointer]:
+                - /url: https://www.booking.com/apartments/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Apartments" [level=3] [ref=e302] [cursor=pointer]
+            - group [ref=e303]:
+              - link "Resorts" [ref=e304] [cursor=pointer]:
+                - /url: https://www.booking.com/resorts/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Resorts" [level=3] [ref=e311] [cursor=pointer]
+            - group [ref=e312]:
+              - link "Villas" [ref=e313] [cursor=pointer]:
+                - /url: https://www.booking.com/villas/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Villas" [level=3] [ref=e320] [cursor=pointer]
+            - group [ref=e321]:
+              - link "Cabins" [ref=e322] [cursor=pointer]:
+                - /url: https://www.booking.com/chalet/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Cabins" [level=3] [ref=e329] [cursor=pointer]
+            - group [ref=e330]:
+              - link "Cottages" [ref=e331] [cursor=pointer]:
+                - /url: https://www.booking.com/cottages/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Cottages" [level=3] [ref=e338] [cursor=pointer]
+            - group [ref=e339]:
+              - link "Glamping Sites" [ref=e340] [cursor=pointer]:
+                - /url: https://www.booking.com/glamping/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Glamping Sites" [level=3] [ref=e347] [cursor=pointer]
+            - group [ref=e348]:
+              - link "Serviced apartments" [ref=e349] [cursor=pointer]:
+                - /url: https://www.booking.com/aparthotels/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Serviced apartments" [level=3] [ref=e356] [cursor=pointer]
+            - group [ref=e357]:
+              - link "Vacation Homes" [ref=e358] [cursor=pointer]:
+                - /url: https://www.booking.com/holiday-homes/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Vacation Homes" [level=3] [ref=e365] [cursor=pointer]
+            - group [ref=e366]:
+              - link "Guest Houses" [ref=e367] [cursor=pointer]:
+                - /url: https://www.booking.com/guest-house/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Guest Houses" [level=3] [ref=e374] [cursor=pointer]
+            - group [ref=e375]:
+              - link "Hostels" [ref=e376] [cursor=pointer]:
+                - /url: https://www.booking.com/hostels/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Hostels" [level=3] [ref=e383] [cursor=pointer]
+            - group [ref=e384]:
+              - link "Motels" [ref=e385] [cursor=pointer]:
+                - /url: https://www.booking.com/motels/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Motels" [level=3] [ref=e392] [cursor=pointer]
+            - group [ref=e393]:
+              - link "B&Bs" [ref=e394] [cursor=pointer]:
+                - /url: https://www.booking.com/bed-and-breakfast/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "B&Bs" [level=3] [ref=e401] [cursor=pointer]
+            - group [ref=e402]:
+              - link "Ryokans" [ref=e403] [cursor=pointer]:
+                - /url: https://www.booking.com/ryokans/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Ryokans" [level=3] [ref=e410] [cursor=pointer]
+            - group [ref=e411]:
+              - link "Riads" [ref=e412] [cursor=pointer]:
+                - /url: https://www.booking.com/riad/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Riads" [level=3] [ref=e419] [cursor=pointer]
+            - group [ref=e420]:
+              - link "Resort Villages" [ref=e421] [cursor=pointer]:
+                - /url: https://www.booking.com/holiday-parks/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Resort Villages" [level=3] [ref=e428] [cursor=pointer]
+            - group [ref=e429]:
+              - link "Homestays" [ref=e430] [cursor=pointer]:
+                - /url: https://www.booking.com/homestay/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Homestays" [level=3] [ref=e437] [cursor=pointer]
+            - group [ref=e438]:
+              - link "Campgrounds" [ref=e439] [cursor=pointer]:
+                - /url: https://www.booking.com/campings/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Campgrounds" [level=3] [ref=e446] [cursor=pointer]
+            - group [ref=e447]:
+              - link "Country Houses" [ref=e448] [cursor=pointer]:
+                - /url: https://www.booking.com/country-houses/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Country Houses" [level=3] [ref=e455] [cursor=pointer]
+            - group [ref=e456]:
+              - link "Farm stays" [ref=e457] [cursor=pointer]:
+                - /url: https://www.booking.com/farm-holidays/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Farm stays" [level=3] [ref=e464] [cursor=pointer]
+            - group [ref=e465]:
+              - link "Boats" [ref=e466] [cursor=pointer]:
+                - /url: https://www.booking.com/boats/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Boats" [level=3] [ref=e473] [cursor=pointer]
+            - group [ref=e474]:
+              - link "Luxury Tents" [ref=e475] [cursor=pointer]:
+                - /url: https://www.booking.com/camp/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Luxury Tents" [level=3] [ref=e482] [cursor=pointer]
+            - group [ref=e483]:
+              - link "Self-Catering Accommodations" [ref=e484] [cursor=pointer]:
+                - /url: https://www.booking.com/self-catering/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Self-Catering Accommodations" [level=3] [ref=e491] [cursor=pointer]
+            - group [ref=e492]:
+              - link "Tiny Houses" [ref=e493] [cursor=pointer]:
+                - /url: https://www.booking.com/tiny-house/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - heading "Tiny Houses" [level=3] [ref=e500] [cursor=pointer]
+          - button [ref=e501] [cursor=pointer]:
+            - img [ref=e504] [cursor=pointer]
+      - generic [ref=e509]:
+        - generic [ref=e513]:
+          - heading "Explore India" [level=2] [ref=e514]
+          - generic [ref=e515]: These popular destinations have a lot to offer
+        - generic [ref=e516]:
+          - region "Explore India" [ref=e517]:
+            - group [ref=e518]:
+              - link "New Delhi 3,453 properties" [ref=e519] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2106102&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e525] [cursor=pointer]:
+                  - heading "New Delhi" [level=3] [ref=e526] [cursor=pointer]
+                  - generic [ref=e527] [cursor=pointer]: 3,453 properties
+            - group [ref=e528]:
+              - link "Bangalore 3,067 properties" [ref=e529] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2090174&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e535] [cursor=pointer]:
+                  - heading "Bangalore" [level=3] [ref=e536] [cursor=pointer]
+                  - generic [ref=e537] [cursor=pointer]: 3,067 properties
+            - group [ref=e538]:
+              - link "Mumbai 1,840 properties" [ref=e539] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2092174&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e545] [cursor=pointer]:
+                  - heading "Mumbai" [level=3] [ref=e546] [cursor=pointer]
+                  - generic [ref=e547] [cursor=pointer]: 1,840 properties
+            - group [ref=e548]:
+              - link "Chennai 1,299 properties" [ref=e549] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2103041&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e555] [cursor=pointer]:
+                  - heading "Chennai" [level=3] [ref=e556] [cursor=pointer]
+                  - generic [ref=e557] [cursor=pointer]: 1,299 properties
+            - group [ref=e558]:
+              - link "Hyderabad 1,779 properties" [ref=e559] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2097701&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e565] [cursor=pointer]:
+                  - heading "Hyderabad" [level=3] [ref=e566] [cursor=pointer]
+                  - generic [ref=e567] [cursor=pointer]: 1,779 properties
+            - group [ref=e568]:
+              - link "Gurgaon 1,554 properties" [ref=e569] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2096897&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e575] [cursor=pointer]:
+                  - heading "Gurgaon" [level=3] [ref=e576] [cursor=pointer]
+                  - generic [ref=e577] [cursor=pointer]: 1,554 properties
+            - group [ref=e578]:
+              - link "Pondicherry 946 properties" [ref=e579] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2108165&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e585] [cursor=pointer]:
+                  - heading "Pondicherry" [level=3] [ref=e586] [cursor=pointer]
+                  - generic [ref=e587] [cursor=pointer]: 946 properties
+            - group [ref=e588]:
+              - link "Jaipur 1,828 properties" [ref=e589] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2098033&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e595] [cursor=pointer]:
+                  - heading "Jaipur" [level=3] [ref=e596] [cursor=pointer]
+                  - generic [ref=e597] [cursor=pointer]: 1,828 properties
+            - group [ref=e598]:
+              - link "Pune 1,180 properties" [ref=e599] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2108361&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e605] [cursor=pointer]:
+                  - heading "Pune" [level=3] [ref=e606] [cursor=pointer]
+                  - generic [ref=e607] [cursor=pointer]: 1,180 properties
+            - group [ref=e608]:
+              - link "Kolkata 928 properties" [ref=e609] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-08&dest_id=-2092511&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e615] [cursor=pointer]:
+                  - heading "Kolkata" [level=3] [ref=e616] [cursor=pointer]
+                  - generic [ref=e617] [cursor=pointer]: 928 properties
+          - button [ref=e618] [cursor=pointer]:
+            - img [ref=e621] [cursor=pointer]
+      - generic [ref=e626]:
+        - generic [ref=e627]:
+          - heading "Quick and easy trip planner" [level=2] [ref=e628]
+          - generic [ref=e629]: Pick a vibe and explore the top destinations in India
+        - navigation [ref=e631]:
+          - menubar [ref=e633]:
+            - listitem [ref=e634]:
+              - menuitem "Festival Tourism" [ref=e635] [cursor=pointer]:
+                - generic [ref=e638] [cursor=pointer]: Festival Tourism
+            - listitem [ref=e639]:
+              - menuitem "Adventure Travel" [ref=e640] [cursor=pointer]:
+                - generic [ref=e643] [cursor=pointer]: Adventure Travel
+            - listitem [ref=e644]:
+              - menuitem "Cultural Exploration" [ref=e645] [cursor=pointer]:
+                - generic [ref=e648] [cursor=pointer]: Cultural Exploration
+            - listitem [ref=e649]:
+              - menuitem "Shopping & Markets" [ref=e650] [cursor=pointer]:
+                - generic [ref=e653] [cursor=pointer]: Shopping & Markets
+            - listitem [ref=e654]:
+              - menuitem "Beach Holidays" [ref=e655] [cursor=pointer]:
+                - generic [ref=e658] [cursor=pointer]: Beach Holidays
+            - listitem [ref=e659]:
+              - menuitem "Gastronomic Tours" [ref=e660] [cursor=pointer]:
+                - generic [ref=e663] [cursor=pointer]: Gastronomic Tours
+            - listitem [ref=e664]:
+              - menuitem "Photography" [ref=e665] [cursor=pointer]:
+                - generic [ref=e668] [cursor=pointer]: Photography
+        - generic [ref=e670]:
+          - region "Quick and easy trip planner" [ref=e671]:
+            - group [ref=e672]:
+              - link "Bangalore 499 km away" [ref=e673] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2090174&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e679] [cursor=pointer]:
+                  - heading "Bangalore" [level=3] [ref=e680] [cursor=pointer]
+                  - generic [ref=e681] [cursor=pointer]: 499 km away
+            - group [ref=e682]:
+              - link "Chennai 519 km away" [ref=e683] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2103041&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e689] [cursor=pointer]:
+                  - heading "Chennai" [level=3] [ref=e690] [cursor=pointer]
+                  - generic [ref=e691] [cursor=pointer]: 519 km away
+            - group [ref=e692]:
+              - link "Old Goa 528 km away" [ref=e693] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2096381&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e699] [cursor=pointer]:
+                  - heading "Old Goa" [level=3] [ref=e700] [cursor=pointer]
+                  - generic [ref=e701] [cursor=pointer]: 528 km away
+            - group [ref=e702]:
+              - link "Mumbai 621 km away" [ref=e703] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2092174&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e709] [cursor=pointer]:
+                  - heading "Mumbai" [level=3] [ref=e710] [cursor=pointer]
+                  - generic [ref=e711] [cursor=pointer]: 621 km away
+            - group [ref=e712]:
+              - link "Trichūr 801 km away" [ref=e713] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2113433&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e719] [cursor=pointer]:
+                  - heading "Trichūr" [level=3] [ref=e720] [cursor=pointer]
+                  - generic [ref=e721] [cursor=pointer]: 801 km away
+            - group [ref=e722]:
+              - link "Cochin 857 km away" [ref=e723] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2093645&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e729] [cursor=pointer]:
+                  - heading "Cochin" [level=3] [ref=e730] [cursor=pointer]
+                  - generic [ref=e731] [cursor=pointer]: 857 km away
+            - group [ref=e732]:
+              - link "Ahmedabad 877 km away" [ref=e733] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2088270&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e739] [cursor=pointer]:
+                  - heading "Ahmedabad" [level=3] [ref=e740] [cursor=pointer]
+                  - generic [ref=e741] [cursor=pointer]: 877 km away
+            - group [ref=e742]:
+              - link "Kolkata 1,185 km away" [ref=e743] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2092511&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e749] [cursor=pointer]:
+                  - heading "Kolkata" [level=3] [ref=e750] [cursor=pointer]
+                  - generic [ref=e751] [cursor=pointer]: 1,185 km away
+            - group [ref=e752]:
+              - link "New Delhi 1,257 km away" [ref=e753] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2106102&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e759] [cursor=pointer]:
+                  - heading "New Delhi" [level=3] [ref=e760] [cursor=pointer]
+                  - generic [ref=e761] [cursor=pointer]: 1,257 km away
+            - group [ref=e762]:
+              - link "Shillong 1,659 km away" [ref=e763] [cursor=pointer]:
+                - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&dest_id=-2111081&dest_type=city&group_adults=null&req_adults=null&no_rooms=null&group_children=null&req_children=null
+                - generic [ref=e769] [cursor=pointer]:
+                  - heading "Shillong" [level=3] [ref=e770] [cursor=pointer]
+                  - generic [ref=e771] [cursor=pointer]: 1,659 km away
+          - button [ref=e772] [cursor=pointer]:
+            - img [ref=e775] [cursor=pointer]
+      - generic [ref=e779]:
+        - generic [ref=e783]:
+          - heading "Deals for the weekend" [level=2] [ref=e784]
+          - generic [ref=e785]: Save on stays for November 7 - November 9
+        - generic [ref=e786]:
+          - region "Deals for the weekend" [ref=e787]:
+            - group [ref=e788]:
+              - generic [ref=e789]:
+                - link "Royal Orchid Central Kireeti Hampi, Hospet Hampi, India 7.6 Good 2 nights Original price ₹ 25,200. Current price ₹ 23,184." [ref=e790] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=265473&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e797] [cursor=pointer]:
+                    - generic [ref=e798] [cursor=pointer]:
+                      - generic [ref=e799] [cursor=pointer]:
+                        - heading "Royal Orchid Central Kireeti Hampi, Hospet" [level=3] [ref=e800] [cursor=pointer]
+                        - generic [ref=e802] [cursor=pointer]: Hampi, India
+                      - generic [ref=e804] [cursor=pointer]:
+                        - generic [ref=e805] [cursor=pointer]: "7.6"
+                        - generic [ref=e806] [cursor=pointer]: "7.6"
+                        - generic [ref=e807] [cursor=pointer]: Good
+                        - generic [ref=e808] [cursor=pointer]:
+                          - generic [ref=e809] [cursor=pointer]: Good
+                          - generic [ref=e810] [cursor=pointer]: 202 reviews
+                    - generic [ref=e813] [cursor=pointer]:
+                      - generic [ref=e814] [cursor=pointer]: 2 nights
+                      - generic [ref=e815] [cursor=pointer]:
+                        - generic [ref=e816] [cursor=pointer]: ₹ 25,200
+                        - generic [ref=e817] [cursor=pointer]: ₹ 23,184
+                      - generic [ref=e818] [cursor=pointer]: Original price ₹ 25,200. Current price ₹ 23,184.
+                - button "Save this item to a trip list" [ref=e824] [cursor=pointer]:
+                  - img [ref=e827] [cursor=pointer]
+            - group [ref=e829]:
+              - generic [ref=e830]:
+                - link "blue Genius logo Eden Park Boutique Hotel Vijayawāda, India 6.8 Review score 2 nights Original price ₹ 6,802. Current price ₹ 5,306." [ref=e831] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=8796513&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e838] [cursor=pointer]:
+                    - generic [ref=e839] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e841] [cursor=pointer]:
+                        - img [ref=e842] [cursor=pointer]
+                      - generic [ref=e847] [cursor=pointer]:
+                        - heading "Eden Park Boutique Hotel" [level=3] [ref=e848] [cursor=pointer]
+                        - generic [ref=e850] [cursor=pointer]: Vijayawāda, India
+                      - generic [ref=e852] [cursor=pointer]:
+                        - generic [ref=e853] [cursor=pointer]: "6.8"
+                        - generic [ref=e854] [cursor=pointer]: "6.8"
+                        - generic [ref=e855] [cursor=pointer]: Review score
+                        - generic [ref=e856] [cursor=pointer]:
+                          - generic [ref=e857] [cursor=pointer]: Review score
+                          - generic [ref=e858] [cursor=pointer]: 295 reviews
+                    - generic [ref=e861] [cursor=pointer]:
+                      - generic [ref=e862] [cursor=pointer]: 2 nights
+                      - generic [ref=e863] [cursor=pointer]:
+                        - generic [ref=e864] [cursor=pointer]: ₹ 6,802
+                        - generic [ref=e865] [cursor=pointer]: ₹ 5,306
+                      - generic [ref=e866] [cursor=pointer]: Original price ₹ 6,802. Current price ₹ 5,306.
+                - button "Save this item to a trip list" [ref=e872] [cursor=pointer]:
+                  - img [ref=e875] [cursor=pointer]
+            - group [ref=e877]:
+              - generic [ref=e878]:
+                - link "blue Genius logo Hotel Prime Classic Shamshabad, India 7.7 Good 2 nights Original price ₹ 5,353. Current price ₹ 3,212." [ref=e879] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=9500390&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e886] [cursor=pointer]:
+                    - generic [ref=e887] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e889] [cursor=pointer]:
+                        - img [ref=e890] [cursor=pointer]
+                      - generic [ref=e895] [cursor=pointer]:
+                        - heading "Hotel Prime Classic" [level=3] [ref=e896] [cursor=pointer]
+                        - generic [ref=e898] [cursor=pointer]: Shamshabad, India
+                      - generic [ref=e900] [cursor=pointer]:
+                        - generic [ref=e901] [cursor=pointer]: "7.7"
+                        - generic [ref=e902] [cursor=pointer]: "7.7"
+                        - generic [ref=e903] [cursor=pointer]: Good
+                        - generic [ref=e904] [cursor=pointer]:
+                          - generic [ref=e905] [cursor=pointer]: Good
+                          - generic [ref=e906] [cursor=pointer]: 459 reviews
+                    - generic [ref=e909] [cursor=pointer]:
+                      - generic [ref=e910] [cursor=pointer]: 2 nights
+                      - generic [ref=e911] [cursor=pointer]:
+                        - generic [ref=e912] [cursor=pointer]: ₹ 5,353
+                        - generic [ref=e913] [cursor=pointer]: ₹ 3,212
+                      - generic [ref=e914] [cursor=pointer]: Original price ₹ 5,353. Current price ₹ 3,212.
+                - button "Save this item to a trip list" [ref=e920] [cursor=pointer]:
+                  - img [ref=e923] [cursor=pointer]
+            - group [ref=e925]:
+              - generic [ref=e926]:
+                - link "blue Genius logo The Hampi Cafe Hampi, India 8.7 Excellent 2 nights Original price ₹ 20,000. Current price ₹ 17,000." [ref=e927] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=13441961&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e934] [cursor=pointer]:
+                    - generic [ref=e935] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e937] [cursor=pointer]:
+                        - img [ref=e938] [cursor=pointer]
+                      - generic [ref=e943] [cursor=pointer]:
+                        - heading "The Hampi Cafe" [level=3] [ref=e944] [cursor=pointer]
+                        - generic [ref=e946] [cursor=pointer]: Hampi, India
+                      - generic [ref=e948] [cursor=pointer]:
+                        - generic [ref=e949] [cursor=pointer]: "8.7"
+                        - generic [ref=e950] [cursor=pointer]: "8.7"
+                        - generic [ref=e951] [cursor=pointer]: Excellent
+                        - generic [ref=e952] [cursor=pointer]:
+                          - generic [ref=e953] [cursor=pointer]: Excellent
+                          - generic [ref=e954] [cursor=pointer]: 17 reviews
+                    - generic [ref=e957] [cursor=pointer]:
+                      - generic [ref=e958] [cursor=pointer]: 2 nights
+                      - generic [ref=e959] [cursor=pointer]:
+                        - generic [ref=e960] [cursor=pointer]: ₹ 20,000
+                        - generic [ref=e961] [cursor=pointer]: ₹ 17,000
+                      - generic [ref=e962] [cursor=pointer]: Original price ₹ 20,000. Current price ₹ 17,000.
+                - button "Save this item to a trip list" [ref=e968] [cursor=pointer]:
+                  - img [ref=e971] [cursor=pointer]
+            - group [ref=e973]:
+              - generic [ref=e974]:
+                - link "blue Genius logo Collection O Vijayawada Central Junction Station Vijayawāda, India 8.7 Excellent 2 nights Original price ₹ 4,483. Current price ₹ 2,197." [ref=e975] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=14399571&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e982] [cursor=pointer]:
+                    - generic [ref=e983] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e985] [cursor=pointer]:
+                        - img [ref=e986] [cursor=pointer]
+                      - generic [ref=e991] [cursor=pointer]:
+                        - heading "Collection O Vijayawada Central Junction Station" [level=3] [ref=e992] [cursor=pointer]
+                        - generic [ref=e994] [cursor=pointer]: Vijayawāda, India
+                      - generic [ref=e996] [cursor=pointer]:
+                        - generic [ref=e997] [cursor=pointer]: "8.7"
+                        - generic [ref=e998] [cursor=pointer]: "8.7"
+                        - generic [ref=e999] [cursor=pointer]: Excellent
+                        - generic [ref=e1000] [cursor=pointer]:
+                          - generic [ref=e1001] [cursor=pointer]: Excellent
+                          - generic [ref=e1002] [cursor=pointer]: 30 reviews
+                    - generic [ref=e1005] [cursor=pointer]:
+                      - generic [ref=e1006] [cursor=pointer]: 2 nights
+                      - generic [ref=e1007] [cursor=pointer]:
+                        - generic [ref=e1008] [cursor=pointer]: ₹ 4,483
+                        - generic [ref=e1009] [cursor=pointer]: ₹ 2,197
+                      - generic [ref=e1010] [cursor=pointer]: Original price ₹ 4,483. Current price ₹ 2,197.
+                - button "Save this item to a trip list" [ref=e1016] [cursor=pointer]:
+                  - img [ref=e1019] [cursor=pointer]
+            - group [ref=e1021]:
+              - generic [ref=e1022]:
+                - link "blue Genius logo Hotel Aerotel,Hyderabad Shamshabad, India 7.8 Good 2 nights Original price ₹ 7,287. Current price ₹ 5,101." [ref=e1023] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=12181930&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1030] [cursor=pointer]:
+                    - generic [ref=e1031] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1033] [cursor=pointer]:
+                        - img [ref=e1034] [cursor=pointer]
+                      - generic [ref=e1039] [cursor=pointer]:
+                        - heading "Hotel Aerotel,Hyderabad" [level=3] [ref=e1040] [cursor=pointer]
+                        - generic [ref=e1042] [cursor=pointer]: Shamshabad, India
+                      - generic [ref=e1044] [cursor=pointer]:
+                        - generic [ref=e1045] [cursor=pointer]: "7.8"
+                        - generic [ref=e1046] [cursor=pointer]: "7.8"
+                        - generic [ref=e1047] [cursor=pointer]: Good
+                        - generic [ref=e1048] [cursor=pointer]:
+                          - generic [ref=e1049] [cursor=pointer]: Good
+                          - generic [ref=e1050] [cursor=pointer]: 111 reviews
+                    - generic [ref=e1053] [cursor=pointer]:
+                      - generic [ref=e1054] [cursor=pointer]: 2 nights
+                      - generic [ref=e1055] [cursor=pointer]:
+                        - generic [ref=e1056] [cursor=pointer]: ₹ 7,287
+                        - generic [ref=e1057] [cursor=pointer]: ₹ 5,101
+                      - generic [ref=e1058] [cursor=pointer]: Original price ₹ 7,287. Current price ₹ 5,101.
+                - button "Save this item to a trip list" [ref=e1064] [cursor=pointer]:
+                  - img [ref=e1067] [cursor=pointer]
+            - group [ref=e1069]:
+              - generic [ref=e1070]:
+                - link "blue Genius logo Heritage Resort Hampi Hampi, India 8 Very Good Late Escape Deal 2 nights Original price ₹ 39,998. Current price ₹ 33,998." [ref=e1071] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=1433605&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1078] [cursor=pointer]:
+                    - generic [ref=e1079] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1081] [cursor=pointer]:
+                        - img [ref=e1082] [cursor=pointer]
+                      - generic [ref=e1087] [cursor=pointer]:
+                        - heading "Heritage Resort Hampi" [level=3] [ref=e1088] [cursor=pointer]
+                        - generic [ref=e1090] [cursor=pointer]: Hampi, India
+                      - generic [ref=e1092] [cursor=pointer]:
+                        - generic [ref=e1093] [cursor=pointer]: "8"
+                        - generic [ref=e1094] [cursor=pointer]: "8"
+                        - generic [ref=e1095] [cursor=pointer]: Very Good
+                        - generic [ref=e1096] [cursor=pointer]:
+                          - generic [ref=e1097] [cursor=pointer]: Very Good
+                          - generic [ref=e1098] [cursor=pointer]: 367 reviews
+                      - generic [ref=e1101] [cursor=pointer]: Late Escape Deal
+                    - generic [ref=e1104] [cursor=pointer]:
+                      - generic [ref=e1105] [cursor=pointer]: 2 nights
+                      - generic [ref=e1106] [cursor=pointer]:
+                        - generic [ref=e1107] [cursor=pointer]: ₹ 39,998
+                        - generic [ref=e1108] [cursor=pointer]: ₹ 33,998
+                      - generic [ref=e1109] [cursor=pointer]: Original price ₹ 39,998. Current price ₹ 33,998.
+                - button "Save this item to a trip list" [ref=e1115] [cursor=pointer]:
+                  - img [ref=e1118] [cursor=pointer]
+            - group [ref=e1120]:
+              - generic [ref=e1121]:
+                - link "blue Genius logo FabHotel Keerthi's Anupama - Nr Indira Gandhi Stadium Vijayawāda, India 7.9 Good Late Escape Deal 2 nights Original price ₹ 7,915. Current price ₹ 4,195." [ref=e1122] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=1521093&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1129] [cursor=pointer]:
+                    - generic [ref=e1130] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1132] [cursor=pointer]:
+                        - img [ref=e1133] [cursor=pointer]
+                      - generic [ref=e1138] [cursor=pointer]:
+                        - heading "FabHotel Keerthi's Anupama - Nr Indira Gandhi Stadium" [level=3] [ref=e1139] [cursor=pointer]
+                        - generic [ref=e1141] [cursor=pointer]: Vijayawāda, India
+                      - generic [ref=e1143] [cursor=pointer]:
+                        - generic [ref=e1144] [cursor=pointer]: "7.9"
+                        - generic [ref=e1145] [cursor=pointer]: "7.9"
+                        - generic [ref=e1146] [cursor=pointer]: Good
+                        - generic [ref=e1147] [cursor=pointer]:
+                          - generic [ref=e1148] [cursor=pointer]: Good
+                          - generic [ref=e1149] [cursor=pointer]: 754 reviews
+                      - generic [ref=e1152] [cursor=pointer]: Late Escape Deal
+                    - generic [ref=e1155] [cursor=pointer]:
+                      - generic [ref=e1156] [cursor=pointer]: 2 nights
+                      - generic [ref=e1157] [cursor=pointer]:
+                        - generic [ref=e1158] [cursor=pointer]: ₹ 7,915
+                        - generic [ref=e1159] [cursor=pointer]: ₹ 4,195
+                      - generic [ref=e1160] [cursor=pointer]: Original price ₹ 7,915. Current price ₹ 4,195.
+                - button "Save this item to a trip list" [ref=e1166] [cursor=pointer]:
+                  - img [ref=e1169] [cursor=pointer]
+            - group [ref=e1171]:
+              - generic [ref=e1172]:
+                - link "blue Genius logo FabHotel Galaxy Shamshabed - Nr Hyderabad International Airport, Shamshabad Shamshabad, India 7.5 Good Late Escape Deal 2 nights Original price ₹ 4,956. Current price ₹ 2,626." [ref=e1173] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=5778091&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1180] [cursor=pointer]:
+                    - generic [ref=e1181] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1183] [cursor=pointer]:
+                        - img [ref=e1184] [cursor=pointer]
+                      - generic [ref=e1189] [cursor=pointer]:
+                        - heading "FabHotel Galaxy Shamshabed - Nr Hyderabad International Airport, Shamshabad" [level=3] [ref=e1190] [cursor=pointer]
+                        - generic [ref=e1192] [cursor=pointer]: Shamshabad, India
+                      - generic [ref=e1194] [cursor=pointer]:
+                        - generic [ref=e1195] [cursor=pointer]: "7.5"
+                        - generic [ref=e1196] [cursor=pointer]: "7.5"
+                        - generic [ref=e1197] [cursor=pointer]: Good
+                        - generic [ref=e1198] [cursor=pointer]:
+                          - generic [ref=e1199] [cursor=pointer]: Good
+                          - generic [ref=e1200] [cursor=pointer]: 255 reviews
+                      - generic [ref=e1203] [cursor=pointer]: Late Escape Deal
+                    - generic [ref=e1206] [cursor=pointer]:
+                      - generic [ref=e1207] [cursor=pointer]: 2 nights
+                      - generic [ref=e1208] [cursor=pointer]:
+                        - generic [ref=e1209] [cursor=pointer]: ₹ 4,956
+                        - generic [ref=e1210] [cursor=pointer]: ₹ 2,626
+                      - generic [ref=e1211] [cursor=pointer]: Original price ₹ 4,956. Current price ₹ 2,626.
+                - button "Save this item to a trip list" [ref=e1217] [cursor=pointer]:
+                  - img [ref=e1220] [cursor=pointer]
+            - group [ref=e1222]:
+              - generic [ref=e1223]:
+                - link "Hotel Hampi International Hospet, India 7.1 Good 2 nights Original price ₹ 13,600. Current price ₹ 10,880." [ref=e1224] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=2639531&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1231] [cursor=pointer]:
+                    - generic [ref=e1232] [cursor=pointer]:
+                      - generic [ref=e1233] [cursor=pointer]:
+                        - heading "Hotel Hampi International" [level=3] [ref=e1234] [cursor=pointer]
+                        - generic [ref=e1236] [cursor=pointer]: Hospet, India
+                      - generic [ref=e1238] [cursor=pointer]:
+                        - generic [ref=e1239] [cursor=pointer]: "7.1"
+                        - generic [ref=e1240] [cursor=pointer]: "7.1"
+                        - generic [ref=e1241] [cursor=pointer]: Good
+                        - generic [ref=e1242] [cursor=pointer]:
+                          - generic [ref=e1243] [cursor=pointer]: Good
+                          - generic [ref=e1244] [cursor=pointer]: 259 reviews
+                    - generic [ref=e1247] [cursor=pointer]:
+                      - generic [ref=e1248] [cursor=pointer]: 2 nights
+                      - generic [ref=e1249] [cursor=pointer]:
+                        - generic [ref=e1250] [cursor=pointer]: ₹ 13,600
+                        - generic [ref=e1251] [cursor=pointer]: ₹ 10,880
+                      - generic [ref=e1252] [cursor=pointer]: Original price ₹ 13,600. Current price ₹ 10,880.
+                - button "Save this item to a trip list" [ref=e1258] [cursor=pointer]:
+                  - img [ref=e1261] [cursor=pointer]
+            - group [ref=e1263]:
+              - generic [ref=e1264]:
+                - link "blue Genius logo Grand Vijayawada by GRT Hotels Vijayawāda, India 8.9 Excellent 2 nights Original price ₹ 16,800. Current price ₹ 15,120." [ref=e1265] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=11534165&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1272] [cursor=pointer]:
+                    - generic [ref=e1273] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1275] [cursor=pointer]:
+                        - img [ref=e1276] [cursor=pointer]
+                      - generic [ref=e1281] [cursor=pointer]:
+                        - heading "Grand Vijayawada by GRT Hotels" [level=3] [ref=e1282] [cursor=pointer]
+                        - generic [ref=e1284] [cursor=pointer]: Vijayawāda, India
+                      - generic [ref=e1286] [cursor=pointer]:
+                        - generic [ref=e1287] [cursor=pointer]: "8.9"
+                        - generic [ref=e1288] [cursor=pointer]: "8.9"
+                        - generic [ref=e1289] [cursor=pointer]: Excellent
+                        - generic [ref=e1290] [cursor=pointer]:
+                          - generic [ref=e1291] [cursor=pointer]: Excellent
+                          - generic [ref=e1292] [cursor=pointer]: 267 reviews
+                    - generic [ref=e1295] [cursor=pointer]:
+                      - generic [ref=e1296] [cursor=pointer]: 2 nights
+                      - generic [ref=e1297] [cursor=pointer]:
+                        - generic [ref=e1298] [cursor=pointer]: ₹ 16,800
+                        - generic [ref=e1299] [cursor=pointer]: ₹ 15,120
+                      - generic [ref=e1300] [cursor=pointer]: Original price ₹ 16,800. Current price ₹ 15,120.
+                - button "Save this item to a trip list" [ref=e1306] [cursor=pointer]:
+                  - img [ref=e1309] [cursor=pointer]
+            - group [ref=e1311]:
+              - generic [ref=e1312]:
+                - link "blue Genius logo Super Townhouse Shamshabad Paradise Formerly Blue Petals Hotel Shamshabad, India 7.9 Good 2 nights Original price ₹ 4,470. Current price ₹ 2,369." [ref=e1313] [cursor=pointer]:
+                  - /url: https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&checkin=2025-11-07&checkout=2025-11-09&dest_id=14206071&dest_type=hotel&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0
+                  - generic [ref=e1320] [cursor=pointer]:
+                    - generic [ref=e1321] [cursor=pointer]:
+                      - img "blue Genius logo" [ref=e1323] [cursor=pointer]:
+                        - img [ref=e1324] [cursor=pointer]
+                      - generic [ref=e1329] [cursor=pointer]:
+                        - heading "Super Townhouse Shamshabad Paradise Formerly Blue Petals Hotel" [level=3] [ref=e1330] [cursor=pointer]
+                        - generic [ref=e1332] [cursor=pointer]: Shamshabad, India
+                      - generic [ref=e1334] [cursor=pointer]:
+                        - generic [ref=e1335] [cursor=pointer]: "7.9"
+                        - generic [ref=e1336] [cursor=pointer]: "7.9"
+                        - generic [ref=e1337] [cursor=pointer]: Good
+                        - generic [ref=e1338] [cursor=pointer]:
+                          - generic [ref=e1339] [cursor=pointer]: Good
+                          - generic [ref=e1340] [cursor=pointer]: 36 reviews
+                    - generic [ref=e1343] [cursor=pointer]:
+                      - generic [ref=e1344] [cursor=pointer]: 2 nights
+                      - generic [ref=e1345] [cursor=pointer]:
+                        - generic [ref=e1346] [cursor=pointer]: ₹ 4,470
+                        - generic [ref=e1347] [cursor=pointer]: ₹ 2,369
+                      - generic [ref=e1348] [cursor=pointer]: Original price ₹ 4,470. Current price ₹ 2,369.
+                - button "Save this item to a trip list" [ref=e1354] [cursor=pointer]:
+                  - img [ref=e1357] [cursor=pointer]
+          - button [ref=e1359] [cursor=pointer]:
+            - img [ref=e1362] [cursor=pointer]
+      - generic [ref=e1366]:
+        - heading "Travel more, spend less" [level=2] [ref=e1368]
+        - generic [ref=e1373]:
+          - heading "Sign in, save money" [level=3] [ref=e1374]
+          - generic [ref=e1375]: Save 10% or more at participating properties – just look for the blue Genius label
+          - generic [ref=e1376]:
+            - link "Sign in" [ref=e1377] [cursor=pointer]:
+              - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=index&state=UrMBYwyIJLYLgpBm3E9JJJSo6aXxnNrh8Xv3K-AKPpWCAT2pBXK7msms_RetwLaBsySCTgUHdtDVUb2Qx6sKUl0jWQPs4f4gmiKKntmXCFz4wmjItsOQ6aLRX8yny_OUBCSD3qwA0VaNxpwP73_T5HXqT5KgXarpPCspApTvpCET73u9sc3AIxHUyiSO6IyNPNe_e9mlkng4uHrUfBl00lDQRPtl_0k188Kl4_0ZbNS9wRJPY8Q%3D*eyJpZCI6ImluZGV4In0%3D
+              - generic [ref=e1378] [cursor=pointer]: Sign in
+            - link "Register" [ref=e1379] [cursor=pointer]:
+              - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=index&state=UrMBYwyIJLYLgpBm3E9JJJSo6aXxnNrh8Xv3K-AKPpWCAT2pBXK7msms_RetwLaBsySCTgUHdtDVUb2Qx6sKUl0jWQPs4f4gmiKKntmXCFz4wmjItsOQ6aLRX8yny_OUBCSD3qwA0VaNxpwP73_T5HXqT5KgXarpPCspApTvpCET73u9sc3AIxHUyiSO6IyNPNe_e9mlkng4uHrUfBl00lDQRPtl_0k188Kl4_0ZbNS9wRJPY8Q%3D*eyJpZCI6ImluZGV4In0%3D
+              - generic [ref=e1380] [cursor=pointer]: Register
+      - link "Want to feel at home on your next adventure? Discover vacation rentals" [ref=e1385] [cursor=pointer]:
+        - /url: https://www.booking.com/booking-home/index.en-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+        - generic [ref=e1387] [cursor=pointer]:
+          - generic [ref=e1388] [cursor=pointer]: Want to feel at home on your next adventure?
+          - generic [ref=e1390] [cursor=pointer]: Discover vacation rentals
+  - generic [ref=e1398]:
+    - heading "Popular with travelers from India" [level=2] [ref=e1400]
+    - navigation [ref=e1401]:
+      - tablist [ref=e1403]:
+        - tab "Domestic cities" [selected] [ref=e1404] [cursor=pointer]:
+          - generic [ref=e1407] [cursor=pointer]: Domestic cities
+        - tab "International cities" [ref=e1408] [cursor=pointer]:
+          - generic [ref=e1411] [cursor=pointer]: International cities
+        - tab "Regions" [ref=e1412] [cursor=pointer]:
+          - generic [ref=e1415] [cursor=pointer]: Regions
+        - tab "Countries" [ref=e1416] [cursor=pointer]:
+          - generic [ref=e1419] [cursor=pointer]: Countries
+        - tab "Places to stay" [ref=e1420] [cursor=pointer]:
+          - generic [ref=e1423] [cursor=pointer]: Places to stay
+      - tabpanel "Domestic cities" [ref=e1425]:
+        - generic [ref=e1426]:
+          - list [ref=e1427]:
+            - listitem [ref=e1428]:
+              - link "Srinagar hotels" [ref=e1432] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/srinagar.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1433] [cursor=pointer]: Srinagar hotels
+            - listitem [ref=e1434]:
+              - link "Mumbai hotels" [ref=e1438] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/bombay.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1439] [cursor=pointer]: Mumbai hotels
+            - listitem [ref=e1440]:
+              - link "Bangalore hotels" [ref=e1444] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/bengaluru.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1445] [cursor=pointer]: Bangalore hotels
+            - listitem [ref=e1446]:
+              - link "Jaipur hotels" [ref=e1450] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/jaipur.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1451] [cursor=pointer]: Jaipur hotels
+            - listitem [ref=e1452]:
+              - link "Ooty hotels" [ref=e1456] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/udagamandalam.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1457] [cursor=pointer]: Ooty hotels
+            - listitem [ref=e1458]:
+              - link "Hyderabad hotels" [ref=e1462] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/hyderabad.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1463] [cursor=pointer]: Hyderabad hotels
+            - listitem [ref=e1464]:
+              - link "Puri hotels" [ref=e1468] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/puri.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1469] [cursor=pointer]: Puri hotels
+            - listitem [ref=e1470]:
+              - link "Pondicherry hotels" [ref=e1474] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/pondicherry.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1475] [cursor=pointer]: Pondicherry hotels
+            - listitem [ref=e1476]:
+              - link "Varanasi hotels" [ref=e1480] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/benares.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1481] [cursor=pointer]: Varanasi hotels
+            - listitem [ref=e1482]:
+              - link "Varkala hotels" [ref=e1486] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/varkkallai.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1487] [cursor=pointer]: Varkala hotels
+            - listitem [ref=e1488]:
+              - link "Munnar hotels" [ref=e1492] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/munnar.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1493] [cursor=pointer]: Munnar hotels
+            - listitem [ref=e1494]:
+              - link "Rishīkesh hotels" [ref=e1498] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/rishikesh.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1499] [cursor=pointer]: Rishīkesh hotels
+            - listitem [ref=e1500]:
+              - link "Ayodhya hotels" [ref=e1504] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/ayodhya.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1505] [cursor=pointer]: Ayodhya hotels
+            - listitem [ref=e1506]:
+              - link "Chennai hotels" [ref=e1510] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/chennai.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1511] [cursor=pointer]: Chennai hotels
+            - listitem [ref=e1512]:
+              - link "Cochin hotels" [ref=e1516] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/cochin.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1517] [cursor=pointer]: Cochin hotels
+            - listitem [ref=e1518]:
+              - link "Alleppey hotels" [ref=e1522] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/alleppey.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1523] [cursor=pointer]: Alleppey hotels
+            - listitem [ref=e1524]:
+              - link "Lonavala hotels" [ref=e1528] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/lonavale.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1529] [cursor=pointer]: Lonavala hotels
+            - listitem [ref=e1530]:
+              - link "New Delhi hotels" [ref=e1534] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/new-delhi.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1535] [cursor=pointer]: New Delhi hotels
+            - listitem [ref=e1536]:
+              - link "Pune hotels" [ref=e1540] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/pune.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1541] [cursor=pointer]: Pune hotels
+            - listitem [ref=e1542]:
+              - link "Gokarna hotels" [ref=e1546] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/gokarna-in.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1547] [cursor=pointer]: Gokarna hotels
+            - listitem [ref=e1548]:
+              - link "Shimla hotels" [ref=e1552] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/simla.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1553] [cursor=pointer]: Shimla hotels
+            - listitem [ref=e1554]:
+              - link "Manāli hotels" [ref=e1558] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/manali.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1559] [cursor=pointer]: Manāli hotels
+            - listitem [ref=e1560]:
+              - link "Mussoorie hotels" [ref=e1564] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/mussoorie.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1565] [cursor=pointer]: Mussoorie hotels
+            - listitem [ref=e1566]:
+              - link "Mahabaleshwar hotels" [ref=e1570] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/mahabaleshwar.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1571] [cursor=pointer]: Mahabaleshwar hotels
+            - listitem [ref=e1572]:
+              - link "Udaipur hotels" [ref=e1576] [cursor=pointer]:
+                - /url: https://www.booking.com/city/in/udaipur.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1577] [cursor=pointer]: Udaipur hotels
+          - button "Show more" [ref=e1579] [cursor=pointer]:
+            - img [ref=e1582] [cursor=pointer]
+            - generic [ref=e1584] [cursor=pointer]: Show more
+  - contentinfo [ref=e1585]:
+    - contentinfo [ref=e1588]:
+      - navigation "Quick Links" [ref=e1591]:
+        - list [ref=e1592]:
+          - listitem [ref=e1593]:
+            - link "Countries" [ref=e1594] [cursor=pointer]:
+              - /url: https://www.booking.com/country.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1596] [cursor=pointer]: Countries
+            - text: .
+          - listitem [ref=e1597]:
+            - link "Regions" [ref=e1598] [cursor=pointer]:
+              - /url: https://www.booking.com/region.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1600] [cursor=pointer]: Regions
+            - text: .
+          - listitem [ref=e1601]:
+            - link "Cities" [ref=e1602] [cursor=pointer]:
+              - /url: https://www.booking.com/city.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1604] [cursor=pointer]: Cities
+            - text: .
+          - listitem [ref=e1605]:
+            - link "Districts" [ref=e1606] [cursor=pointer]:
+              - /url: https://www.booking.com/district.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1608] [cursor=pointer]: Districts
+            - text: .
+          - listitem [ref=e1609]:
+            - link "Airports" [ref=e1610] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1612] [cursor=pointer]: Airports
+            - text: .
+          - listitem [ref=e1613]:
+            - link "Hotels" [ref=e1614] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1616] [cursor=pointer]: Hotels
+            - text: .
+          - listitem [ref=e1617]:
+            - link "Places of interest" [ref=e1618] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1620] [cursor=pointer]: Places of interest
+            - text: .
+          - listitem [ref=e1621]:
+            - link "Vacation Homes" [ref=e1622] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1624] [cursor=pointer]: Vacation Homes
+            - text: .
+          - listitem [ref=e1625]:
+            - link "Apartments" [ref=e1626] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1628] [cursor=pointer]: Apartments
+            - text: .
+          - listitem [ref=e1629]:
+            - link "Resorts" [ref=e1630] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1632] [cursor=pointer]: Resorts
+            - text: .
+          - listitem [ref=e1633]:
+            - link "Villas" [ref=e1634] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1636] [cursor=pointer]: Villas
+            - text: .
+          - listitem [ref=e1637]:
+            - link "Hostels" [ref=e1638] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1640] [cursor=pointer]: Hostels
+            - text: .
+          - listitem [ref=e1641]:
+            - link "B&Bs" [ref=e1642] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1644] [cursor=pointer]: B&Bs
+            - text: .
+          - listitem [ref=e1645]:
+            - link "Guest Houses" [ref=e1646] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1648] [cursor=pointer]: Guest Houses
+            - text: .
+          - listitem [ref=e1649]:
+            - link "Unique places to stay" [ref=e1650] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1652] [cursor=pointer]: Unique places to stay
+            - text: .
+          - listitem [ref=e1653]:
+            - link "All destinations" [ref=e1654] [cursor=pointer]:
+              - /url: https://www.booking.com/destination.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1656] [cursor=pointer]: All destinations
+            - text: .
+          - listitem [ref=e1657]:
+            - link "All flight destinations" [ref=e1658] [cursor=pointer]:
+              - /url: https://www.booking.com/flights/sitemap.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1660] [cursor=pointer]: All flight destinations
+            - text: .
+          - listitem [ref=e1661]:
+            - link "All car rental locations" [ref=e1662] [cursor=pointer]:
+              - /url: https://www.booking.com/cars/sitemap.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1664] [cursor=pointer]: All car rental locations
+            - text: .
+          - listitem [ref=e1665]:
+            - link "All vacation destinations" [ref=e1666] [cursor=pointer]:
+              - /url: https://www.booking.com/holidays/sitemap.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1668] [cursor=pointer]: All vacation destinations
+            - text: .
+          - listitem [ref=e1669]:
+            - link "Guides" [ref=e1670] [cursor=pointer]:
+              - /url: https://www.booking.com/guides/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1672] [cursor=pointer]: Guides
+            - text: .
+          - listitem [ref=e1673]:
+            - link "Discover" [ref=e1674] [cursor=pointer]:
+              - /url: https://www.booking.com/discover.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1676] [cursor=pointer]: Discover
+            - text: .
+          - listitem [ref=e1677]:
+            - link "Reviews" [ref=e1678] [cursor=pointer]:
+              - /url: https://www.booking.com/reviews.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1680] [cursor=pointer]: Reviews
+            - text: .
+          - listitem [ref=e1681]:
+            - link "Discover monthly stays" [ref=e1682] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+              - generic [ref=e1684] [cursor=pointer]: Discover monthly stays
+      - generic [ref=e1686]:
+        - generic [ref=e1687]:
+          - heading "Support" [level=3] [ref=e1689]
+          - list [ref=e1690]:
+            - listitem [ref=e1691]:
+              - link "Manage your trips" [ref=e1693] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/cs.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1695] [cursor=pointer]: Manage your trips
+            - listitem [ref=e1696]:
+              - link "Contact Customer Service" [ref=e1698] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1700] [cursor=pointer]: Contact Customer Service
+            - listitem [ref=e1701]:
+              - link "Safety Resource Center" [ref=e1703] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1705] [cursor=pointer]: Safety Resource Center
+        - generic [ref=e1706]:
+          - heading "Discover" [level=3] [ref=e1708]
+          - list [ref=e1709]:
+            - listitem [ref=e1710]:
+              - link "Genius loyalty program" [ref=e1712] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1714] [cursor=pointer]: Genius loyalty program
+            - listitem [ref=e1715]:
+              - link "Seasonal and holiday deals" [ref=e1717] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1719] [cursor=pointer]: Seasonal and holiday deals
+            - listitem [ref=e1720]:
+              - link "Travel articles" [ref=e1722] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1724] [cursor=pointer]: Travel articles
+            - listitem [ref=e1725]:
+              - link "Booking.com for Business" [ref=e1727] [cursor=pointer]:
+                - /url: https://business.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1729] [cursor=pointer]: Booking.com for Business
+            - listitem [ref=e1730]:
+              - link "Traveller Review Awards" [ref=e1732] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1734] [cursor=pointer]: Traveller Review Awards
+            - listitem [ref=e1735]:
+              - link "Car rental" [ref=e1737] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1739] [cursor=pointer]: Car rental
+            - listitem [ref=e1740]:
+              - link "Flight finder" [ref=e1742] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D8386fc436d1fbc3da84d84b2359d2df7%26mc%3DINR%26bdclc%3Den-us%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&aid=304142&lang=en-us&token=UmFuZG9tSVYkc2RlIyh9YaAHsRE_5bn3dltibb-tOKCtidX9f8YIjgBlz7vaQ0rnI4mA5NI7LfFBL3rg13j-O1YLXVX8tXOM7PumF6JGvTwMr7WQla3KC61ImP5WqHLmoGGHVI-6BUYfmUTEJTbmGO2uoVZp2PJzWE_tKME_oCDLXvunSWhlzDo5uxYVkprMMdRWzmMKcdAyqlVjIIugnCHDGAQCciJiRVgYHM1Wa9YWgJdPHFMx4g6xhdIlO93uDMesJISUrJQTfA9QD82UFlEvEhJ7EzOjz_yCAzUYfmdLbYk2IvPl7TU6WQqnchv5PMnCgtq_Q03O0WKd7Gi-b3gbNtr_oYfyq1XSf7wz-9-MRg1Zxc93i6fYEOBP_2x0gnRJBG6oCZobNPPcswP42OzbCehBQ2ns537Wz5YSormwrjAY2TJ_Q1QVxji865jIB7RYj4d4_QDowf_c8yRGjq-hWqvj6oh4-O5UWYUjOqOwaEGSZmNzQygQuuvxzR8VdZJ2FV8tcZsr_61CxWbBxA
+                - generic [ref=e1744] [cursor=pointer]: Flight finder
+            - listitem [ref=e1745]:
+              - link "Restaurant reservations" [ref=e1747] [cursor=pointer]:
+                - /url: https://www.opentable.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&ref=16087
+                - generic [ref=e1749] [cursor=pointer]: Restaurant reservations
+            - listitem [ref=e1750]:
+              - link "Booking.com for Travel Agents" [ref=e1752] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1754] [cursor=pointer]: Booking.com for Travel Agents
+        - generic [ref=e1755]:
+          - heading "Terms and settings" [level=3] [ref=e1757]
+          - list [ref=e1758]:
+            - listitem [ref=e1759]:
+              - link "Privacy & cookies" [ref=e1761] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1763] [cursor=pointer]: Privacy & cookies
+            - listitem [ref=e1764]:
+              - link "Terms of Service" [ref=e1766] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1768] [cursor=pointer]: Terms of Service
+            - listitem [ref=e1769]:
+              - link "Accessibility Statement" [ref=e1771] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1773] [cursor=pointer]: Accessibility Statement
+            - listitem [ref=e1774]:
+              - link "Grievance officer" [ref=e1776] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1778] [cursor=pointer]: Grievance officer
+            - listitem [ref=e1779]:
+              - link "Modern Slavery Statement" [ref=e1781] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1783] [cursor=pointer]: Modern Slavery Statement
+            - listitem [ref=e1784]:
+              - link "Human Rights Statement" [ref=e1786] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1788] [cursor=pointer]: Human Rights Statement
+        - generic [ref=e1789]:
+          - heading "Partners" [level=3] [ref=e1791]
+          - list [ref=e1792]:
+            - listitem [ref=e1793]:
+              - link "Extranet login" [ref=e1795] [cursor=pointer]:
+                - /url: https://admin.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e1797] [cursor=pointer]: Extranet login
+            - listitem [ref=e1798]:
+              - link "Partner help" [ref=e1800] [cursor=pointer]:
+                - /url: https://partner.booking.com/en-us?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e1802] [cursor=pointer]: Partner help
+            - listitem [ref=e1803]:
+              - link "List your property" [ref=e1805] [cursor=pointer]:
+                - /url: https://join.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&lang=en-us&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e1807] [cursor=pointer]: List your property
+            - listitem [ref=e1808]:
+              - link "Become an affiliate" [ref=e1810] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e1812] [cursor=pointer]: Become an affiliate
+        - generic [ref=e1813]:
+          - heading "About" [level=3] [ref=e1815]
+          - list [ref=e1816]:
+            - listitem [ref=e1817]:
+              - link "About Booking.com" [ref=e1819] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1821] [cursor=pointer]: About Booking.com
+            - listitem [ref=e1822]:
+              - link "How We Work" [ref=e1824] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1826] [cursor=pointer]: How We Work
+            - listitem [ref=e1827]:
+              - link "Sustainability" [ref=e1829] [cursor=pointer]:
+                - /url: https://www.sustainability.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1831] [cursor=pointer]: Sustainability
+            - listitem [ref=e1832]:
+              - link "Press center" [ref=e1834] [cursor=pointer]:
+                - /url: https://news.booking.com/en-in?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1836] [cursor=pointer]: Press center
+            - listitem [ref=e1837]:
+              - link "Careers" [ref=e1839] [cursor=pointer]:
+                - /url: https://careers.booking.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1841] [cursor=pointer]: Careers
+            - listitem [ref=e1842]:
+              - link "Investor relations" [ref=e1844] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB
+                - generic [ref=e1846] [cursor=pointer]: Investor relations
+            - listitem [ref=e1847]:
+              - link "Corporate contact" [ref=e1849] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1851] [cursor=pointer]: Corporate contact
+            - listitem [ref=e1852]:
+              - link "Content guidelines and reporting" [ref=e1854] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArbancgGwAIB0gIkNjYwYTMyNzAtZWI3Ny00N2NiLTk5NDItNDA5ZjBiNDRiOTkx2AIB4AIB&sid=8386fc436d1fbc3da84d84b2359d2df7
+                - generic [ref=e1856] [cursor=pointer]: Content guidelines and reporting
+      - generic [ref=e1858]:
+        - generic [ref=e1859]:
+          - 'button "Language: English (US)" [ref=e1861] [cursor=pointer]'
+          - button "Prices in Indian Rupee" [ref=e1866] [cursor=pointer]:
+            - generic [ref=e1867] [cursor=pointer]: INR
+        - separator [ref=e1868]
+        - generic [ref=e1869]:
+          - generic [ref=e1871]: Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          - generic [ref=e1872]: Copyright © 1996–2025 Booking.com™. All rights reserved.
+        - generic [ref=e1873]:
+          - img "Booking.com" [ref=e1874]:
+            - img [ref=e1875]
+          - img "Priceline.com" [ref=e1877]:
+            - img [ref=e1878]
+          - img "Kayak" [ref=e1881]:
+            - img [ref=e1882]
+          - img "Agoda" [ref=e1896]:
+            - img [ref=e1897]
+          - img "OpenTable" [ref=e1905]:
+            - img [ref=e1906]
+  - text: 끖 낝 끲 낝 넌
+```

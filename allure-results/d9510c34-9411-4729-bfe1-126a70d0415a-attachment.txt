@@ -1,0 +1,15 @@
+Error processing hotel FabHotel Airport Green Arcade - near Kolkata AirportOpens in new window: page.type: text: expected string, got number
+    at BookingPage.fillDetails (C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\pageObject\booking.po.js:298:29)
+    at C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\tests\booking.spec.js:112:68
+Error processing hotel Super Townhouse New Town Near DLFOpens in new window: page.type: text: expected string, got number
+    at BookingPage.fillDetails (C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\pageObject\booking.po.js:298:29)
+    at C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\tests\booking.spec.js:112:68
+Error processing hotel Super Collection O Ruby Formerly Hiland InternationalOpens in new window: page.type: text: expected string, got number
+    at BookingPage.fillDetails (C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\pageObject\booking.po.js:298:29)
+    at C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\tests\booking.spec.js:112:68
+Error processing hotel Hotel Holiday ExpressOpens in new window: page.type: text: expected string, got number
+    at BookingPage.fillDetails (C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\pageObject\booking.po.js:298:29)
+    at C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\tests\booking.spec.js:112:68
+Error processing hotel Super Townhouse The Royal RetreatOpens in new window: page.type: text: expected string, got number
+    at BookingPage.fillDetails (C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\pageObject\booking.po.js:298:29)
+    at C:\Users\61076421\OneDrive - LTIMindtree\Desktop\prjmtch\tests\booking.spec.js:112:68

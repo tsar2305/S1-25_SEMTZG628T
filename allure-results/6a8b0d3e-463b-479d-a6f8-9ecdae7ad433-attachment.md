@@ -1,0 +1,980 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+    - generic [ref=e5] [cursor=pointer]: Skip to main content
+  - banner [ref=e9]:
+    - navigation [ref=e11]:
+      - link "Booking.com" [ref=e15] [cursor=pointer]:
+        - /url: https://www.booking.com/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=e83b5f8f22b078250e31a5754d31a2bd&aid=304142
+        - img [ref=e16] [cursor=pointer]
+      - generic [ref=e18]:
+        - button "Prices in Indian Rupee" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21] [cursor=pointer]: INR
+        - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+        - link "Customer support" [ref=e28] [cursor=pointer]:
+          - /url: https://secure.booking.com/help.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=e83b5f8f22b078250e31a5754d31a2bd&aid=304142&source=header&src=profile_contact_cs
+          - img [ref=e31] [cursor=pointer]
+        - link "List your property" [ref=e33] [cursor=pointer]:
+          - /url: https://join.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=e83b5f8f22b078250e31a5754d31a2bd&aid=304142&lang=en-us&utm_medium=frontend&utm_source=topbar
+          - generic [ref=e34] [cursor=pointer]: List your property
+        - link "Register an account" [ref=e35] [cursor=pointer]:
+          - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=book&prompt=signin&state=Uv4KYwyIJLYLgpBonLJYC1dSMm4inm4Y8UAoyDAcZnVLZfJzj7sNK-rjk5C5sgqkIqsDte-cNut_gtYXGyiGPWRHV0Cz0X-caY44lQ3DLG0PVtvjILpkQYuZNQ7ki4_nu6vMje9JrMB6ptjpn3Ez5GHKwbbo644JmrP4jByimr5uPrpN4WnMoYUEb2nKAohuIWUR4TcHRpVxmQGY5q2NFlffDGZkGWe10rbyYmrXl8xWjoMdjema93XBFHegP8a2OauJb4STeeZdT_XjrVFcLPTPRPF0CXn39ojs075jSGbJET8j2LKqJYtI_sB_JWw3yLLaOWN9Fgz0RcW4ncjRAyR17kXwtnc-W5csgq6Qtq-kRl97OpjYxY789saXumh4sXUO_xrDRcEZFdCtURAU5LOYgJUPmL4Qf8G3JmhSUZqqJ06lR_4aJbMEfE2wbXyecLMZkCEVAzOm6Hr27v2e2q0DtEAUeLYzqQ3H9usBhcITJVnkwPq33G62KK-rO7VlUhBSgEIMSJrNFe6wbF3dbZ01j5lOw3afr6jhBmrvJ5ITiRBz2fWO9Nx1hFGjtepBTh1BRm3lRnVYVWtKP9CXjPIga2NhBlcVeJxDOxj99o4maiLPA35GSbG4ydX1k1V4ABqk5HAJM0dOkYvAxBHk17dBYwyRBCz1wfT6SNpOiwA_n2ZGTCE1ReCfgMRUxj6Vd38nKC3ZaFBcSjtE17m54HQvMv0vrmltROWgSC5gyFbCKClZDIaPWB0AwY0dOyBlPbYS9_xUqO0QQPLDd5cc-DN3oL4GK4S1VxqkkYUX2jYOpJuEg6nh_AdHd_GsVRlFXLr5iHyQjGBUpHCfsUcbXrSC8k336U_Ysz4LUhTLHdwrntlCo3db-MZSjRwIez1Fy7AaWQUd2IQ_KRvXl5tUB8EqG_nLIyNaKlK1g6e1CZmGn_dB7YLnjbLaQ4UVEzBHySd8vxvSFm-paYYC22ft6XLJJfmI2nHbwlM4ImxMSgKb48fTWlIaB7mlRqSvp7GD0xSfa6kiftZHRatQ8SraQeRqiDD7Vzq8Qc6H2jFEgQ8OpPOxySsQhZpSxJJ3Rc4mgfaCf2Gg-v5-7hDjJnMlQiaWe5DFreW32WkbEqS9b3OXDx2N1kluVElpDpWkuDRyRWzkIXxAJweUkmz1j53Mj2JTMSf54j81jHyGwfgh9EC2ru7OGsgFYFxzU62wlrY2KuHUi4Fm-zULNTi-suT5JXSb8egTt89A8PXhCWe81KW60QL4bPz3buSGaFDX0y2MZfo5l0ygLG5YBHfGFCE80UHDjfQAVnJn3gNyLYzTZak44Ms-f5hcua0p_8TkgCLT0cCocLqGQSc_ykCYrtCOBmBrX_qJhRJ7b2l7zCTF0APX6_D6EDCTBu01yNCE3E_ogo9_aE-L89T9ENABfhE4bmav0Ve8SaVp-j8yMCyxq4MqBkOc65jArS6tn9w4nTKGUan-qLFYwH9IBUwtARq3rwVXYTNlO0_5QCqg5FNdavyIUlLFL8h7VjiQ8O2Fno34jCTEpiY_lBAe1mMxhWHy-NAg6FOqYVdsMo3TQEnuuy5LYAfl7OHbtVi0dHZJCBVVAmKR-Bc03wkiriuDICTDytDs32JFa_qoa8cRSOFT_E8QJ18yn-PCEObebpXuqum8eWYdb4o50VfNWGFBvmdmzPDfCHaycLl8g5-MPu7PyskhCxProDrEwSeKEXjoDyN3PFdAJHn26vOP4O_KOe6_F2E8IJRY-eCtWkGTsEB70uFo2sahEc-CFvDUCoUOscaVvlz9fjV4b2je6YikSyvhQcFz_dILGgyZpY0BlSGW889ipzGZe48wEJ-9bRAKb2lCmVrf7PZ33mL2lEzSr1ncZVI%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+          - generic [ref=e36] [cursor=pointer]: Register
+        - link "Sign in" [ref=e38] [cursor=pointer]:
+          - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=book&prompt=signin&state=Uv4KYwyIJLYLgpBonLJYC1dSMm4inm4Y8UAoyDAcZnVLZfJzj7sNK-rjk5C5sgqkIqsDte-cNut_gtYXGyiGPWRHV0Cz0X-caY44lQ3DLG0PVtvjILpkQYuZNQ7ki4_nu6vMje9JrMB6ptjpn3Ez5GHKwbbo644JmrP4jByimr5uPrpN4WnMoYUEb2nKAohuIWUR4TcHRpVxmQGY5q2NFlffDGZkGWe10rbyYmrXl8xWjoMdjema93XBFHegP8a2OauJb4STeeZdT_XjrVFcLPTPRPF0CXn39ojs075jSGbJET8j2LKqJYtI_sB_JWw3yLLaOWN9Fgz0RcW4ncjRAyR17kXwtnc-W5csgq6Qtq-kRl97OpjYxY789saXumh4sXUO_xrDRcEZFdCtURAU5LOYgJUPmL4Qf8G3JmhSUZqqJ06lR_4aJbMEfE2wbXyecLMZkCEVAzOm6Hr27v2e2q0DtEAUeLYzqQ3H9usBhcITJVnkwPq33G62KK-rO7VlUhBSgEIMSJrNFe6wbF3dbZ01j5lOw3afr6jhBmrvJ5ITiRBz2fWO9Nx1hFGjtepBTh1BRm3lRnVYVWtKP9CXjPIga2NhBlcVeJxDOxj99o4maiLPA35GSbG4ydX1k1V4ABqk5HAJM0dOkYvAxBHk17dBYwyRBCz1wfT6SNpOiwA_n2ZGTCE1ReCfgMRUxj6Vd38nKC3ZaFBcSjtE17m54HQvMv0vrmltROWgSC5gyFbCKClZDIaPWB0AwY0dOyBlPbYS9_xUqO0QQPLDd5cc-DN3oL4GK4S1VxqkkYUX2jYOpJuEg6nh_AdHd_GsVRlFXLr5iHyQjGBUpHCfsUcbXrSC8k336U_Ysz4LUhTLHdwrntlCo3db-MZSjRwIez1Fy7AaWQUd2IQ_KRvXl5tUB8EqG_nLIyNaKlK1g6e1CZmGn_dB7YLnjbLaQ4UVEzBHySd8vxvSFm-paYYC22ft6XLJJfmI2nHbwlM4ImxMSgKb48fTWlIaB7mlRqSvp7GD0xSfa6kiftZHRatQ8SraQeRqiDD7Vzq8Qc6H2jFEgQ8OpPOxySsQhZpSxJJ3Rc4mgfaCf2Gg-v5-7hDjJnMlQiaWe5DFreW32WkbEqS9b3OXDx2N1kluVElpDpWkuDRyRWzkIXxAJweUkmz1j53Mj2JTMSf54j81jHyGwfgh9EC2ru7OGsgFYFxzU62wlrY2KuHUi4Fm-zULNTi-suT5JXSb8egTt89A8PXhCWe81KW60QL4bPz3buSGaFDX0y2MZfo5l0ygLG5YBHfGFCE80UHDjfQAVnJn3gNyLYzTZak44Ms-f5hcua0p_8TkgCLT0cCocLqGQSc_ykCYrtCOBmBrX_qJhRJ7b2l7zCTF0APX6_D6EDCTBu01yNCE3E_ogo9_aE-L89T9ENABfhE4bmav0Ve8SaVp-j8yMCyxq4MqBkOc65jArS6tn9w4nTKGUan-qLFYwH9IBUwtARq3rwVXYTNlO0_5QCqg5FNdavyIUlLFL8h7VjiQ8O2Fno34jCTEpiY_lBAe1mMxhWHy-NAg6FOqYVdsMo3TQEnuuy5LYAfl7OHbtVi0dHZJCBVVAmKR-Bc03wkiriuDICTDytDs32JFa_qoa8cRSOFT_E8QJ18yn-PCEObebpXuqum8eWYdb4o50VfNWGFBvmdmzPDfCHaycLl8g5-MPu7PyskhCxProDrEwSeKEXjoDyN3PFdAJHn26vOP4O_KOe6_F2E8IJRY-eCtWkGTsEB70uFo2sahEc-CFvDUCoUOscaVvlz9fjV4b2je6YikSyvhQcFz_dILGgyZpY0BlSGW889ipzGZe48wEJ-9bRAKb2lCmVrf7PZ33mL2lEzSr1ncZVI%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+          - generic [ref=e39] [cursor=pointer]: Sign in
+  - generic [ref=e42]:
+    - list [ref=e48]:
+      - listitem [ref=e49]:
+        - generic [ref=e51]:
+          - img [ref=e53]
+          - generic [ref=e55]: "1"
+        - strong [ref=e56]: Your Selection
+      - listitem [ref=e58]:
+        - generic [ref=e59]: "2"
+        - strong [ref=e60]: Your Details
+      - listitem [ref=e62]:
+        - generic [ref=e63]: "3"
+        - strong [ref=e64]: Finish booking
+    - generic [ref=e65]:
+      - complementary [ref=e66]:
+        - generic [ref=e67]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - heading "Swarn Hotel" [level=1] [ref=e79]
+              - generic [ref=e81]:
+                - img "3 out of 5 stars" [ref=e85]:
+                  - generic [ref=e86]:
+                    - img [ref=e88]
+                    - img [ref=e91]
+                  - generic [ref=e93]:
+                    - img [ref=e95]
+                    - img [ref=e98]
+                  - generic [ref=e100]:
+                    - img [ref=e102]
+                    - img [ref=e105]
+                - img [ref=e110]
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - button "43, Lenin Sarani Rd, Esplanade, Janbazar, 4th Floor, 700013 Kolkata, India" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116] [cursor=pointer]: 43, Lenin Sarani Rd, Esplanade, Janbazar, 4th Floor, 700013 Kolkata, India
+                - generic [ref=e117]: Excellent Location — 9.2
+              - generic [ref=e119]:
+                - generic [ref=e120]: Scored 8.8
+                - generic [ref=e121]: "8.8"
+                - generic [ref=e122]: Rated excellent
+                - generic [ref=e123]:
+                  - generic [ref=e124]: Excellent
+                  - generic [ref=e125]: · 68 reviews
+              - list [ref=e127]:
+                - listitem [ref=e128]:
+                  - generic [ref=e129]:
+                    - img [ref=e131]
+                    - generic [ref=e133]: Free Wifi
+                - listitem [ref=e134]:
+                  - generic [ref=e135]:
+                    - img [ref=e137]
+                    - generic [ref=e139]: Airport shuttle
+                - listitem [ref=e140]:
+                  - generic [ref=e141]:
+                    - img [ref=e143]
+                    - generic [ref=e145]: Parking
+          - generic [ref=e148]:
+            - heading "Your booking details" [level=2] [ref=e150]
+            - generic [ref=e153]:
+              - time [ref=e154]:
+                - heading "Check-in" [level=3] [ref=e155]
+                - generic [ref=e156]: Tue, Dec 2, 2025
+                - generic [ref=e157]: 1:00 PM – 11:00 PM
+              - separator [ref=e159]
+              - time [ref=e160]:
+                - heading "Check-out" [level=3] [ref=e161]
+                - generic [ref=e162]: Wed, Dec 3, 2025
+                - generic [ref=e163]: 12:00 PM – 12:00 PM
+            - separator [ref=e165]
+            - generic [ref=e166]:
+              - generic [ref=e167]:
+                - generic [ref=e168]:
+                  - generic [ref=e169]: You selected
+                  - generic [ref=e170]: 1 night, 1 room for 2 adults
+                - list [ref=e171]:
+                  - listitem [ref=e172]:
+                    - generic [ref=e173]: 1 x Deluxe King Room
+              - link "Change your selection" [ref=e176] [cursor=pointer]:
+                - /url: https://www.booking.com/hotel/in/swarn-kolkata.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=151e0c560a39ce8b21c93a68443f9be3&checkin=2025-12-02&checkout=2025-12-03&srpvid=d7cd63204084098c&room1=A%2CA&from_bs2_modify=1
+                - generic [ref=e177] [cursor=pointer]: Change your selection
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - heading "Your price summary" [level=2] [ref=e182]
+              - generic [ref=e183]:
+                - generic [ref=e185]:
+                  - generic [ref=e187]: Original price
+                  - generic [ref=e189]: ₹ 3,978
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: Bonus savings
+                    - generic [ref=e194]: You’re getting a reduced rate because this property is offering a discount.
+                  - generic [ref=e196]: "- ₹ 596.70"
+            - generic [ref=e197]:
+              - generic [ref=e200]: ₹ 3,978
+              - generic [ref=e201]:
+                - generic [ref=e203]: Price
+                - generic [ref=e206]: ₹ 3,381.30
+              - generic [ref=e209]: +₹ 169 taxes and fees
+            - generic [ref=e210]:
+              - heading "Price information" [level=2] [ref=e211]
+              - generic [ref=e212]:
+                - generic [ref=e213]:
+                  - img [ref=e216]
+                  - generic [ref=e219]:
+                    - generic [ref=e223]: Excludes ₹ 169.07 in taxes and fees
+                    - generic [ref=e226]:
+                      - generic [ref=e228]: Goods and services tax
+                      - generic [ref=e230]: ₹ 169.07
+                - button "Hide details" [ref=e232] [cursor=pointer]:
+                  - generic [ref=e233] [cursor=pointer]: Hide details
+            - separator [ref=e235]
+          - generic [ref=e238]:
+            - generic [ref=e240]: Your payment schedule
+            - generic [ref=e242]: No payment today. You'll pay when you stay.
+          - generic [ref=e245]:
+            - heading "How much will it cost to cancel?" [level=2] [ref=e247]
+            - generic [ref=e250]:
+              - generic [ref=e252]: Free cancellation before Dec 1
+              - generic [ref=e254]:
+                - generic [ref=e256]: After 12:00 AM on Dec 1
+                - generic [ref=e259]: ₹ 3,381.30
+          - status [ref=e260]:
+            - img [ref=e262]
+            - generic [ref=e264]:
+              - generic [ref=e265]: "Limited supply for your dates:"
+              - generic [ref=e266]: 8 guesthouses like this are already unavailable on our site
+      - main [ref=e267]:
+        - alert [ref=e269]:
+          - generic [ref=e270]:
+            - img [ref=e273]
+            - generic [ref=e276]:
+              - generic [ref=e280]: Fill in all required fields to continue
+              - link "Show fields" [ref=e283] [cursor=pointer]:
+                - /url: "#bookForm"
+                - generic [ref=e284] [cursor=pointer]: Show fields
+        - generic [ref=e287]:
+          - generic [ref=e289]:
+            - generic [ref=e290]: Save 10% or more on this option when you sign in with Genius, Booking.com’s loyalty program
+            - generic [ref=e291]:
+              - link "Sign in" [ref=e292] [cursor=pointer]:
+                - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=book&prompt=signin&state=Uv4KYwyIJLYLgpBonLJYC1dSMm4inm4Y8UAoyDAcZnVLZfJzj7sNK-rjk5C5sgqkIqsDte-cNut_gtYXGyiGPWRHV0Cz0X-caY44lQ3DLG0PVtvjILpkQYuZNQ7ki4_nu6vMje9JrMB6ptjpn3Ez5GHKwbbo644JmrP4jByimr5uPrpN4WnMoYUEb2nKAohuIWUR4TcHRpVxmQGY5q2NFlffDGZkGWe10rbyYmrXl8xWjoMdjema93XBFHegP8a2OauJb4STeeZdT_XjrVFcLPTPRPF0CXn39ojs075jSGbJET8j2LKqJYtI_sB_JWw3yLLaOWN9Fgz0RcW4ncjRAyR17kXwtnc-W5csgq6Qtq-kRl97OpjYxY789saXumh4sXUO_xrDRcEZFdCtURAU5LOYgJUPmL4Qf8G3JmhSUZqqJ06lR_4aJbMEfE2wbXyecLMZkCEVAzOm6Hr27v2e2q0DtEAUeLYzqQ3H9usBhcITJVnkwPq33G62KK-rO7VlUhBSgEIMSJrNFe6wbF3dbZ01j5lOw3afr6jhBmrvJ5ITiRBz2fWO9Nx1hFGjtepBTh1BRm3lRnVYVWtKP9CXjPIga2NhBlcVeJxDOxj99o4maiLPA35GSbG4ydX1k1V4ABqk5HAJM0dOkYvAxBHk17dBYwyRBCz1wfT6SNpOiwA_n2ZGTCE1ReCfgMRUxj6Vd38nKC3ZaFBcSjtE17m54HQvMv0vrmltROWgSC5gyFbCKClZDIaPWB0AwY0dOyBlPbYS9_xUqO0QQPLDd5cc-DN3oL4GK4S1VxqkkYUX2jYOpJuEg6nh_AdHd_GsVRlFXLr5iHyQjGBUpHCfsUcbXrSC8k336U_Ysz4LUhTLHdwrntlCo3db-MZSjRwIez1Fy7AaWQUd2IQ_KRvXl5tUB8EqG_nLIyNaKlK1g6e1CZmGn_dB7YLnjbLaQ4UVEzBHySd8vxvSFm-paYYC22ft6XLJJfmI2nHbwlM4ImxMSgKb48fTWlIaB7mlRqSvp7GD0xSfa6kiftZHRatQ8SraQeRqiDD7Vzq8Qc6H2jFEgQ8OpPOxySsQhZpSxJJ3Rc4mgfaCf2Gg-v5-7hDjJnMlQiaWe5DFreW32WkbEqS9b3OXDx2N1kluVElpDpWkuDRyRWzkIXxAJweUkmz1j53Mj2JTMSf54j81jHyGwfgh9EC2ru7OGsgFYFxzU62wlrY2KuHUi4Fm-zULNTi-suT5JXSb8egTt89A8PXhCWe81KW60QL4bPz3buSGaFDX0y2MZfo5l0ygLG5YBHfGFCE80UHDjfQAVnJn3gNyLYzTZak44Ms-f5hcua0p_8TkgCLT0cCocLqGQSc_ykCYrtCOBmBrX_qJhRJ7b2l7zCTF0APX6_D6EDCTBu01yNCE3E_ogo9_aE-L89T9ENABfhE4bmav0Ve8SaVp-j8yMCyxq4MqBkOc65jArS6tn9w4nTKGUan-qLFYwH9IBUwtARq3rwVXYTNlO0_5QCqg5FNdavyIUlLFL8h7VjiQ8O2Fno34jCTEpiY_lBAe1mMxhWHy-NAg6FOqYVdsMo3TQEnuuy5LYAfl7OHbtVi0dHZJCBVVAmKR-Bc03wkiriuDICTDytDs32JFa_qoa8cRSOFT_E8QJ18yn-PCEObebpXuqum8eWYdb4o50VfNWGFBvmdmzPDfCHaycLl8g5-MPu7PyskhCxProDrEwSeKEXjoDyN3PFdAJHn26vOP4O_KOe6_F2E8IJRY-eCtWkGTsEB70uFo2sahEc-CFvDUCoUOscaVvlz9fjV4b2je6YikSyvhQcFz_dILGgyZpY0BlSGW889ipzGZe48wEJ-9bRAKb2lCmVrf7PZ33mL2lEzSr1ncZVI%3D*eyJpZCI6ImJwX2dlbml1c19pbmxpbmUifQ%3D%3D
+                - generic [ref=e293] [cursor=pointer]: Sign in
+              - link "Create a free account" [ref=e294] [cursor=pointer]:
+                - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=book&prompt=signin&state=Uv4KYwyIJLYLgpBonLJYC1dSMm4inm4Y8UAoyDAcZnVLZfJzj7sNK-rjk5C5sgqkIqsDte-cNut_gtYXGyiGPWRHV0Cz0X-caY44lQ3DLG0PVtvjILpkQYuZNQ7ki4_nu6vMje9JrMB6ptjpn3Ez5GHKwbbo644JmrP4jByimr5uPrpN4WnMoYUEb2nKAohuIWUR4TcHRpVxmQGY5q2NFlffDGZkGWe10rbyYmrXl8xWjoMdjema93XBFHegP8a2OauJb4STeeZdT_XjrVFcLPTPRPF0CXn39ojs075jSGbJET8j2LKqJYtI_sB_JWw3yLLaOWN9Fgz0RcW4ncjRAyR17kXwtnc-W5csgq6Qtq-kRl97OpjYxY789saXumh4sXUO_xrDRcEZFdCtURAU5LOYgJUPmL4Qf8G3JmhSUZqqJ06lR_4aJbMEfE2wbXyecLMZkCEVAzOm6Hr27v2e2q0DtEAUeLYzqQ3H9usBhcITJVnkwPq33G62KK-rO7VlUhBSgEIMSJrNFe6wbF3dbZ01j5lOw3afr6jhBmrvJ5ITiRBz2fWO9Nx1hFGjtepBTh1BRm3lRnVYVWtKP9CXjPIga2NhBlcVeJxDOxj99o4maiLPA35GSbG4ydX1k1V4ABqk5HAJM0dOkYvAxBHk17dBYwyRBCz1wfT6SNpOiwA_n2ZGTCE1ReCfgMRUxj6Vd38nKC3ZaFBcSjtE17m54HQvMv0vrmltROWgSC5gyFbCKClZDIaPWB0AwY0dOyBlPbYS9_xUqO0QQPLDd5cc-DN3oL4GK4S1VxqkkYUX2jYOpJuEg6nh_AdHd_GsVRlFXLr5iHyQjGBUpHCfsUcbXrSC8k336U_Ysz4LUhTLHdwrntlCo3db-MZSjRwIez1Fy7AaWQUd2IQ_KRvXl5tUB8EqG_nLIyNaKlK1g6e1CZmGn_dB7YLnjbLaQ4UVEzBHySd8vxvSFm-paYYC22ft6XLJJfmI2nHbwlM4ImxMSgKb48fTWlIaB7mlRqSvp7GD0xSfa6kiftZHRatQ8SraQeRqiDD7Vzq8Qc6H2jFEgQ8OpPOxySsQhZpSxJJ3Rc4mgfaCf2Gg-v5-7hDjJnMlQiaWe5DFreW32WkbEqS9b3OXDx2N1kluVElpDpWkuDRyRWzkIXxAJweUkmz1j53Mj2JTMSf54j81jHyGwfgh9EC2ru7OGsgFYFxzU62wlrY2KuHUi4Fm-zULNTi-suT5JXSb8egTt89A8PXhCWe81KW60QL4bPz3buSGaFDX0y2MZfo5l0ygLG5YBHfGFCE80UHDjfQAVnJn3gNyLYzTZak44Ms-f5hcua0p_8TkgCLT0cCocLqGQSc_ykCYrtCOBmBrX_qJhRJ7b2l7zCTF0APX6_D6EDCTBu01yNCE3E_ogo9_aE-L89T9ENABfhE4bmav0Ve8SaVp-j8yMCyxq4MqBkOc65jArS6tn9w4nTKGUan-qLFYwH9IBUwtARq3rwVXYTNlO0_5QCqg5FNdavyIUlLFL8h7VjiQ8O2Fno34jCTEpiY_lBAe1mMxhWHy-NAg6FOqYVdsMo3TQEnuuy5LYAfl7OHbtVi0dHZJCBVVAmKR-Bc03wkiriuDICTDytDs32JFa_qoa8cRSOFT_E8QJ18yn-PCEObebpXuqum8eWYdb4o50VfNWGFBvmdmzPDfCHaycLl8g5-MPu7PyskhCxProDrEwSeKEXjoDyN3PFdAJHn26vOP4O_KOe6_F2E8IJRY-eCtWkGTsEB70uFo2sahEc-CFvDUCoUOscaVvlz9fjV4b2je6YikSyvhQcFz_dILGgyZpY0BlSGW889ipzGZe48wEJ-9bRAKb2lCmVrf7PZ33mL2lEzSr1ncZVI%3D*eyJpZCI6ImJwX2dlbml1c19pbmxpbmUifQ%3D%3D
+                - generic [ref=e295] [cursor=pointer]: Create a free account
+          - img "blue Genius logo" [ref=e296]:
+            - img [ref=e297]
+        - generic [ref=e307]:
+          - generic [ref=e310]:
+            - heading "Enter your details" [level=2] [ref=e312]
+            - generic [ref=e315]:
+              - img [ref=e318]
+              - generic [ref=e322]:
+                - text: Almost done! Just fill in the
+                - strong [ref=e323]: "*"
+                - text: required info
+            - generic [ref=e325]:
+              - generic [ref=e327]:
+                - generic [ref=e328]: First name
+                - generic [ref=e331]: "*"
+              - generic [ref=e333]:
+                - textbox "First name *" [ref=e334]: Randi
+                - img [ref=e338]
+            - generic [ref=e341]:
+              - generic [ref=e343]:
+                - generic [ref=e344]: Last name
+                - generic [ref=e347]: "*"
+              - generic [ref=e349]:
+                - textbox "Last name *" [ref=e350]: Magi
+                - img [ref=e354]
+            - generic [ref=e357]:
+              - generic [ref=e359]:
+                - generic [ref=e360]: Email address
+                - generic [ref=e363]: "*"
+              - generic [ref=e365]:
+                - textbox "Email address *" [ref=e366]: testing2406@mailinator.com
+                - img [ref=e370]
+              - alert [ref=e372]: Confirmation email sent to this address
+            - generic [ref=e374]:
+              - generic [ref=e376]:
+                - generic [ref=e377]: Confirm email address
+                - generic [ref=e380]: "*"
+              - generic [ref=e382]:
+                - textbox "Confirm email address *" [active] [ref=e383]
+                - img [ref=e387]
+              - alert [ref=e389]: Email addresses don't match. Check both fields and try again.
+            - generic [ref=e391]:
+              - checkbox "Sign in to save 10% or more (optional) Members get an instant discount – and it’s free to join!" [ref=e392]
+              - generic [ref=e393] [cursor=pointer]:
+                - img [ref=e396] [cursor=pointer]
+                - generic [ref=e398] [cursor=pointer]:
+                  - generic [ref=e399] [cursor=pointer]: Sign in to save 10% or more (optional)
+                  - generic [ref=e400] [cursor=pointer]: Members get an instant discount – and it’s free to join!
+            - generic [ref=e402]:
+              - generic [ref=e404]:
+                - generic [ref=e405]: Country/Region
+                - generic [ref=e408]: "*"
+              - generic [ref=e409]:
+                - combobox "Country/Region *" [ref=e410] [cursor=pointer]:
+                  - option "Select country/region" [disabled]
+                  - option "Abkhazia,Georgia"
+                  - option "Afghanistan"
+                  - option "Albania"
+                  - option "Algeria"
+                  - option "American Samoa"
+                  - option "Andorra"
+                  - option "Angola"
+                  - option "Anguilla"
+                  - option "Antarctica"
+                  - option "Antigua & Barbuda"
+                  - option "Argentina"
+                  - option "Armenia"
+                  - option "Aruba"
+                  - option "Australia"
+                  - option "Austria"
+                  - option "Azerbaijan"
+                  - option "Bahamas"
+                  - option "Bahrain"
+                  - option "Bangladesh"
+                  - option "Barbados"
+                  - option "Belarus"
+                  - option "Belgium"
+                  - option "Belize"
+                  - option "Benin"
+                  - option "Bermuda"
+                  - option "Bhutan"
+                  - option "Bolivia"
+                  - option "Bonaire St. Eustatius and Saba"
+                  - option "Bosnia and Herzegovina"
+                  - option "Botswana"
+                  - option "Bouvet Island"
+                  - option "Brazil"
+                  - option "British Indian Ocean Territory"
+                  - option "British Virgin Islands"
+                  - option "Brunei"
+                  - option "Bulgaria"
+                  - option "Burkina Faso"
+                  - option "Burundi"
+                  - option "Cambodia"
+                  - option "Cameroon"
+                  - option "Canada"
+                  - option "Cape Verde"
+                  - option "Cayman Islands"
+                  - option "Central Africa Republic"
+                  - option "Chad"
+                  - option "Chile"
+                  - option "China"
+                  - option "Christmas Island"
+                  - option "Cocos (K) I."
+                  - option "Colombia"
+                  - option "Comoros"
+                  - option "Congo"
+                  - option "Cook Islands"
+                  - option "Costa Rica"
+                  - option "Croatia"
+                  - option "Curaçao"
+                  - option "Cyprus"
+                  - option "Czech Republic"
+                  - option "Democratic Republic of the Congo"
+                  - option "Denmark"
+                  - option "Djibouti"
+                  - option "Dominica"
+                  - option "Dominican Republic"
+                  - option "East Timor"
+                  - option "Ecuador"
+                  - option "Egypt"
+                  - option "El Salvador"
+                  - option "Equatorial Guinea"
+                  - option "Eritrea"
+                  - option "Estonia"
+                  - option "Eswatini"
+                  - option "Ethiopia"
+                  - option "Falkland Islands (Malvinas)"
+                  - option "Faroe Islands"
+                  - option "Fiji"
+                  - option "Finland"
+                  - option "France"
+                  - option "French Guiana"
+                  - option "French Polynesia"
+                  - option "French Southern Territories"
+                  - option "Gabon"
+                  - option "Gambia"
+                  - option "Georgia"
+                  - option "Germany"
+                  - option "Ghana"
+                  - option "Gibraltar"
+                  - option "Greece"
+                  - option "Greenland"
+                  - option "Grenada"
+                  - option "Guadeloupe"
+                  - option "Guam"
+                  - option "Guatemala"
+                  - option "Guernsey"
+                  - option "Guinea"
+                  - option "Guinea-Bissau"
+                  - option "Guyana"
+                  - option "Haiti"
+                  - option "Heard and McDonald Islands"
+                  - option "Honduras"
+                  - option "Hong Kong"
+                  - option "Hungary"
+                  - option "Iceland"
+                  - option "India" [selected]
+                  - option "Indonesia"
+                  - option "Iraq"
+                  - option "Ireland"
+                  - option "Isle of Man"
+                  - option "Israel"
+                  - option "Italy"
+                  - option "Ivory Coast"
+                  - option "Jamaica"
+                  - option "Japan"
+                  - option "Jersey"
+                  - option "Jordan"
+                  - option "Kazakhstan"
+                  - option "Kenya"
+                  - option "Kiribati"
+                  - option "Kosovo"
+                  - option "Kuwait"
+                  - option "Kyrgyzstan"
+                  - option "Laos"
+                  - option "Latvia"
+                  - option "Lebanon"
+                  - option "Lesotho"
+                  - option "Liberia"
+                  - option "Libya"
+                  - option "Liechtenstein"
+                  - option "Lithuania"
+                  - option "Luxembourg"
+                  - option "Macau"
+                  - option "Madagascar"
+                  - option "Malawi"
+                  - option "Malaysia"
+                  - option "Maldives"
+                  - option "Mali"
+                  - option "Malta"
+                  - option "Marshall Islands"
+                  - option "Martinique"
+                  - option "Mauritania"
+                  - option "Mauritius"
+                  - option "Mayotte"
+                  - option "Mexico"
+                  - option "Micronesia"
+                  - option "Moldova"
+                  - option "Monaco"
+                  - option "Mongolia"
+                  - option "Montenegro"
+                  - option "Montserrat"
+                  - option "Morocco"
+                  - option "Mozambique"
+                  - option "Myanmar"
+                  - option "Namibia"
+                  - option "Nauru"
+                  - option "Nepal"
+                  - option "Netherlands"
+                  - option "Netherlands Antilles"
+                  - option "New Caledonia"
+                  - option "New Zealand"
+                  - option "Nicaragua"
+                  - option "Niger"
+                  - option "Nigeria"
+                  - option "Niue"
+                  - option "Norfolk Island"
+                  - option "North Macedonia"
+                  - option "Northern Cyprus"
+                  - option "Northern Mariana Islands"
+                  - option "Norway"
+                  - option "Oman"
+                  - option "Pakistan"
+                  - option "Palau"
+                  - option "Palestinian Territory"
+                  - option "Panama"
+                  - option "Papua New Guinea"
+                  - option "Paraguay"
+                  - option "Peru"
+                  - option "Philippines"
+                  - option "Pitcairn"
+                  - option "Poland"
+                  - option "Portugal"
+                  - option "Puerto Rico"
+                  - option "Qatar"
+                  - option "Reunion"
+                  - option "Romania"
+                  - option "Russia"
+                  - option "Rwanda"
+                  - option "Saint Barts"
+                  - option "Saint Kitts and Nevis"
+                  - option "Saint Lucia"
+                  - option "Saint Martin"
+                  - option "Saint Vincent & Grenadines"
+                  - option "Samoa"
+                  - option "San Marino"
+                  - option "Saudi Arabia"
+                  - option "Senegal"
+                  - option "Serbia"
+                  - option "Serbia and Montenegro"
+                  - option "Seychelles"
+                  - option "Sierra Leone"
+                  - option "Singapore"
+                  - option "Slovakia"
+                  - option "Slovenia"
+                  - option "Solomon Islands"
+                  - option "Somalia"
+                  - option "South Africa"
+                  - option "South Georgia and the South Sandwich Islands"
+                  - option "South Korea"
+                  - option "South Sudan"
+                  - option "Spain"
+                  - option "Sri Lanka"
+                  - option "St. Helena"
+                  - option "St. Maarten"
+                  - option "St. Pierre and Miquelon"
+                  - option "Sudan"
+                  - option "Suriname"
+                  - option "Svalbard & Jan Mayen"
+                  - option "Sweden"
+                  - option "Switzerland"
+                  - option "São Tomé and Príncipe"
+                  - option "Taiwan"
+                  - option "Tajikistan"
+                  - option "Tanzania"
+                  - option "Thailand"
+                  - option "Togo"
+                  - option "Tokelau"
+                  - option "Tonga"
+                  - option "Trinidad and Tobago"
+                  - option "Tunisia"
+                  - option "Turkey"
+                  - option "Turkmenistan"
+                  - option "Turks & Caicos Islands"
+                  - option "Tuvalu"
+                  - option "U.S. Virgin Islands"
+                  - option "Uganda"
+                  - option "Ukraine"
+                  - option "United Arab Emirates"
+                  - option "United Kingdom"
+                  - option "United States"
+                  - option "United States Minor Outlying Islands"
+                  - option "Uruguay"
+                  - option "Uzbekistan"
+                  - option "Vanuatu"
+                  - option "Vatican City"
+                  - option "Venezuela"
+                  - option "Vietnam"
+                  - option "Wallis and Futuna"
+                  - option "Western Sahara"
+                  - option "Yemen"
+                  - option "Zambia"
+                  - option "Zimbabwe"
+                - generic:
+                  - generic:
+                    - img
+            - generic [ref=e412]:
+              - generic [ref=e414]:
+                - generic [ref=e415]: Phone number
+                - generic [ref=e417]: "*"
+              - generic [ref=e419]:
+                - generic [ref=e421]:
+                  - combobox "Select your country or region" [ref=e422]:
+                    - option "Abkhazia,Georgia +995"
+                    - option "Afghanistan +93"
+                    - option "Albania +355"
+                    - option "Algeria +213"
+                    - option "American Samoa +1"
+                    - option "Andorra +376"
+                    - option "Angola +244"
+                    - option "Anguilla +1"
+                    - option "Antarctica +672"
+                    - option "Antigua & Barbuda +1"
+                    - option "Argentina +54"
+                    - option "Armenia +374"
+                    - option "Aruba +297"
+                    - option "Australia +61"
+                    - option "Austria +43"
+                    - option "Azerbaijan +994"
+                    - option "Bahamas +1"
+                    - option "Bahrain +973"
+                    - option "Bangladesh +880"
+                    - option "Barbados +1"
+                    - option "Belarus +375"
+                    - option "Belgium +32"
+                    - option "Belize +501"
+                    - option "Benin +229"
+                    - option "Bermuda +1"
+                    - option "Bhutan +975"
+                    - option "Bolivia +591"
+                    - option "Bonaire St. Eustatius and Saba +599"
+                    - option "Bosnia and Herzegovina +387"
+                    - option "Botswana +267"
+                    - option "Bouvet Island +47"
+                    - option "Brazil +55"
+                    - option "British Indian Ocean Territory +246"
+                    - option "British Virgin Islands +1"
+                    - option "Brunei +673"
+                    - option "Bulgaria +359"
+                    - option "Burkina Faso +226"
+                    - option "Burundi +257"
+                    - option "Cambodia +855"
+                    - option "Cameroon +237"
+                    - option "Canada +1"
+                    - option "Cape Verde +238"
+                    - option "Cayman Islands +1"
+                    - option "Central Africa Republic +236"
+                    - option "Chad +235"
+                    - option "Chile +56"
+                    - option "China +86"
+                    - option "Christmas Island +61"
+                    - option "Cocos (K) I. +61"
+                    - option "Colombia +57"
+                    - option "Comoros +269"
+                    - option "Congo +242"
+                    - option "Cook Islands +682"
+                    - option "Costa Rica +506"
+                    - option "Croatia +385"
+                    - option "Curaçao +599"
+                    - option "Cyprus +357"
+                    - option "Czech Republic +420"
+                    - option "Democratic Republic of the Congo +243"
+                    - option "Denmark +45"
+                    - option "Djibouti +253"
+                    - option "Dominica +1"
+                    - option "Dominican Republic +1"
+                    - option "East Timor +670"
+                    - option "Ecuador +593"
+                    - option "Egypt +20"
+                    - option "El Salvador +503"
+                    - option "Equatorial Guinea +240"
+                    - option "Eritrea +291"
+                    - option "Estonia +372"
+                    - option "Eswatini +268"
+                    - option "Ethiopia +251"
+                    - option "Falkland Islands (Malvinas) +500"
+                    - option "Faroe Islands +298"
+                    - option "Fiji +679"
+                    - option "Finland +358"
+                    - option "France +33"
+                    - option "French Guiana +594"
+                    - option "French Polynesia +689"
+                    - option "French Southern Territories +596"
+                    - option "Gabon +241"
+                    - option "Gambia +220"
+                    - option "Georgia +995"
+                    - option "Germany +49"
+                    - option "Ghana +233"
+                    - option "Gibraltar +350"
+                    - option "Greece +30"
+                    - option "Greenland +299"
+                    - option "Grenada +1"
+                    - option "Guadeloupe +590"
+                    - option "Guam +1"
+                    - option "Guatemala +502"
+                    - option "Guernsey +44"
+                    - option "Guinea +224"
+                    - option "Guinea-Bissau +245"
+                    - option "Guyana +592"
+                    - option "Haiti +509"
+                    - option "Heard and McDonald Islands +672"
+                    - option "Honduras +504"
+                    - option "Hong Kong +852"
+                    - option "Hungary +36"
+                    - option "Iceland +354"
+                    - option "India +91" [selected]
+                    - option "Indonesia +62"
+                    - option "Iran +98"
+                    - option "Iraq +964"
+                    - option "Ireland +353"
+                    - option "Isle of Man +44"
+                    - option "Israel +972"
+                    - option "Italy +39"
+                    - option "Ivory Coast +225"
+                    - option "Jamaica +1"
+                    - option "Japan +81"
+                    - option "Jersey +44"
+                    - option "Jordan +962"
+                    - option "Kazakhstan +7"
+                    - option "Kenya +254"
+                    - option "Kiribati +686"
+                    - option "Kosovo +383"
+                    - option "Kuwait +965"
+                    - option "Kyrgyzstan +996"
+                    - option "Laos +856"
+                    - option "Latvia +371"
+                    - option "Lebanon +961"
+                    - option "Lesotho +266"
+                    - option "Liberia +231"
+                    - option "Libya +218"
+                    - option "Liechtenstein +423"
+                    - option "Lithuania +370"
+                    - option "Luxembourg +352"
+                    - option "Macau +853"
+                    - option "Madagascar +261"
+                    - option "Malawi +265"
+                    - option "Malaysia +60"
+                    - option "Maldives +960"
+                    - option "Mali +223"
+                    - option "Malta +356"
+                    - option "Marshall Islands +692"
+                    - option "Martinique +596"
+                    - option "Mauritania +222"
+                    - option "Mauritius +230"
+                    - option "Mayotte +269"
+                    - option "Mexico +52"
+                    - option "Micronesia +691"
+                    - option "Moldova +373"
+                    - option "Monaco +377"
+                    - option "Mongolia +976"
+                    - option "Montenegro +382"
+                    - option "Montserrat +1"
+                    - option "Morocco +212"
+                    - option "Mozambique +258"
+                    - option "Myanmar +95"
+                    - option "Namibia +264"
+                    - option "Nauru +674"
+                    - option "Nepal +977"
+                    - option "Netherlands +31"
+                    - option "Netherlands Antilles +599"
+                    - option "New Caledonia +687"
+                    - option "New Zealand +64"
+                    - option "Nicaragua +505"
+                    - option "Niger +227"
+                    - option "Nigeria +234"
+                    - option "Niue +683"
+                    - option "Norfolk Island +672"
+                    - option "North Korea +850"
+                    - option "North Macedonia +389"
+                    - option "Northern Cyprus +357"
+                    - option "Northern Mariana Islands +1"
+                    - option "Norway +47"
+                    - option "Oman +968"
+                    - option "Pakistan +92"
+                    - option "Palau +680"
+                    - option "Palestinian Territory +970"
+                    - option "Panama +507"
+                    - option "Papua New Guinea +675"
+                    - option "Paraguay +595"
+                    - option "Peru +51"
+                    - option "Philippines +63"
+                    - option "Pitcairn +872"
+                    - option "Poland +48"
+                    - option "Portugal +351"
+                    - option "Puerto Rico +1"
+                    - option "Qatar +974"
+                    - option "Reunion +262"
+                    - option "Romania +40"
+                    - option "Russia +7"
+                    - option "Rwanda +250"
+                    - option "Saint Barts +590"
+                    - option "Saint Kitts and Nevis +1"
+                    - option "Saint Lucia +1"
+                    - option "Saint Martin +590"
+                    - option "Saint Vincent & Grenadines +1"
+                    - option "Samoa +685"
+                    - option "San Marino +378"
+                    - option "Saudi Arabia +966"
+                    - option "Senegal +221"
+                    - option "Serbia +381"
+                    - option "Serbia and Montenegro"
+                    - option "Seychelles +248"
+                    - option "Sierra Leone +232"
+                    - option "Singapore +65"
+                    - option "Slovakia +421"
+                    - option "Slovenia +386"
+                    - option "Solomon Islands +677"
+                    - option "Somalia +252"
+                    - option "South Africa +27"
+                    - option "South Georgia and the South Sandwich Islands +500"
+                    - option "South Korea +82"
+                    - option "South Sudan +211"
+                    - option "Spain +34"
+                    - option "Sri Lanka +94"
+                    - option "St. Helena +290"
+                    - option "St. Maarten +1"
+                    - option "St. Pierre and Miquelon +508"
+                    - option "Sudan +249"
+                    - option "Suriname +597"
+                    - option "Svalbard & Jan Mayen +378"
+                    - option "Sweden +46"
+                    - option "Switzerland +41"
+                    - option "Syria +963"
+                    - option "São Tomé and Príncipe +239"
+                    - option "Taiwan +886"
+                    - option "Tajikistan +992"
+                    - option "Tanzania +255"
+                    - option "Thailand +66"
+                    - option "Togo +228"
+                    - option "Tokelau +690"
+                    - option "Tonga +676"
+                    - option "Trinidad and Tobago +1"
+                    - option "Tunisia +216"
+                    - option "Turkey +90"
+                    - option "Turkmenistan +993"
+                    - option "Turks & Caicos Islands +1"
+                    - option "Tuvalu +688"
+                    - option "U.S. Virgin Islands +1"
+                    - option "Uganda +256"
+                    - option "Ukraine +380"
+                    - option "United Arab Emirates +971"
+                    - option "United Kingdom +44"
+                    - option "United States +1"
+                    - option "United States Minor Outlying Islands +1"
+                    - option "Uruguay +598"
+                    - option "Uzbekistan +998"
+                    - option "Vanuatu +678"
+                    - option "Vatican City +379"
+                    - option "Venezuela +58"
+                    - option "Vietnam +84"
+                    - option "Wallis and Futuna +681"
+                    - option "Western Sahara +212"
+                    - option "Yemen +967"
+                    - option "Zambia +260"
+                    - option "Zimbabwe +263"
+                  - text: in +91
+                  - img [ref=e423]
+                - generic [ref=e429]:
+                  - textbox "Phone number" [ref=e430]: "915342232"
+                  - img [ref=e434]
+              - alert [ref=e436]: To verify your booking, and for the property to connect if needed
+            - generic [ref=e438]:
+              - checkbox "Yes, I want free paperless confirmation (recommended) We'll text you a link to download our app" [ref=e439]
+              - generic [ref=e440] [cursor=pointer]:
+                - img [ref=e443] [cursor=pointer]
+                - generic [ref=e445] [cursor=pointer]:
+                  - generic [ref=e446] [cursor=pointer]: Yes, I want free paperless confirmation (recommended)
+                  - generic [ref=e447] [cursor=pointer]: We'll text you a link to download our app
+            - separator [ref=e449]
+            - group "Who are you booking for? (optional)" [ref=e453]:
+              - generic [ref=e455]:
+                - generic [ref=e456]: Who are you booking for?
+                - generic [ref=e459]: (optional)
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - radio "I'm the main guest" [checked] [ref=e462]
+                  - generic [ref=e466] [cursor=pointer]: I'm the main guest
+                - generic [ref=e467]:
+                  - radio "I'm booking for someone else" [ref=e468]
+                  - generic [ref=e472] [cursor=pointer]: I'm booking for someone else
+            - group "Are you traveling for work? (optional)" [ref=e474]:
+              - generic [ref=e476]:
+                - generic [ref=e477]: Are you traveling for work?
+                - generic [ref=e480]: (optional)
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - radio "Yes" [ref=e483]
+                  - generic [ref=e487] [cursor=pointer]: "Yes"
+                - generic [ref=e488]:
+                  - radio "No" [ref=e489]
+                  - generic [ref=e493] [cursor=pointer]: "No"
+          - generic [ref=e495]:
+            - heading "Good to know:" [level=2] [ref=e496]
+            - generic [ref=e497]:
+              - generic [ref=e498]:
+                - img [ref=e501]
+                - generic [ref=e503]: No credit card needed
+              - generic [ref=e504]:
+                - img [ref=e507]
+                - generic [ref=e509]: "Stay flexible: You can cancel for free before December 1, 2025 – lock in this great price today."
+              - generic [ref=e510]:
+                - img [ref=e513]
+                - generic [ref=e515]: No payment needed now. You'll pay at the property.
+          - generic [ref=e518]:
+            - generic [ref=e520]: Deluxe King Room
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - list [ref=e526]:
+                  - listitem [ref=e527]:
+                    - generic [ref=e529]:
+                      - img [ref=e532]
+                      - generic [ref=e537]:
+                        - generic [ref=e538]: Free cancellation
+                        - generic [ref=e539]: before December 1, 2025
+                      - button [ref=e541] [cursor=pointer]:
+                        - img [ref=e544] [cursor=pointer]
+                  - listitem [ref=e546]:
+                    - generic [ref=e548]:
+                      - img [ref=e550]
+                      - generic [ref=e553]:
+                        - generic [ref=e554]:
+                          - strong [ref=e555]: "Guests:"
+                          - text: 2 adults
+                        - button [ref=e558] [cursor=pointer]:
+                          - img [ref=e560] [cursor=pointer]
+                - generic [ref=e564]:
+                  - img [ref=e566]
+                  - generic [ref=e570]:
+                    - text: "Main guest:"
+                    - button "Edit main guest details" [ref=e571] [cursor=pointer]:
+                      - generic [ref=e572] [cursor=pointer]: Randi Magi
+                      - img [ref=e574] [cursor=pointer]
+              - generic [ref=e578]:
+                - img [ref=e580]
+                - generic [ref=e584]: No smoking
+          - generic [ref=e587]:
+            - heading "Add to your stay" [level=2] [ref=e592]
+            - list "Add to your stay" [ref=e593]:
+              - listitem [ref=e594]:
+                - generic [ref=e596]:
+                  - generic [ref=e597]:
+                    - generic [ref=e600]:
+                      - checkbox "I'm interested in requesting an airport shuttle" [ref=e601]
+                      - generic [ref=e602] [cursor=pointer]:
+                        - img [ref=e605] [cursor=pointer]
+                        - generic [ref=e608] [cursor=pointer]: I'm interested in requesting an airport shuttle
+                    - generic [ref=e609]: We’ll tell your accommodations that you’re interested, so they can provide details and costs.
+                  - img [ref=e612]
+              - listitem [ref=e614]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - generic [ref=e618]:
+                      - generic [ref=e620]:
+                        - checkbox "I’ll need a flight for my trip" [ref=e621]
+                        - generic [ref=e622] [cursor=pointer]:
+                          - img [ref=e625] [cursor=pointer]
+                          - generic [ref=e628] [cursor=pointer]: I’ll need a flight for my trip
+                      - button "Info on prices and cancellation policy" [ref=e632] [cursor=pointer]:
+                        - img [ref=e635] [cursor=pointer]
+                    - generic [ref=e637]: Flexible flight options from Hyderabad to Kolkata starting at ‎₹ 12,924‏ round-trip. Finish booking this stay to get flight recommendations that match your selected dates.
+                  - img [ref=e640]
+              - listitem [ref=e642]:
+                - generic [ref=e644]:
+                  - generic [ref=e645]:
+                    - generic [ref=e648]:
+                      - checkbox "I’m interested in renting a car with 5% off" [ref=e649]
+                      - generic [ref=e650] [cursor=pointer]:
+                        - img [ref=e653] [cursor=pointer]
+                        - generic [ref=e656] [cursor=pointer]: I’m interested in renting a car with 5% off
+                    - generic [ref=e657]: Save 5% on all rental cars when you book with us – we'll add car rental options to your booking confirmation.
+                  - img [ref=e660]
+          - generic [ref=e664]:
+            - heading "Special requests" [level=2] [ref=e665]
+            - paragraph [ref=e666]: Special requests can't be guaranteed, but the property will do its best to meet your needs. You can always make a special request after your booking is complete.
+            - generic [ref=e667]:
+              - generic [ref=e669]:
+                - generic [ref=e670]: Please write your requests in English or Hindi.
+                - generic [ref=e672]: (optional)
+              - textbox "Please write your requests in English or Hindi. (optional)" [ref=e674]
+          - generic [ref=e677]:
+            - heading "Your arrival time" [level=2] [ref=e679]
+            - generic [ref=e680]:
+              - img [ref=e682]
+              - paragraph [ref=e685]: Your room will be ready for check-in between 1:00 PM and 11:00 PM
+            - generic [ref=e686]:
+              - img [ref=e688]
+              - paragraph [ref=e691]: 24-hour front desk – help whenever you need it!
+            - generic [ref=e695]:
+              - generic [ref=e697]:
+                - paragraph [ref=e699]: Add your estimated arrival time
+                - generic [ref=e702]: (optional)
+              - generic [ref=e703]:
+                - combobox "Add your estimated arrival time (optional)" [ref=e704] [cursor=pointer]:
+                  - option "Please select" [selected]
+                  - option "I don't know"
+                  - option "12:00 AM - 1:00 AM"
+                  - option "1:00 AM - 2:00 AM"
+                  - option "2:00 AM - 3:00 AM"
+                  - option "3:00 AM - 4:00 AM"
+                  - option "4:00 AM - 5:00 AM"
+                  - option "5:00 AM - 6:00 AM"
+                  - option "6:00 AM - 7:00 AM"
+                  - option "7:00 AM - 8:00 AM"
+                  - option "8:00 AM - 9:00 AM"
+                  - option "9:00 AM - 10:00 AM"
+                  - option "10:00 AM - 11:00 AM"
+                  - option "11:00 AM - 12:00 PM"
+                  - option "12:00 PM - 1:00 PM"
+                  - option "1:00 PM - 2:00 PM"
+                  - option "2:00 PM - 3:00 PM"
+                  - option "3:00 PM - 4:00 PM"
+                  - option "4:00 PM - 5:00 PM"
+                  - option "5:00 PM - 6:00 PM"
+                  - option "6:00 PM - 7:00 PM"
+                  - option "7:00 PM - 8:00 PM"
+                  - option "8:00 PM - 9:00 PM"
+                  - option "9:00 PM - 10:00 PM"
+                  - option "10:00 PM - 11:00 PM"
+                  - option "11:00 PM - 12:00 AM"
+                  - option "12:00 AM - 1:00 AM (the next day)"
+                  - option "1:00 AM - 2:00 AM (the next day)"
+                - generic:
+                  - generic:
+                    - img
+              - alert [ref=e705]: Time is for Kolkata time zone
+          - generic [ref=e708]:
+            - generic [ref=e710]: Cribs and extra beds
+            - list [ref=e712]:
+              - listitem [ref=e713]:
+                - generic [ref=e714]: Requests are subject to availability
+              - listitem [ref=e715]:
+                - generic [ref=e716]: Requests need to be confirmed by the property
+              - listitem [ref=e717]:
+                - generic [ref=e718]: Requests not labeled "Free" could incur extra charges
+            - button "Read full crib and extra bed policy" [ref=e720] [cursor=pointer]:
+              - generic [ref=e721] [cursor=pointer]: Read full crib and extra bed policy
+            - generic [ref=e723]:
+              - text: Add to your
+              - generic [ref=e724]: Deluxe King Room
+            - generic [ref=e726]:
+              - generic [ref=e727]:
+                - generic [ref=e728]:
+                  - checkbox "Crib Free" [ref=e729]
+                  - generic [ref=e730] [cursor=pointer]:
+                    - img [ref=e733] [cursor=pointer]
+                    - generic [ref=e735] [cursor=pointer]: Crib
+                    - generic [ref=e738] [cursor=pointer]: Free
+                - option "0" [selected]
+                - option "1"
+                - option "2"
+              - generic [ref=e739]:
+                - generic [ref=e740]:
+                  - checkbox "Extra bed" [ref=e741]
+                  - generic [ref=e742] [cursor=pointer]:
+                    - img [ref=e745] [cursor=pointer]
+                    - generic [ref=e747] [cursor=pointer]: Extra bed
+                - option "18+" [selected]
+          - generic [ref=e750]:
+            - heading "Review House Rules" [level=3] [ref=e751]
+            - paragraph [ref=e752]: "Your host would like you to agree to the following house rules:"
+            - list [ref=e753]:
+              - listitem [ref=e754]:
+                - generic [ref=e757]: No smoking
+              - listitem [ref=e758]:
+                - generic [ref=e761]: Pets are not allowed
+            - paragraph [ref=e762]: By continuing to the next step, you agree to these house rules.
+          - generic [ref=e764]:
+            - button "We Price Match" [ref=e767] [cursor=pointer]:
+              - img [ref=e770] [cursor=pointer]
+              - generic [ref=e772] [cursor=pointer]: We Price Match
+            - 'button "Next: Final details" [ref=e774] [cursor=pointer]':
+              - generic [ref=e775] [cursor=pointer]: "Next: Final details"
+              - img [ref=e777] [cursor=pointer]
+          - button "What are my booking conditions?" [ref=e782] [cursor=pointer]
+  - generic [ref=e786]:
+    - navigation [ref=e787]:
+      - list [ref=e788]:
+        - listitem [ref=e789]:
+          - link "About Booking.com" [ref=e790] [cursor=pointer]:
+            - /url: http://www.booking.com/general.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=151e0c560a39ce8b21c93a68443f9be3&srpvid=d7cd63204084098c&&tmpl=docs/about
+        - listitem [ref=e791]:
+          - text: "|"
+          - link "Customer Service Help" [ref=e792] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=151e0c560a39ce8b21c93a68443f9be3&srpvid=d7cd63204084098c&source=book_footer#/?source=book_footer
+        - listitem [ref=e793]:
+          - text: "|"
+          - link "Terms of Service" [ref=e794] [cursor=pointer]:
+            - /url: http://www.booking.com/content/terms.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=151e0c560a39ce8b21c93a68443f9be3&srpvid=d7cd63204084098c&
+        - listitem [ref=e795]:
+          - text: "|"
+          - link "Privacy & cookie statement" [ref=e796] [cursor=pointer]:
+            - /url: http://www.booking.com/content/privacy.html?aid=304142&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4ArLKncgGwAIB0gIkYzRhMWViNmMtYmM3Zi00MTgwLWI1Y2MtMzRiYzIyNDZiYTZj2AIB4AIB&sid=151e0c560a39ce8b21c93a68443f9be3&srpvid=d7cd63204084098c&
+    - generic [ref=e797]: Copyright © 1996–2025 Booking.com. All rights reserved.
+  - iframe [ref=e798]:
+    
+```
