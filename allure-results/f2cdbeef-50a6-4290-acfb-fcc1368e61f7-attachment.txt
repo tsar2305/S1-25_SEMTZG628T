@@ -1,0 +1,14 @@
+[ 'Free Wifi', 'Free Wifi', 'Free Wifi', 'Free Wifi' ]
+Hotel: FabHotel Airport Green Arcade - near Kolkata AirportOpens in new window, Rating: 7.3, Reviews: 771, Price: 1394, Score: 15.121668789419564
+Hotel: Super Townhouse New Town Near DLFOpens in new window, Rating: 8.4, Reviews: 155, Price: 1612, Score: 11.428192696139876
+Hotel: Super Collection O Ruby Formerly Hiland InternationalOpens in new window, Rating: 9.1, Reviews: 201, Price: 1952, Score: 10.747283535842357
+Hotel: Hotel Holiday ExpressOpens in new window, Rating: 7.5, Reviews: 270, Price: 1710, Score: 10.670917942431606
+Hotel: Super Townhouse The Royal RetreatOpens in new window, Rating: 9, Reviews: 149, Price: 2168, Score: 9.033589175046647
+Hotel: YMCA SEACOM INNOpens in new window, Rating: 7.8, Reviews: 777, Price: 2565, Score: 8.791282984997885
+Hotel: Jimmy Guest HouseOpens in new window, Rating: 7.7, Reviews: 237, Price: 2242, Score: 8.162195615225308
+Hotel: Red Arrow ResidencyOpens in new window, Rating: 8.7, Reviews: 453, Price: 3060, Score: 7.554374483613333
+Hotel: Treebo Orion Sapphire, Beck BaganOpens in new window, Rating: 7.5, Reviews: 139, Price: 2266, Score: 7.103248132209526
+Hotel: Treebo Premium The Crystal, Chinar ParkOpens in new window, Rating: 7.4, Reviews: 124, Price: 2520, Score: 6.157592895341118
+Hotel: Treebo ASL Prime, GariahatOpens in new window, Rating: 7, Reviews: 107, Price: 3224, Score: 4.415001950498961
+Hotel: Howard Johnson by Wyndham, Kolkata AirportOpens in new window, Rating: 7.2, Reviews: 541, Price: 5039, Score: 3.906488363380906
+Hotel: PoiisseOpens in new window, Rating: 7.5, Reviews: 134, Price: 4320, Score: 3.6984961258593856

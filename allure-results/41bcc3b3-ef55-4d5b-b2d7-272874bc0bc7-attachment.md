@@ -1,0 +1,1998 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#basiclayout"
+    - generic [ref=e5] [cursor=pointer]: Skip to main content
+  - banner [ref=e9]:
+    - generic [ref=e10]:
+      - navigation [ref=e11]:
+        - link "Booking.com" [ref=e15] [cursor=pointer]:
+          - /url: https://www.booking.com/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+          - img [ref=e16] [cursor=pointer]
+        - generic [ref=e18]:
+          - button "Prices in Indian Rupee" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21] [cursor=pointer]: INR
+          - 'button "Language: English (US)" [ref=e23] [cursor=pointer]'
+          - link "Customer support" [ref=e28] [cursor=pointer]:
+            - /url: https://secure.booking.com/help.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac&source=header&src=profile_contact_cs
+            - img [ref=e31] [cursor=pointer]
+          - link "List your property" [ref=e33] [cursor=pointer]:
+            - /url: https://join.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&lang=en-us&sid=9c969160c1ca046ff279975ea7741cac&utm_medium=frontend&utm_source=topbar
+            - generic [ref=e34] [cursor=pointer]: List your property
+          - link "Register an account" [ref=e35] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=hotel&prompt=signin&state=Us8GYwyIJLYLgpBorOIw-IMTq-hpfyMUm7_4g8b3w0ZU8pEJ_o7rnmXSCWrclpavTrTp9GdNB106OsuD2ZsWKK2WzExKxbG9dqbaQfxxAYuxndl-HhKDoBjoeaOEYtH69r20bJLOQN1OaF8qXnwqyozJzrpMMCV-IPKJ0UMGgRqbaDzm51SyVhxIiMl-h9ABMAr5pogTVFvTc_Hmf9qz2Oug4HpcEg8Tj8QFxrsRm11Lg45OwLYPYcTeDdHomxPAXwwdTre5VTGLX5_NeP55OF9RYjqhXErpNbCuFqF7i5TLXpc_zN7N4hmcVd3t8bp1WdI26OSkuZLEwIzjRcH-1WUsDo2noytKJSE_D9lMzPCQBbSBii3bbTXdhJLrRxtg6hS9GM7h0bvyO6CB0Sfei5jVvwZVOm93vFVYvXeuXTRFTl3JYu3I9JDxu4eNntjy-YvPR9vXZKqv8SmZixWP--IQEm2JZIYDDWWG94MMzceH3G6GMWyb-V8Cqhyp47O0_3jCmJ4ZiLf8mv2sugstb76761bHTq5yjpYCuaSHSFb8-Ua0jsx02epWTnkwD7OJZAs5ej-Wd9diNnNFS6jV1fIaVbdqYXoVkgAN1Abar3MRnpnSH9D2-QSDKYYrauPUdzWz8dZWNxvoYdPMauPZQm7rGUS0V67FYxYzaHUICCteuBBVZLVxRDrJdPzpNsLA9XaBObmo4yOc5W5lMVrLgUqbXOEbb7CHjYdo24hj-lParAu0yZ6DzP3Etd0tgMoj33JRsHn60qS9ZJPIwyBGoA_SC0r3d-IBqivPl5n8py2G14ggmFIYc0eB1vPNzknbbMZCXlT6zTHoanXiXdFLOClrDV9p9LJF9n3Omx8YHIUqw5vWJ2gA83BAKfXESETNDxwkb--GorjG0iuSr6FdhFVM9erf4nLZTqEW5jPFoWj3IRh0JPrC2JhLQ8U1NLKS86H3JrCxm4uIHjurc4A55ZtDjeSn3Wh-YBDnFkWF39m-rMRs_kMvl-j8bY01WK_Bba1RdThh82bEpX97MMslZ7ZKptlXzb_AHpms2tdINL--DBZpyYXEkA1lHytqowFPOtqKFzAP2ofFgCr6OFloozK8IG_IIHg0QuZjPIxY6SkOAQ%3D%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e36] [cursor=pointer]: Register
+          - link "Sign in" [ref=e38] [cursor=pointer]:
+            - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=hotel&prompt=signin&state=Us8GYwyIJLYLgpBorOIw-IMTq-hpfyMUm7_4g8b3w0ZU8pEJ_o7rnmXSCWrclpavTrTp9GdNB106OsuD2ZsWKK2WzExKxbG9dqbaQfxxAYuxndl-HhKDoBjoeaOEYtH69r20bJLOQN1OaF8qXnwqyozJzrpMMCV-IPKJ0UMGgRqbaDzm51SyVhxIiMl-h9ABMAr5pogTVFvTc_Hmf9qz2Oug4HpcEg8Tj8QFxrsRm11Lg45OwLYPYcTeDdHomxPAXwwdTre5VTGLX5_NeP55OF9RYjqhXErpNbCuFqF7i5TLXpc_zN7N4hmcVd3t8bp1WdI26OSkuZLEwIzjRcH-1WUsDo2noytKJSE_D9lMzPCQBbSBii3bbTXdhJLrRxtg6hS9GM7h0bvyO6CB0Sfei5jVvwZVOm93vFVYvXeuXTRFTl3JYu3I9JDxu4eNntjy-YvPR9vXZKqv8SmZixWP--IQEm2JZIYDDWWG94MMzceH3G6GMWyb-V8Cqhyp47O0_3jCmJ4ZiLf8mv2sugstb76761bHTq5yjpYCuaSHSFb8-Ua0jsx02epWTnkwD7OJZAs5ej-Wd9diNnNFS6jV1fIaVbdqYXoVkgAN1Abar3MRnpnSH9D2-QSDKYYrauPUdzWz8dZWNxvoYdPMauPZQm7rGUS0V67FYxYzaHUICCteuBBVZLVxRDrJdPzpNsLA9XaBObmo4yOc5W5lMVrLgUqbXOEbb7CHjYdo24hj-lParAu0yZ6DzP3Etd0tgMoj33JRsHn60qS9ZJPIwyBGoA_SC0r3d-IBqivPl5n8py2G14ggmFIYc0eB1vPNzknbbMZCXlT6zTHoanXiXdFLOClrDV9p9LJF9n3Omx8YHIUqw5vWJ2gA83BAKfXESETNDxwkb--GorjG0iuSr6FdhFVM9erf4nLZTqEW5jPFoWj3IRh0JPrC2JhLQ8U1NLKS86H3JrCxm4uIHjurc4A55ZtDjeSn3Wh-YBDnFkWF39m-rMRs_kMvl-j8bY01WK_Bba1RdThh82bEpX97MMslZ7ZKptlXzb_AHpms2tdINL--DBZpyYXEkA1lHytqowFPOtqKFzAP2ofFgCr6OFloozK8IG_IIHg0QuZjPIxY6SkOAQ%3D%3D*eyJpZCI6InRyYXZlbGxlcl9oZWFkZXIifQ%3D%3D
+            - generic [ref=e39] [cursor=pointer]: Sign in
+      - navigation "What are you looking for?" [ref=e40]:
+        - menubar [ref=e42]:
+          - listitem [ref=e43]:
+            - menuitem "Stays" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45] [cursor=pointer]:
+                - img [ref=e47] [cursor=pointer]
+                - generic [ref=e50] [cursor=pointer]: Stays
+          - listitem [ref=e51]:
+            - menuitem "Flights" [ref=e52] [cursor=pointer]:
+              - generic [ref=e53] [cursor=pointer]:
+                - img [ref=e55] [cursor=pointer]
+                - generic [ref=e58] [cursor=pointer]: Flights
+          - listitem [ref=e59]:
+            - menuitem "Flight + Hotel" [ref=e60] [cursor=pointer]:
+              - generic [ref=e61] [cursor=pointer]:
+                - img [ref=e63] [cursor=pointer]
+                - generic [ref=e66] [cursor=pointer]: Flight + Hotel
+          - listitem [ref=e67]:
+            - menuitem "Car rental" [ref=e68] [cursor=pointer]:
+              - generic [ref=e69] [cursor=pointer]:
+                - img [ref=e71] [cursor=pointer]
+                - generic [ref=e74] [cursor=pointer]: Car rental
+          - listitem [ref=e75]:
+            - menuitem "Attractions" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77] [cursor=pointer]:
+                - img [ref=e79] [cursor=pointer]
+                - generic [ref=e82] [cursor=pointer]: Attractions
+          - listitem [ref=e83]:
+            - menuitem "Airport taxis" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85] [cursor=pointer]:
+                - img [ref=e87] [cursor=pointer]
+                - generic [ref=e90] [cursor=pointer]: Airport taxis
+  - region "Search properties" [ref=e96]:
+    - generic [ref=e97]:
+      - generic [ref=e103]:
+        - img [ref=e106]
+        - combobox "Where are you going?" [ref=e108]: Kolkata
+        - button "Clear" [ref=e111] [cursor=pointer]:
+          - img "Clear" [ref=e112] [cursor=pointer]:
+            - img [ref=e113] [cursor=pointer]
+      - button "Tue, Dec 2 — Wed, Dec 3" [ref=e117] [cursor=pointer]:
+        - generic [ref=e118] [cursor=pointer]:
+          - img [ref=e120] [cursor=pointer]
+          - generic [ref=e122] [cursor=pointer]: Tue, Dec 2
+          - generic [ref=e123] [cursor=pointer]: —
+          - generic [ref=e124] [cursor=pointer]: Wed, Dec 3
+      - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" [ref=e127] [cursor=pointer]':
+        - generic [ref=e128] [cursor=pointer]:
+          - img [ref=e130] [cursor=pointer]
+          - text: 2 adults · 0 children · 1 room
+        - img [ref=e133] [cursor=pointer]
+      - button "Search" [ref=e136] [cursor=pointer]:
+        - generic [ref=e137] [cursor=pointer]: Search
+    - group
+  - generic [ref=e139]:
+    - navigation "Breadcrumbs" [ref=e143]:
+      - list [ref=e144]:
+        - listitem [ref=e145]:
+          - link "Home" [ref=e146] [cursor=pointer]:
+            - /url: https://www.booking.com/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+            - generic [ref=e148] [cursor=pointer]: Home
+          - img [ref=e150]
+        - listitem [ref=e152]:
+          - link "Hotels" [ref=e153] [cursor=pointer]:
+            - /url: https://www.booking.com/hotel/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+            - generic [ref=e155] [cursor=pointer]: Hotels
+          - img [ref=e157]
+        - listitem [ref=e159]:
+          - link "All guest houses" [ref=e160] [cursor=pointer]:
+            - /url: https://www.booking.com/guest-house/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+            - generic [ref=e162] [cursor=pointer]: All guest houses
+          - img [ref=e164]
+        - listitem [ref=e166]:
+          - link "India" [ref=e167] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&dest_id=98&dest_type=country&nflt=sth%3D23
+            - generic [ref=e169] [cursor=pointer]: India
+          - img [ref=e171]
+        - listitem [ref=e173]:
+          - link "West Bengal" [ref=e174] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&dest_id=3474&dest_type=region&nflt=sth%3D23
+            - generic [ref=e176] [cursor=pointer]: West Bengal
+          - img [ref=e178]
+        - listitem [ref=e180]:
+          - link "Kolkata" [ref=e181] [cursor=pointer]:
+            - /url: https://www.booking.com/searchresults.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&dest_id=-2092511&dest_type=city&nflt=sth%3D23
+            - generic [ref=e183] [cursor=pointer]: Kolkata
+          - img [ref=e185]
+        - listitem [ref=e187]:
+          - heading "Swarn Hotel (Guesthouse) (India) Deals" [level=1] [ref=e189]:
+            - generic [ref=e191]: Swarn Hotel (Guesthouse) (India) Deals
+    - generic [ref=e192]:
+      - main [ref=e193]:
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - navigation "Internal page link" [ref=e200]:
+                - menubar [ref=e202]:
+                  - listitem [ref=e203]:
+                    - menuitem "Overview" [ref=e204] [cursor=pointer]:
+                      - generic [ref=e207] [cursor=pointer]: Overview
+                  - listitem [ref=e208]:
+                    - menuitem "Info & prices" [ref=e209] [cursor=pointer]:
+                      - generic [ref=e212] [cursor=pointer]: Info & prices
+                  - listitem [ref=e213]:
+                    - menuitem "Facilities" [ref=e214] [cursor=pointer]:
+                      - generic [ref=e217] [cursor=pointer]: Facilities
+                  - listitem [ref=e218]:
+                    - menuitem "House rules" [ref=e219] [cursor=pointer]:
+                      - generic [ref=e222] [cursor=pointer]: House rules
+                  - listitem [ref=e223]:
+                    - menuitem "Guest reviews (68)" [ref=e224] [cursor=pointer]:
+                      - generic [ref=e227] [cursor=pointer]: Guest reviews (68)
+              - generic [ref=e229]:
+                - generic [ref=e230]:
+                  - button "Save this item to a trip list" [ref=e238] [cursor=pointer]:
+                    - img [ref=e241] [cursor=pointer]
+                  - button "Share this property" [ref=e249] [cursor=pointer]:
+                    - img [ref=e252] [cursor=pointer]
+                  - button "Reserve" [ref=e254] [cursor=pointer]:
+                    - generic [ref=e255] [cursor=pointer]: Reserve
+                  - button "We Price Match" [ref=e259] [cursor=pointer]:
+                    - img [ref=e262] [cursor=pointer]
+                    - generic [ref=e264] [cursor=pointer]: We Price Match
+                - generic [ref=e266]:
+                  - generic [ref=e269]:
+                    - button "3 out of 5 quality rating" [ref=e271] [cursor=pointer]:
+                      - img "3 out of 5 quality rating" [ref=e272] [cursor=pointer]:
+                        - generic [ref=e273] [cursor=pointer]:
+                          - img [ref=e275] [cursor=pointer]
+                          - img [ref=e278] [cursor=pointer]
+                        - generic [ref=e280] [cursor=pointer]:
+                          - img [ref=e282] [cursor=pointer]
+                          - img [ref=e285] [cursor=pointer]
+                        - generic [ref=e287] [cursor=pointer]:
+                          - img [ref=e289] [cursor=pointer]
+                          - img [ref=e292] [cursor=pointer]
+                    - button [ref=e295] [cursor=pointer]:
+                      - img [ref=e297] [cursor=pointer]
+                  - heading "Swarn Hotel" [level=2] [ref=e300]
+                - generic [ref=e305]:
+                  - link "Swarn Hotel, Kolkata - Check location" [ref=e306] [cursor=pointer]:
+                    - /url: "#map_opened-map_trigger_header_pin"
+                    - img [ref=e309] [cursor=pointer]
+                  - generic [ref=e311]:
+                    - button "43, Lenin Sarani Rd, Esplanade, Janbazar, 4th Floor, 700013 Kolkata, India" [ref=e313] [cursor=pointer]:
+                      - generic [ref=e314]:
+                        - text: 43, Lenin Sarani Rd, Esplanade, Janbazar, 4th Floor, 700013 Kolkata, India
+                        - generic [ref=e315]:
+                          - generic [ref=e316]:
+                            - generic [ref=e317]: Excellent
+                            - text: location – rated 9.2/10!
+                            - generic [ref=e318]:
+                              - text: (score from
+                              - generic [ref=e319]: "68"
+                              - text: reviews)
+                          - generic [ref=e320]: Real guests • Real stays • Real opinions
+                    - generic [ref=e321]: –
+                    - link "Excellent location – show map" [ref=e322] [cursor=pointer]:
+                      - /url: "#map_opened-map_trigger_header"
+                      - generic [ref=e323] [cursor=pointer]: Excellent location – show map
+              - region "Photo gallery for Swarn Hotel" [ref=e329]:
+                - generic [ref=e332]:
+                  - generic [ref=e333]:
+                    - button "a bedroom with a bed and a chair and a desk at Swarn Hotel in Kolkata" [ref=e335] [cursor=pointer]:
+                      - img "a bedroom with a bed and a chair and a desk at Swarn Hotel in Kolkata" [ref=e337] [cursor=pointer]
+                    - generic [ref=e338]:
+                      - button "a bedroom with a bed and a television in it at Swarn Hotel in Kolkata" [ref=e340] [cursor=pointer]:
+                        - img "a bedroom with a bed and a television in it at Swarn Hotel in Kolkata" [ref=e342] [cursor=pointer]
+                      - button "a bedroom with a bed and a chair and a desk at Swarn Hotel in Kolkata" [ref=e344] [cursor=pointer]:
+                        - img "a bedroom with a bed and a chair and a desk at Swarn Hotel in Kolkata" [ref=e346] [cursor=pointer]
+                  - generic [ref=e347]:
+                    - button "a bathroom with a sink and a rock wall at Swarn Hotel in Kolkata" [ref=e349] [cursor=pointer]:
+                      - img "a bathroom with a sink and a rock wall at Swarn Hotel in Kolkata" [ref=e351] [cursor=pointer]
+                    - button "a building with fire escapes on the side of it at Swarn Hotel in Kolkata" [ref=e353] [cursor=pointer]:
+                      - img "a building with fire escapes on the side of it at Swarn Hotel in Kolkata" [ref=e355] [cursor=pointer]
+                    - button "a office with a desk and a sign on a wall at Swarn Hotel in Kolkata" [ref=e357] [cursor=pointer]:
+                      - img "a office with a desk and a sign on a wall at Swarn Hotel in Kolkata" [ref=e359] [cursor=pointer]
+                    - button "a bedroom with a bed and a television in it at Swarn Hotel in Kolkata" [ref=e361] [cursor=pointer]:
+                      - img "a bedroom with a bed and a television in it at Swarn Hotel in Kolkata" [ref=e363] [cursor=pointer]
+                    - generic [ref=e364]:
+                      - button "a bathroom with a shower with a rock wall at Swarn Hotel in Kolkata +71 photos" [ref=e365] [cursor=pointer]:
+                        - img "a bathroom with a shower with a rock wall at Swarn Hotel in Kolkata +71 photos" [ref=e367] [cursor=pointer]
+                      - generic: +71 photos
+              - generic [ref=e369]:
+                - generic [ref=e372]:
+                  - link "Scored 8.8 Rated excellent" [ref=e374] [cursor=pointer]:
+                    - /url: "#blockdisplay4"
+                    - generic [ref=e377] [cursor=pointer]:
+                      - generic [ref=e378] [cursor=pointer]: Scored 8.8
+                      - generic [ref=e379] [cursor=pointer]: "8.8"
+                      - generic [ref=e380] [cursor=pointer]: Rated excellent
+                      - generic [ref=e381] [cursor=pointer]:
+                        - generic [ref=e382] [cursor=pointer]: Excellent
+                        - generic [ref=e383] [cursor=pointer]: 68 reviews
+                  - separator [ref=e384]
+                  - generic [ref=e386]:
+                    - heading "Guests who stayed here loved" [level=3] [ref=e387]
+                    - generic [ref=e388]:
+                      - region "Guests who stayed here loved" [ref=e389]:
+                        - group [ref=e390]:
+                          - generic [ref=e392]:
+                            - generic [ref=e395]:
+                              - generic [ref=e396]: “
+                              - generic [ref=e397]: I like the location. The hotel has good air conditioning, and the people are nice.
+                              - generic [ref=e398]: ”
+                            - generic [ref=e400]:
+                              - generic [ref=e402]: "N"
+                              - generic [ref=e404]:
+                                - generic [ref=e405]: Niem
+                                - img "United States" [ref=e406]
+                                - generic [ref=e407]: United States
+                        - group [ref=e408]:
+                          - generic [ref=e410]:
+                            - generic [ref=e413]:
+                              - generic [ref=e414]: “
+                              - generic [ref=e415]: The hotel was in prime location, The hospitality is really good, staff here are really helpfull, also the rooms were neat and clean, Best hotel to...
+                              - generic [ref=e416]: ”
+                            - generic [ref=e422]:
+                              - generic [ref=e423]: Swapnil
+                              - img "India" [ref=e424]
+                              - generic [ref=e425]: India
+                        - group [ref=e426]:
+                          - generic [ref=e428]:
+                            - generic [ref=e431]:
+                              - generic [ref=e432]: “
+                              - generic [ref=e433]: The staff members were very supportive — special thanks to Rajiv and Somnath for their professionalism. I would also like to thank the owner, Mr....
+                              - generic [ref=e434]: ”
+                            - generic [ref=e436]:
+                              - generic [ref=e438]: K
+                              - generic [ref=e440]:
+                                - generic [ref=e441]: Kassi
+                                - img "Ivory Coast" [ref=e442]
+                                - generic [ref=e443]: Ivory Coast
+                        - group [ref=e444]:
+                          - generic [ref=e446]:
+                            - generic [ref=e449]:
+                              - generic [ref=e450]: “
+                              - generic [ref=e451]: Excellent location, the hotel was clean with good amenities, staff were very good, food was delicious.
+                              - generic [ref=e452]: ”
+                            - generic [ref=e454]:
+                              - generic [ref=e456]: C
+                              - generic [ref=e458]:
+                                - generic [ref=e459]: Chowdhury
+                                - img "India" [ref=e460]
+                                - generic [ref=e461]: India
+                        - group [ref=e462]:
+                          - generic [ref=e464]:
+                            - generic [ref=e467]:
+                              - generic [ref=e468]: “
+                              - generic [ref=e469]: One of the best places i have stayed in Kolkata. Great location also
+                              - generic [ref=e470]: ”
+                            - generic [ref=e472]:
+                              - generic [ref=e474]: R
+                              - generic [ref=e476]:
+                                - generic [ref=e477]: Roshni
+                                - img "India" [ref=e478]
+                                - generic [ref=e479]: India
+                        - group [ref=e480]:
+                          - generic [ref=e482]:
+                            - generic [ref=e485]:
+                              - generic [ref=e486]: “
+                              - generic [ref=e487]: The best hotel in Kolkata. I felt really comfortable experience ever in India. When i go back to Korea, I gonna recomend this brilliant hotel for...
+                              - generic [ref=e488]: ”
+                            - generic [ref=e490]:
+                              - generic [ref=e492]: E
+                              - generic [ref=e494]:
+                                - generic [ref=e495]: Eun
+                                - img "South Korea" [ref=e496]
+                                - generic [ref=e497]: South Korea
+                        - group [ref=e498]:
+                          - generic [ref=e500]:
+                            - generic [ref=e503]:
+                              - generic [ref=e504]: “
+                              - generic [ref=e505]: It is a really great hotel in terms of location, new market is walkable distance. The place is neat and clean both inside and out, bathrooms are...
+                              - generic [ref=e506]: ”
+                            - generic [ref=e508]:
+                              - generic [ref=e510]: A
+                              - generic [ref=e512]:
+                                - generic [ref=e513]: Antara
+                                - img "India" [ref=e514]
+                                - generic [ref=e515]: India
+                        - group [ref=e516]:
+                          - generic [ref=e518]:
+                            - generic [ref=e521]:
+                              - generic [ref=e522]: “
+                              - generic [ref=e523]: The staff are very cooperative. I requested for 3 hours early check in and 2 hours late check out and they accepted it very happily without...
+                              - generic [ref=e524]: ”
+                            - generic [ref=e526]:
+                              - generic [ref=e528]: V
+                              - generic [ref=e530]:
+                                - generic [ref=e531]: Venkata
+                                - img "India" [ref=e532]
+                                - generic [ref=e533]: India
+                        - group [ref=e534]:
+                          - generic [ref=e536]:
+                            - generic [ref=e539]:
+                              - generic [ref=e540]: “
+                              - generic [ref=e541]: Cleanliness was top notch.cleanest linen i have ever experienced.location.behaviour of the staff.environment.cleanliness.each and everything was...
+                              - generic [ref=e542]: ”
+                            - generic [ref=e544]:
+                              - generic [ref=e546]: R
+                              - generic [ref=e548]:
+                                - generic [ref=e549]: Ramakant
+                                - img "India" [ref=e550]
+                                - generic [ref=e551]: India
+                        - group [ref=e552]:
+                          - generic [ref=e554]:
+                            - generic [ref=e557]:
+                              - generic [ref=e558]: “
+                              - generic [ref=e559]: My stay at Swarnhotel was exceptional. The rooms were spotless and beautifully designed, the staff was warm and attentive. The peaceful atmosphere...
+                              - generic [ref=e560]: ”
+                            - generic [ref=e562]:
+                              - generic [ref=e564]: V
+                              - generic [ref=e566]:
+                                - generic [ref=e567]: Verma
+                                - img "India" [ref=e568]
+                                - generic [ref=e569]: India
+                      - button [ref=e570] [cursor=pointer]:
+                        - img [ref=e573] [cursor=pointer]
+                  - separator [ref=e575]
+                  - generic [ref=e576]:
+                    - paragraph [ref=e577]: Staff
+                    - generic "Scored 9.5" [ref=e579]: "9.5"
+                - generic [ref=e585] [cursor=pointer]:
+                  - generic [ref=e586] [cursor=pointer]:
+                    - generic:
+                      - generic:
+                        - img
+                      - img [ref=e587] [cursor=pointer]
+                  - button "Show on map" [ref=e589] [cursor=pointer]:
+                    - generic [ref=e590] [cursor=pointer]: Show on map
+            - generic [ref=e593]:
+              - heading "Property highlights" [level=3] [ref=e597]:
+                - generic [ref=e598]: Property highlights
+              - generic [ref=e599]:
+                - region [ref=e600]:
+                  - group [ref=e601]:
+                    - generic [ref=e605]:
+                      - img [ref=e607]
+                      - generic [ref=e609]:
+                        - generic [ref=e610]: Parking
+                        - generic [ref=e612]: Free parking, Private parking, On-site parking
+                  - group [ref=e613]:
+                    - generic [ref=e617]:
+                      - img [ref=e619]
+                      - generic [ref=e621]:
+                        - generic [ref=e622]: Views
+                        - generic [ref=e624]: City view
+                  - group [ref=e625]:
+                    - generic [ref=e629]:
+                      - img [ref=e631]
+                      - generic [ref=e633]:
+                        - generic [ref=e634]: Free WiFi
+                        - generic [ref=e636]: Internet services
+                  - group [ref=e637]:
+                    - generic [ref=e641]:
+                      - img [ref=e643]
+                      - generic [ref=e645]:
+                        - generic [ref=e646]: Kitchen facilities
+                        - generic [ref=e648]: Electric kettle, Dining area, Oven
+                  - group [ref=e649]:
+                    - generic [ref=e653]:
+                      - img [ref=e655]
+                      - generic [ref=e657]:
+                        - generic [ref=e658]: Shuttle service
+                        - generic [ref=e660]: Airport shuttle, Shuttle service
+                  - group [ref=e661]:
+                    - button "Accessibility Wheelchair accessible, Entire unit wheelchair accessible, Upper floors accessible by elevator" [ref=e663] [cursor=pointer]:
+                      - generic [ref=e665] [cursor=pointer]:
+                        - img [ref=e667] [cursor=pointer]
+                        - generic [ref=e669] [cursor=pointer]:
+                          - generic [ref=e670] [cursor=pointer]: Accessibility
+                          - generic [ref=e672] [cursor=pointer]: Wheelchair accessible, Entire unit wheelchair accessible, Upper floors accessible by elevator
+                        - img [ref=e675] [cursor=pointer]
+                - button [ref=e677] [cursor=pointer]:
+                  - img [ref=e680] [cursor=pointer]
+          - generic [ref=e683]:
+            - generic [ref=e684]:
+              - generic [ref=e686]:
+                - paragraph [ref=e687]:
+                  - text: You might be eligible for a Genius discount at Swarn Hotel.
+                  - link "Sign in" [ref=e688] [cursor=pointer]:
+                    - /url: https://account.booking.com/auth/oauth2?aid=304142&response_type=sso&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&state=UvIGYwyIJLYLgpAEcQkU7yYrOICGvnnMNTK3vYikhGAYCicTy4fSzYqe-fpvTNnv7Lc3HTrwqkuIklorDVVMVUllM-mPlr7eyanULKYpoB54JIJs465oUsxAVsyDyCqEaEWHe6DWiskReEZZtOgj-L6Hsxnv1ejW2Kf1AKSLf0xnWcepTEtk0omj7iL8K8f6B4yxWfI3tsZYiq_Xu-9KUT4vM-E-yYNM5J4Ki4BJ443bAxxyF2p54gOA5Dr6PvQYfNuvj39eI6I27NtTlWwOEdOXajgM7m885FKlytcweLoqM_jnshR7Ui2xW6X2DOECogW42xupLJ2eJX2SlGmYISUBMb2LKxDVbAdyUAnS5VWFPCi3fB94ROjMk_Cmhko0p9PsNgMx7oNNKknsr-LMhxwI9kNupeua1dp7cF61wMSDWoNmRXbEz9z_CppLxELz1LAcTNgV-gkkE5QWwc9tVktq0UmXo2cAu-x02zN_-9NRfLJG5MnA1MbkYqk8aK8TxkYyqo5_E6SACmi05a8r9UC0Iif6VnqI2DWL7BAy3GcpoFTB15hIlowhgamT5WSNOaXjCamDj5V00aXVoUclBxEuPFiuyhvg9e6bMsxG8l68KosBiBPC5tJxY1e6-rKZIO0H4oh-2GQOqTQBGpJ8IV-CEEezZUKBK4lJZ7uJCtnoUon5RkkWmqzYu4liFo7hY8rT_yRlRGikVTvZIpdCK5PtJJomtn0EalOadlxeE3Am8_nDuV1coYxmqBmz5M4-WSniAjQZELrlBTGKOehkvI0LEEKssIv4uiG0lIvUp6H6u0BF2G9UCNZDPEEvD2BOnn3suavQ74ZPNFcFAiZxVasD7kjxU7NwRiwen0he8AyzdKDq2BVCVCHPdwb_rbO1Ffd__sm5GvfGgL8owZsERdXhxOxgJUUqIYn4Dlx-ljLV_Gh5W0M88PWy6XKPl2e8enW6gKO995VxpJ1g4MRv9uKza4trqtZFY8A0As1lRh9jZmfCLDUs8UXME7U3xU_9m7nIWN5TZm1mmgegjrjnK3WXmxw9fifTuM6GZI-R2hoIso39ntx0O9IEgqa1irj08SGf-IkTmFvor2lFLIC0N4D6Nye9PakgCq0kGAyUW9yemaP681l0G5GHVvC0Q3_-LnhuNZPkFqeuaGx4621mshYcyzZ6&client_id=vO1Kblk7xX9tUn2cpZLS&lang=en-us&dt=1762092694&bkng_action=hotel
+                  - text: to check if a Genius discount is available for your selected dates.
+                - paragraph [ref=e689]: Genius discounts at this property are subject to booking dates, stay dates, and other available deals.
+                - generic [ref=e690]:
+                  - generic [ref=e691]:
+                    - heading "About this property" [level=3] [ref=e692]
+                    - paragraph [ref=e693]:
+                      - generic [ref=e694]: "Comfortable Accommodations:"
+                      - text: Swarn Hotel in Kolkata offers family rooms with air-conditioning, private bathrooms, and modern amenities. Each room includes a work desk, free toiletries, and a TV.
+                      - generic [ref=e695]: "Essential Facilities:"
+                      - text: Guests enjoy free WiFi, private check-in and check-out, a 24-hour front desk, concierge service, and a shared kitchen. Additional services include room service, car hire, and a tour desk.
+                      - generic [ref=e696]: "Prime Location:"
+                      - text: Located 15 km from Netaji Subhash Chandra Bose International Airport, the hotel is an 8-minute walk from Esplanade Metro Station. Nearby attractions include New Market (1.2 km) and Eden Gardens (1.8 km). An ice-skating rink is also in the surroundings.
+                    - paragraph [ref=e697]:
+                      - text: Couples in particular like the location – they rated it
+                      - generic [ref=e698]: "8.8"
+                      - text: for a two-person trip.
+                    - paragraph [ref=e699]: Distance in property description is calculated using © OpenStreetMap
+                  - button "Show me more" [ref=e700] [cursor=pointer]:
+                    - generic [ref=e701] [cursor=pointer]: Show me more
+              - generic [ref=e705]:
+                - heading "Most popular facilities" [level=3] [ref=e706]:
+                  - generic [ref=e707]: Most popular facilities
+                - list [ref=e708]:
+                  - listitem [ref=e709]:
+                    - generic [ref=e710]:
+                      - img [ref=e712]
+                      - generic [ref=e717]: Airport shuttle
+                  - listitem [ref=e718]:
+                    - generic [ref=e719]:
+                      - img [ref=e721]
+                      - generic [ref=e726]: Room service
+                  - listitem [ref=e727]:
+                    - generic [ref=e728]:
+                      - img [ref=e730]
+                      - generic [ref=e735]: Non-smoking rooms
+                  - listitem [ref=e736]:
+                    - generic [ref=e737]:
+                      - img [ref=e739]
+                      - generic [ref=e744]: Facilities for disabled guests
+                  - listitem [ref=e745]:
+                    - generic [ref=e746]:
+                      - img [ref=e748]
+                      - generic [ref=e753]: Free parking
+                  - listitem [ref=e754]:
+                    - generic [ref=e755]:
+                      - img [ref=e757]
+                      - generic [ref=e762]: Free Wifi
+                  - listitem [ref=e763]:
+                    - generic [ref=e764]:
+                      - img [ref=e766]
+                      - generic [ref=e771]: Family rooms
+                  - listitem [ref=e772]:
+                    - generic [ref=e773]:
+                      - img [ref=e775]
+                      - generic [ref=e780]: 24-hour front desk
+                  - listitem [ref=e781]:
+                    - button "See all 68 facilities" [ref=e782] [cursor=pointer]:
+                      - generic [ref=e783] [cursor=pointer]:
+                        - img [ref=e785] [cursor=pointer]
+                        - generic [ref=e790] [cursor=pointer]: See all 68 facilities
+            - generic [ref=e794]:
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - heading "Perfect for a 1-night stay!" [level=4] [ref=e797]
+                  - paragraph [ref=e798]:
+                    - img [ref=e800]
+                    - generic [ref=e803]: "Top Location: Highly rated by recent guests (9.2)"
+                - generic [ref=e804]:
+                  - heading "Options with:" [level=4] [ref=e805]
+                  - list [ref=e806]:
+                    - listitem [ref=e807]:
+                      - paragraph [ref=e808]:
+                        - img [ref=e810]
+                        - generic [ref=e813]: City view
+                - list [ref=e815]:
+                  - listitem [ref=e816]:
+                    - paragraph [ref=e817]:
+                      - img [ref=e819]
+                      - generic [ref=e822]: Free Private Parking Available On Site
+              - button "Reserve" [ref=e824] [cursor=pointer]:
+                - generic [ref=e825] [cursor=pointer]: Reserve
+          - separator [ref=e826]
+          - generic [ref=e836]:
+            - generic [ref=e838]:
+              - heading "Sign in, save money" [level=3] [ref=e839]
+              - generic [ref=e840]: Sign in to see if you can save 10% or more at this property.
+              - generic [ref=e842]:
+                - link "Sign in to Booking.com." [ref=e843] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=hotel&prompt=signin&state=Us8GYwyIJLYLgpBorOIw-IMTq-hpfyMUm7_4g8b3w0ZU8pEJ_o7rnmXSCWrclpavTrTp9GdNB106OsuD2ZsWKK2WzExKxbG9dqbaQfxxAYuxndl-HhKDoBjoeaOEYtH69r20bJLOQN1OaF8qXnwqyozJzrpMMCV-IPKJ0UMGgRqbaDzm51SyVhxIiMl-h9ABMAr5pogTVFvTc_Hmf9qz2Oug4HpcEg8Tj8QFxrsRm11Lg45OwLYPYcTeDdHomxPAXwwdTre5VTGLX5_NeP55OF9RYjqhXErpNbCuFqF7i5TLXpc_zN7N4hmcVd3t8bp1WdI26OSkuZLEwIzjRcH-1WUsDo2noytKJSE_D9lMzPCQBbSBii3bbTXdhJLrRxtg6hS9GM7h0bvyO6CB0Sfei5jVvwZVOm93vFVYvXeuXTRFTl3JYu3I9JDxu4eNntjy-YvPR9vXZKqv8SmZixWP--IQEm2JZIYDDWWG94MMzceH3G6GMWyb-V8Cqhyp47O0_3jCmJ4ZiLf8mv2sugstb76761bHTq5yjpYCuaSHSFb8-Ua0jsx02epWTnkwD7OJZAs5ej-Wd9diNnNFS6jV1fIaVbdqYXoVkgAN1Abar3MRnpnSH9D2-QSDKYYrauPUdzWz8dZWNxvoYdPMauPZQm7rGUS0V67FYxYzaHUICCteuBBVZLVxRDrJdPzpNsLA9XaBObmo4yOc5W5lMVrLgUqbXOEbb7CHjYdo24hj-lParAu0yZ6DzP3Etd0tgMoj33JRsHn60qS9ZJPIwyBGoA_SC0r3d-IBqivPl5n8py2G14ggmFIYc0eB1vPNzknbbMZCXlT6zTHoanXiXdFLOClrDV9p9LJF9n3Omx8YHIUqw5vWJ2gA83BAKfXESETNDxwkb--GorjG0iuSr6FdhFVM9erf4nLZTqEW5jPFoWj3IRh0JPrC2JhLQ8U1NLKS86H3JrCxm4uIHjurc4A55ZtDjeSn3Wh-YBDnFkWF39m-rMRs_kMvl-j8bY01WK_Bba1RdThh82bEpX97MMslZ7ZKptlXzb_AHpms2tdINL--DBZpyYXEkA1lHytqowFPOtqKFzAP2ofFgCr6OFloozK8IG_IIHg0QuZjPIxY6SkOAQ%3D%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e844] [cursor=pointer]: Sign in
+                - link "Create a Booking.com account." [ref=e845] [cursor=pointer]:
+                  - /url: https://account.booking.com/auth/oauth2?client_id=vO1Kblk7xX9tUn2cpZLS&redirect_uri=https%3A%2F%2Fsecure.booking.com%2Flogin.html%3Fop%3Doauth_return&response_type=code&lang=en-us&aid=304142&bkng_action=hotel&prompt=signin&state=Us8GYwyIJLYLgpBorOIw-IMTq-hpfyMUm7_4g8b3w0ZU8pEJ_o7rnmXSCWrclpavTrTp9GdNB106OsuD2ZsWKK2WzExKxbG9dqbaQfxxAYuxndl-HhKDoBjoeaOEYtH69r20bJLOQN1OaF8qXnwqyozJzrpMMCV-IPKJ0UMGgRqbaDzm51SyVhxIiMl-h9ABMAr5pogTVFvTc_Hmf9qz2Oug4HpcEg8Tj8QFxrsRm11Lg45OwLYPYcTeDdHomxPAXwwdTre5VTGLX5_NeP55OF9RYjqhXErpNbCuFqF7i5TLXpc_zN7N4hmcVd3t8bp1WdI26OSkuZLEwIzjRcH-1WUsDo2noytKJSE_D9lMzPCQBbSBii3bbTXdhJLrRxtg6hS9GM7h0bvyO6CB0Sfei5jVvwZVOm93vFVYvXeuXTRFTl3JYu3I9JDxu4eNntjy-YvPR9vXZKqv8SmZixWP--IQEm2JZIYDDWWG94MMzceH3G6GMWyb-V8Cqhyp47O0_3jCmJ4ZiLf8mv2sugstb76761bHTq5yjpYCuaSHSFb8-Ua0jsx02epWTnkwD7OJZAs5ej-Wd9diNnNFS6jV1fIaVbdqYXoVkgAN1Abar3MRnpnSH9D2-QSDKYYrauPUdzWz8dZWNxvoYdPMauPZQm7rGUS0V67FYxYzaHUICCteuBBVZLVxRDrJdPzpNsLA9XaBObmo4yOc5W5lMVrLgUqbXOEbb7CHjYdo24hj-lParAu0yZ6DzP3Etd0tgMoj33JRsHn60qS9ZJPIwyBGoA_SC0r3d-IBqivPl5n8py2G14ggmFIYc0eB1vPNzknbbMZCXlT6zTHoanXiXdFLOClrDV9p9LJF9n3Omx8YHIUqw5vWJ2gA83BAKfXESETNDxwkb--GorjG0iuSr6FdhFVM9erf4nLZTqEW5jPFoWj3IRh0JPrC2JhLQ8U1NLKS86H3JrCxm4uIHjurc4A55ZtDjeSn3Wh-YBDnFkWF39m-rMRs_kMvl-j8bY01WK_Bba1RdThh82bEpX97MMslZ7ZKptlXzb_AHpms2tdINL--DBZpyYXEkA1lHytqowFPOtqKFzAP2ofFgCr6OFloozK8IG_IIHg0QuZjPIxY6SkOAQ%3D%3D*eyJpZCI6Im1lcmNoX3BsYXRmb3JtX3Byb3BlcnR5X3BhZ2VfY3RhIn0%3D
+                  - generic [ref=e846] [cursor=pointer]: Create an account
+            - img "Sign in, save money" [ref=e850]
+          - generic [ref=e852]:
+            - generic [ref=e853]:
+              - heading "Availability" [level=2] [ref=e854]
+              - button "We Price Match" [ref=e858] [cursor=pointer]:
+                - img [ref=e861] [cursor=pointer]
+                - generic [ref=e863] [cursor=pointer]: We Price Match
+            - region "Search properties" [ref=e866]:
+              - generic [ref=e867]:
+                - generic [ref=e869]:
+                  - img [ref=e871] [cursor=pointer]
+                  - button "Tue, Dec 2" [ref=e873] [cursor=pointer]:
+                    - generic [ref=e874] [cursor=pointer]: Tue, Dec 2
+                  - generic [ref=e875] [cursor=pointer]: —
+                  - button "Wed, Dec 3" [ref=e876] [cursor=pointer]:
+                    - generic [ref=e877] [cursor=pointer]: Wed, Dec 3
+                - 'button "Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" [ref=e880] [cursor=pointer]':
+                  - generic [ref=e881] [cursor=pointer]:
+                    - img [ref=e883] [cursor=pointer]
+                    - text: 2 adults · 0 children · 1 room
+                  - img [ref=e886] [cursor=pointer]
+                - button "Change search" [ref=e889] [cursor=pointer]:
+                  - generic [ref=e890] [cursor=pointer]: Change search
+              - group
+            - generic [ref=e897]:
+              - table "Select a room type and the number of rooms you want to reserve." [ref=e899]:
+                - caption [ref=e900]: Select a room type and the number of rooms you want to reserve.
+                - rowgroup [ref=e901]:
+                  - row "Room type Number of guests Today's Price Your choices Select amount" [ref=e902]:
+                    - columnheader "Room type" [ref=e903]
+                    - columnheader "Number of guests" [ref=e904]
+                    - columnheader "Today's Price" [ref=e905]
+                    - columnheader "Your choices" [ref=e906]
+                    - columnheader "Select amount" [ref=e907]
+                - rowgroup [ref=e908]:
+                  - 'row "Deluxe Twin Room We have 1 left 2 twin beds 37 m² Air conditioning Private bathroom Flat-screen TV Free Wifi Included facilities Max. people: 2 +₹ 169 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e909]':
+                    - rowheader "Deluxe Twin Room We have 1 left 2 twin beds 37 m² Air conditioning Private bathroom Flat-screen TV Free Wifi Included facilities" [ref=e910]:
+                      - generic [ref=e911]:
+                        - link "Deluxe Twin Room" [ref=e913] [cursor=pointer]:
+                          - /url: "#RD1466364502"
+                          - generic [ref=e914] [cursor=pointer]: Deluxe Twin Room
+                        - generic [ref=e917]:
+                          - img [ref=e918]
+                          - generic [ref=e921]: We have 1 left
+                        - list [ref=e924]:
+                          - listitem [ref=e925]:
+                            - generic [ref=e926]:
+                              - text: 2 twin beds
+                              - generic [ref=e927]: 녍
+                        - generic [ref=e929]:
+                          - list [ref=e930]:
+                            - listitem [ref=e931]:
+                              - generic [ref=e932]:
+                                - img [ref=e933]
+                                - text: 37 m²
+                            - listitem [ref=e935]:
+                              - generic [ref=e936]:
+                                - img [ref=e937]
+                                - text: Air conditioning
+                            - listitem [ref=e939]:
+                              - generic [ref=e940]:
+                                - img [ref=e941]
+                                - text: Private bathroom
+                            - listitem [ref=e943]:
+                              - generic [ref=e944]:
+                                - img [ref=e945]
+                                - text: Flat-screen TV
+                            - listitem [ref=e947]:
+                              - generic [ref=e948]:
+                                - img [ref=e949]
+                                - text: Free Wifi
+                          - separator [ref=e951]
+                          - list "Included facilities" [ref=e952]:
+                            - listitem [ref=e953]:
+                              - generic [ref=e955]:
+                                - img [ref=e956]
+                                - text: Free toiletries
+                            - listitem [ref=e958]:
+                              - generic [ref=e960]:
+                                - img [ref=e961]
+                                - text: Streaming service (like Netflix)
+                            - listitem [ref=e963]:
+                              - generic [ref=e965]:
+                                - img [ref=e966]
+                                - text: Toilet
+                            - listitem [ref=e968]:
+                              - generic [ref=e970]:
+                                - img [ref=e971]
+                                - text: Bathtub or shower
+                            - listitem [ref=e973]:
+                              - generic [ref=e975]:
+                                - img [ref=e976]
+                                - text: Towels
+                            - listitem [ref=e978]:
+                              - generic [ref=e980]:
+                                - img [ref=e981]
+                                - text: Linens
+                            - listitem [ref=e983]:
+                              - generic [ref=e985]:
+                                - img [ref=e986]
+                                - text: Socket near the bed
+                            - listitem [ref=e988]:
+                              - generic [ref=e990]:
+                                - img [ref=e991]
+                                - text: Tile/Marble floor
+                            - listitem [ref=e993]:
+                              - generic [ref=e995]:
+                                - img [ref=e996]
+                                - text: Desk
+                            - listitem [ref=e998]:
+                              - generic [ref=e1000]:
+                                - img [ref=e1001]
+                                - text: TV
+                            - listitem [ref=e1003]:
+                              - generic [ref=e1005]:
+                                - img [ref=e1006]
+                                - text: Ironing facilities
+                            - listitem [ref=e1008]:
+                              - generic [ref=e1010]:
+                                - img [ref=e1011]
+                                - text: Heating
+                            - listitem [ref=e1013]:
+                              - generic [ref=e1015]:
+                                - img [ref=e1016]
+                                - text: Fan
+                            - listitem [ref=e1018]:
+                              - generic [ref=e1020]:
+                                - img [ref=e1021]
+                                - text: Wake-up service
+                            - listitem [ref=e1023]:
+                              - generic [ref=e1025]:
+                                - img [ref=e1026]
+                                - text: Wardrobe or closet
+                            - listitem [ref=e1028]:
+                              - generic [ref=e1030]:
+                                - img [ref=e1031]
+                                - text: Oven
+                            - listitem [ref=e1033]:
+                              - generic [ref=e1035]:
+                                - img [ref=e1036]
+                                - text: Upper floors accessible by elevator
+                            - listitem [ref=e1038]:
+                              - generic [ref=e1040]:
+                                - img [ref=e1041]
+                                - text: Clothes rack
+                            - listitem [ref=e1043]:
+                              - generic [ref=e1045]:
+                                - img [ref=e1046]
+                                - text: Entire unit wheelchair accessible
+                            - listitem [ref=e1048]:
+                              - generic [ref=e1050]:
+                                - img [ref=e1051]
+                                - text: Single-room AC for guest accommodation
+                            - listitem [ref=e1053]:
+                              - generic [ref=e1055]:
+                                - img [ref=e1056]
+                                - text: Carbon monoxide detector
+                            - listitem [ref=e1058]:
+                              - generic [ref=e1060]:
+                                - img [ref=e1061]
+                                - text: Hand sanitizer
+                    - 'cell "Max. people: 2" [ref=e1063]':
+                      - generic [ref=e1065]:
+                        - generic [ref=e1066]:
+                          - generic [ref=e1067]: "1"
+                          - generic [ref=e1068]: "1"
+                        - generic [ref=e1069]: "Max. people: 2"
+                    - cell "+₹ 169 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1070]:
+                      - generic [ref=e1071]:
+                        - generic [ref=e1072]:
+                          - generic [ref=e1073]:
+                            - generic [ref=e1075]: ₹ 3,978
+                            - generic [ref=e1076]:
+                              - generic [ref=e1077]:
+                                - generic [ref=e1078]: ₹ 3,381
+                                - img [ref=e1080]
+                              - generic [ref=e1083]: Original price ₹ 3,978 Current price ₹ 3,381
+                          - generic [ref=e1084]: +₹ 169 taxes and fees
+                        - generic [ref=e1090]: 15% off
+                    - cell "Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies" [ref=e1091]:
+                      - generic [ref=e1092]:
+                        - list [ref=e1093]:
+                          - listitem [ref=e1094]:
+                            - generic [ref=e1095]:
+                              - img [ref=e1097]
+                              - generic [ref=e1102]:
+                                - strong [ref=e1103]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1104]:
+                            - generic [ref=e1105]:
+                              - img [ref=e1107]
+                              - generic [ref=e1112]:
+                                - strong [ref=e1113]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1114]:
+                            - generic [ref=e1115]:
+                              - img [ref=e1117]
+                              - strong [ref=e1123]: No credit card needed
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1125] [cursor=pointer]:
+                          - img [ref=e1127] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1129]:
+                      - generic [ref=e1130]:
+                        - generic [ref=e1131]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1132]:
+                          - option "0" [selected]
+                          - option "1 (₹ 3,381)"
+                  - 'row "Max. people: 2 +₹ 223 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1133]':
+                    - 'cell "Max. people: 2" [ref=e1134]':
+                      - generic [ref=e1136]:
+                        - generic [ref=e1137]:
+                          - generic [ref=e1138]: "1"
+                          - generic [ref=e1139]: "1"
+                        - generic [ref=e1140]: "Max. people: 2"
+                    - cell "+₹ 223 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1141]:
+                      - generic [ref=e1142]:
+                        - generic [ref=e1143]:
+                          - generic [ref=e1144]:
+                            - generic [ref=e1146]: ₹ 5,253
+                            - generic [ref=e1147]:
+                              - generic [ref=e1148]:
+                                - generic [ref=e1149]: ₹ 4,465
+                                - img [ref=e1151]
+                              - generic [ref=e1154]: Original price ₹ 5,253 Current price ₹ 4,465
+                          - generic [ref=e1155]: +₹ 223 taxes and fees
+                        - generic [ref=e1161]: 15% off
+                    - cell "Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies" [ref=e1162]:
+                      - generic [ref=e1163]:
+                        - list [ref=e1164]:
+                          - listitem [ref=e1165]:
+                            - generic [ref=e1170]:
+                              - img [ref=e1173]
+                              - strong [ref=e1177]: Includes round-trip airport shuttle + early check-in + high-speed internet
+                          - listitem [ref=e1178]:
+                            - generic [ref=e1179]:
+                              - img [ref=e1181]
+                              - generic [ref=e1186]:
+                                - strong [ref=e1187]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1188]:
+                            - generic [ref=e1189]:
+                              - img [ref=e1191]
+                              - generic [ref=e1196]:
+                                - strong [ref=e1197]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1198]:
+                            - generic [ref=e1199]:
+                              - img [ref=e1201]
+                              - strong [ref=e1207]: No credit card needed
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1209] [cursor=pointer]:
+                          - img [ref=e1211] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1213]:
+                      - generic [ref=e1214]:
+                        - generic [ref=e1215]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1216]:
+                          - option "0" [selected]
+                          - option "1 (₹ 4,465)"
+                  - 'row "Deluxe King Room We have 6 left 1 queen bed 37 m² Air conditioning Private bathroom Flat-screen TV Free Wifi Show more amenities Max. people: 2 +₹ 169 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed Genius discount may be available when you sign in. More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1217]':
+                    - rowheader "Deluxe King Room We have 6 left 1 queen bed 37 m² Air conditioning Private bathroom Flat-screen TV Free Wifi Show more amenities" [ref=e1218]:
+                      - generic [ref=e1219]:
+                        - link "Deluxe King Room" [ref=e1221] [cursor=pointer]:
+                          - /url: "#RD1466364501"
+                          - generic [ref=e1222] [cursor=pointer]: Deluxe King Room
+                        - generic [ref=e1225]:
+                          - img [ref=e1226]
+                          - generic [ref=e1232]: We have 6 left
+                        - list [ref=e1235]:
+                          - listitem [ref=e1236]:
+                            - generic [ref=e1237]:
+                              - text: 1 queen bed
+                              - generic [ref=e1238]: 녌
+                        - generic [ref=e1240]:
+                          - list [ref=e1241]:
+                            - listitem [ref=e1242]:
+                              - generic [ref=e1243]:
+                                - img [ref=e1244]
+                                - text: 37 m²
+                            - listitem [ref=e1246]:
+                              - generic [ref=e1247]:
+                                - img [ref=e1248]
+                                - text: Air conditioning
+                            - listitem [ref=e1250]:
+                              - generic [ref=e1251]:
+                                - img [ref=e1252]
+                                - text: Private bathroom
+                            - listitem [ref=e1254]:
+                              - generic [ref=e1255]:
+                                - img [ref=e1256]
+                                - text: Flat-screen TV
+                            - listitem [ref=e1258]:
+                              - generic [ref=e1259]:
+                                - img [ref=e1260]
+                                - text: Free Wifi
+                          - button "Show more amenities" [ref=e1262] [cursor=pointer]: More
+                    - 'cell "Max. people: 2" [ref=e1263]':
+                      - generic [ref=e1265]:
+                        - generic [ref=e1266]:
+                          - generic [ref=e1267]: "1"
+                          - generic [ref=e1268]: "1"
+                        - generic [ref=e1269]: "Max. people: 2"
+                    - cell "+₹ 169 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1270]:
+                      - generic [ref=e1271]:
+                        - generic [ref=e1272]:
+                          - generic [ref=e1273]:
+                            - generic [ref=e1275]: ₹ 3,978
+                            - generic [ref=e1276]:
+                              - generic [ref=e1277]:
+                                - generic [ref=e1278]: ₹ 3,381
+                                - img [ref=e1280]
+                              - generic [ref=e1283]: Original price ₹ 3,978 Current price ₹ 3,381
+                          - generic [ref=e1284]: +₹ 169 taxes and fees
+                        - generic [ref=e1290]: 15% off
+                    - cell "Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed Genius discount may be available when you sign in. More details on meals, cancellation, and prepayment policies" [ref=e1291]:
+                      - generic [ref=e1292]:
+                        - list [ref=e1293]:
+                          - listitem [ref=e1294]:
+                            - generic [ref=e1295]:
+                              - img [ref=e1297]
+                              - generic [ref=e1302]:
+                                - strong [ref=e1303]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1304]:
+                            - generic [ref=e1305]:
+                              - img [ref=e1307]
+                              - generic [ref=e1312]:
+                                - strong [ref=e1313]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1314]:
+                            - generic [ref=e1315]:
+                              - img [ref=e1317]
+                              - strong [ref=e1323]: No credit card needed
+                          - listitem [ref=e1324]:
+                            - img [ref=e1325]
+                            - generic "Genius discount may be available when you sign in." [ref=e1328]:
+                              - img [ref=e1329]
+                              - text: discount may be available
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1339] [cursor=pointer]:
+                          - img [ref=e1341] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1343]:
+                      - generic [ref=e1344]:
+                        - generic [ref=e1345]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1346]:
+                          - option "0" [selected]
+                          - option "1 (₹ 3,381)"
+                          - option "2 (₹ 6,763)"
+                          - option "3 (₹ 10,144)"
+                          - option "4 (₹ 13,525)"
+                          - option "5 (₹ 16,907)"
+                          - option "6 (₹ 20,288)"
+                  - 'row "Max. people: 2 +₹ 223 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed Genius discount may be available when you sign in. More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1347]':
+                    - 'cell "Max. people: 2" [ref=e1348]':
+                      - generic [ref=e1350]:
+                        - generic [ref=e1351]:
+                          - generic [ref=e1352]: "1"
+                          - generic [ref=e1353]: "1"
+                        - generic [ref=e1354]: "Max. people: 2"
+                    - cell "+₹ 223 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1355]:
+                      - generic [ref=e1356]:
+                        - generic [ref=e1357]:
+                          - generic [ref=e1358]:
+                            - generic [ref=e1360]: ₹ 5,253
+                            - generic [ref=e1361]:
+                              - generic [ref=e1362]:
+                                - generic [ref=e1363]: ₹ 4,465
+                                - img [ref=e1365]
+                              - generic [ref=e1368]: Original price ₹ 5,253 Current price ₹ 4,465
+                          - generic [ref=e1369]: +₹ 223 taxes and fees
+                        - generic [ref=e1375]: 15% off
+                    - cell "Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed Genius discount may be available when you sign in. More details on meals, cancellation, and prepayment policies" [ref=e1376]:
+                      - generic [ref=e1377]:
+                        - list [ref=e1378]:
+                          - listitem [ref=e1379]:
+                            - generic [ref=e1384]:
+                              - img [ref=e1387]
+                              - strong [ref=e1391]: Includes round-trip airport shuttle + early check-in + high-speed internet
+                          - listitem [ref=e1392]:
+                            - generic [ref=e1393]:
+                              - img [ref=e1395]
+                              - generic [ref=e1400]:
+                                - strong [ref=e1401]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1402]:
+                            - generic [ref=e1403]:
+                              - img [ref=e1405]
+                              - generic [ref=e1410]:
+                                - strong [ref=e1411]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1412]:
+                            - generic [ref=e1413]:
+                              - img [ref=e1415]
+                              - strong [ref=e1421]: No credit card needed
+                          - listitem [ref=e1422]:
+                            - img [ref=e1423]
+                            - generic "Genius discount may be available when you sign in." [ref=e1426]:
+                              - img [ref=e1427]
+                              - text: discount may be available
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1437] [cursor=pointer]:
+                          - img [ref=e1439] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1441]:
+                      - generic [ref=e1442]:
+                        - generic [ref=e1443]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1444]:
+                          - option "0" [selected]
+                          - option "1 (₹ 4,465)"
+                          - option "2 (₹ 8,930)"
+                          - option "3 (₹ 13,395)"
+                          - option "4 (₹ 17,860)"
+                          - option "5 (₹ 22,325)"
+                          - option "6 (₹ 26,790)"
+                  - 'row "Superior King Room We have 1 left 1 king bed 42 m² City view Air conditioning Private bathroom Flat-screen TV Free Wifi Show more amenities Max. people: 2 +₹ 184 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1445]':
+                    - rowheader "Superior King Room We have 1 left 1 king bed 42 m² City view Air conditioning Private bathroom Flat-screen TV Free Wifi Show more amenities" [ref=e1446]:
+                      - generic [ref=e1447]:
+                        - link "Superior King Room" [ref=e1449] [cursor=pointer]:
+                          - /url: "#RD1466364503"
+                          - generic [ref=e1450] [cursor=pointer]: Superior King Room
+                        - generic [ref=e1453]:
+                          - img [ref=e1454]
+                          - generic [ref=e1457]: We have 1 left
+                        - list [ref=e1460]:
+                          - listitem [ref=e1461]:
+                            - generic [ref=e1462]:
+                              - text: 1 king bed
+                              - generic [ref=e1463]: 녌
+                        - generic [ref=e1465]:
+                          - list [ref=e1466]:
+                            - listitem [ref=e1467]:
+                              - generic [ref=e1468]:
+                                - img [ref=e1469]
+                                - text: 42 m²
+                            - listitem [ref=e1471]:
+                              - generic [ref=e1472]:
+                                - img [ref=e1473]
+                                - text: City view
+                            - listitem [ref=e1475]:
+                              - generic [ref=e1476]:
+                                - img [ref=e1477]
+                                - text: Air conditioning
+                            - listitem [ref=e1479]:
+                              - generic [ref=e1480]:
+                                - img [ref=e1481]
+                                - text: Private bathroom
+                            - listitem [ref=e1483]:
+                              - generic [ref=e1484]:
+                                - img [ref=e1485]
+                                - text: Flat-screen TV
+                            - listitem [ref=e1487]:
+                              - generic [ref=e1488]:
+                                - img [ref=e1489]
+                                - text: Free Wifi
+                          - button "Show more amenities" [ref=e1491] [cursor=pointer]: More
+                    - 'cell "Max. people: 2" [ref=e1492]':
+                      - generic [ref=e1494]:
+                        - generic [ref=e1495]:
+                          - generic [ref=e1496]: "1"
+                          - generic [ref=e1497]: "1"
+                        - generic [ref=e1498]: "Max. people: 2"
+                    - cell "+₹ 184 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1499]:
+                      - generic [ref=e1500]:
+                        - generic [ref=e1501]:
+                          - generic [ref=e1502]:
+                            - generic [ref=e1504]: ₹ 4,335
+                            - generic [ref=e1505]:
+                              - generic [ref=e1506]:
+                                - generic [ref=e1507]: ₹ 3,685
+                                - img [ref=e1509]
+                              - generic [ref=e1512]: Original price ₹ 4,335 Current price ₹ 3,685
+                          - generic [ref=e1513]: +₹ 184 taxes and fees
+                        - generic [ref=e1519]: 15% off
+                    - cell "Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies" [ref=e1520]:
+                      - generic [ref=e1521]:
+                        - list [ref=e1522]:
+                          - listitem [ref=e1523]:
+                            - generic [ref=e1524]:
+                              - img [ref=e1526]
+                              - generic [ref=e1531]:
+                                - strong [ref=e1532]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1533]:
+                            - generic [ref=e1534]:
+                              - img [ref=e1536]
+                              - generic [ref=e1541]:
+                                - strong [ref=e1542]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1543]:
+                            - generic [ref=e1544]:
+                              - img [ref=e1546]
+                              - strong [ref=e1552]: No credit card needed
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1554] [cursor=pointer]:
+                          - img [ref=e1556] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1558]:
+                      - generic [ref=e1559]:
+                        - generic [ref=e1560]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1561]:
+                          - option "0" [selected]
+                          - option "1 (₹ 3,685)"
+                  - 'row "Max. people: 2 +₹ 238 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.. Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies Select Rooms 0" [ref=e1562]':
+                    - 'cell "Max. people: 2" [ref=e1563]':
+                      - generic [ref=e1565]:
+                        - generic [ref=e1566]:
+                          - generic [ref=e1567]: "1"
+                          - generic [ref=e1568]: "1"
+                        - generic [ref=e1569]: "Max. people: 2"
+                    - cell "+₹ 238 taxes and fees 15% off. You’re getting a reduced rate because this property is offering a discount.." [ref=e1570]:
+                      - generic [ref=e1571]:
+                        - generic [ref=e1572]:
+                          - generic [ref=e1573]:
+                            - generic [ref=e1575]: ₹ 5,610
+                            - generic [ref=e1576]:
+                              - generic [ref=e1577]:
+                                - generic [ref=e1578]: ₹ 4,769
+                                - img [ref=e1580]
+                              - generic [ref=e1583]: Original price ₹ 5,610 Current price ₹ 4,769
+                          - generic [ref=e1584]: +₹ 238 taxes and fees
+                        - generic [ref=e1590]: 15% off
+                    - cell "Includes round-trip airport shuttle + early check-in + high-speed internet Free cancellation before December 1, 2025 No prepayment needed – pay at the property No credit card needed More details on meals, cancellation, and prepayment policies" [ref=e1591]:
+                      - generic [ref=e1592]:
+                        - list [ref=e1593]:
+                          - listitem [ref=e1594]:
+                            - generic [ref=e1599]:
+                              - img [ref=e1602]
+                              - strong [ref=e1606]: Includes round-trip airport shuttle + early check-in + high-speed internet
+                          - listitem [ref=e1607]:
+                            - generic [ref=e1608]:
+                              - img [ref=e1610]
+                              - generic [ref=e1615]:
+                                - strong [ref=e1616]: Free cancellation
+                                - text: before December 1, 2025
+                          - listitem [ref=e1617]:
+                            - generic [ref=e1618]:
+                              - img [ref=e1620]
+                              - generic [ref=e1625]:
+                                - strong [ref=e1626]: No prepayment needed
+                                - text: – pay at the property
+                          - listitem [ref=e1627]:
+                            - generic [ref=e1628]:
+                              - img [ref=e1630]
+                              - strong [ref=e1636]: No credit card needed
+                        - button "More details on meals, cancellation, and prepayment policies" [ref=e1638] [cursor=pointer]:
+                          - img [ref=e1640] [cursor=pointer]
+                    - cell "Select Rooms 0" [ref=e1642]:
+                      - generic [ref=e1643]:
+                        - generic [ref=e1644]: Select Rooms
+                        - combobox "Select Rooms" [ref=e1645]:
+                          - option "0" [selected]
+                          - option "1 (₹ 4,769)"
+              - generic [ref=e1648]:
+                - button "I'll reserve" [ref=e1650] [cursor=pointer]:
+                  - generic [ref=e1651] [cursor=pointer]: I'll reserve
+                - list [ref=e1653]:
+                  - listitem [ref=e1654]: You won't be charged yet
+          - generic [ref=e1656]:
+            - generic [ref=e1657]:
+              - img [ref=e1660]
+              - generic [ref=e1662]:
+                - strong [ref=e1663]: "Limited supply in Kolkata for your dates:"
+                - text: 8 guesthouses like this are already unavailable on our site
+            - generic [ref=e1664]:
+              - img [ref=e1667]
+              - generic [ref=e1669]:
+                - strong [ref=e1670]: No credit card needed
+                - text: All options are bookable without a credit card.
+          - generic [ref=e1673]:
+            - generic [ref=e1675]:
+              - generic [ref=e1676]:
+                - heading "Guest reviews" [level=2] [ref=e1678]
+                - button "See availability" [ref=e1680] [cursor=pointer]:
+                  - generic [ref=e1681] [cursor=pointer]: See availability
+              - button "Scored 8.8 Rated excellent Read all reviews" [ref=e1684] [cursor=pointer]:
+                - generic [ref=e1685] [cursor=pointer]:
+                  - generic [ref=e1686] [cursor=pointer]:
+                    - generic [ref=e1687] [cursor=pointer]: Scored 8.8
+                    - generic [ref=e1688] [cursor=pointer]: "8.8"
+                    - generic [ref=e1689] [cursor=pointer]: Rated excellent
+                    - generic [ref=e1690] [cursor=pointer]:
+                      - generic [ref=e1691] [cursor=pointer]: Excellent
+                      - generic [ref=e1692] [cursor=pointer]: · 68 reviews
+                  - generic [ref=e1694] [cursor=pointer]: Read all reviews
+              - group "Review categories" [ref=e1696]:
+                - heading "Categories:" [level=3] [ref=e1698]
+                - generic [ref=e1699]:
+                  - generic [ref=e1702]:
+                    - generic [ref=e1703]:
+                      - generic [ref=e1706]:
+                        - text: Staff
+                        - img "High score for Kolkata" [ref=e1707]:
+                          - img [ref=e1708]
+                      - generic [ref=e1711]: "9.5"
+                    - meter "Staff High score for Kolkata" [ref=e1712]
+                  - generic [ref=e1716]:
+                    - generic [ref=e1717]:
+                      - generic [ref=e1720]:
+                        - text: Facilities
+                        - img "High score for Kolkata" [ref=e1721]:
+                          - img [ref=e1722]
+                      - generic [ref=e1725]: "8.8"
+                    - meter "Facilities High score for Kolkata" [ref=e1726]
+                  - generic [ref=e1730]:
+                    - generic [ref=e1731]:
+                      - generic [ref=e1734]:
+                        - text: Cleanliness
+                        - img "High score for Kolkata" [ref=e1735]:
+                          - img [ref=e1736]
+                      - generic [ref=e1739]: "9.1"
+                    - meter "Cleanliness High score for Kolkata" [ref=e1740]
+                  - generic [ref=e1744]:
+                    - generic [ref=e1745]:
+                      - generic [ref=e1748]:
+                        - text: Comfort
+                        - img "High score for Kolkata" [ref=e1749]:
+                          - img [ref=e1750]
+                      - generic [ref=e1753]: "9.3"
+                    - meter "Comfort High score for Kolkata" [ref=e1754]
+                  - generic [ref=e1758]:
+                    - generic [ref=e1759]:
+                      - generic [ref=e1762]:
+                        - text: Value for money
+                        - img "High score for Kolkata" [ref=e1763]:
+                          - img [ref=e1764]
+                      - generic [ref=e1767]: "9.1"
+                    - meter "Value for money High score for Kolkata" [ref=e1768]
+                  - generic [ref=e1772]:
+                    - generic [ref=e1773]:
+                      - generic [ref=e1776]:
+                        - text: Location
+                        - img "High score for Kolkata" [ref=e1777]:
+                          - img [ref=e1778]
+                      - generic [ref=e1781]: "9.2"
+                    - meter "Location High score for Kolkata" [ref=e1782]
+                  - generic [ref=e1786]:
+                    - generic [ref=e1787]:
+                      - generic [ref=e1790]: Free Wifi
+                      - generic [ref=e1792]: "8.3"
+                    - meter "Free Wifi" [ref=e1793]
+                  - generic [ref=e1798]:
+                    - img [ref=e1801]
+                    - generic [ref=e1804]: High score for Kolkata
+              - group "Select topics to read reviews:" [ref=e1806]:
+                - heading "Select topics to read reviews:" [level=3] [ref=e1809]
+                - group "Select topics to read reviews:" [ref=e1811]:
+                  - button "Location" [ref=e1812]:
+                    - checkbox "Location" [ref=e1813]
+                    - generic [ref=e1814] [cursor=pointer]:
+                      - img [ref=e1816] [cursor=pointer]
+                      - generic [ref=e1818] [cursor=pointer]: Location
+                  - button "Clean" [ref=e1819]:
+                    - checkbox "Clean" [ref=e1820]
+                    - generic [ref=e1821] [cursor=pointer]:
+                      - img [ref=e1823] [cursor=pointer]
+                      - generic [ref=e1825] [cursor=pointer]: Clean
+                  - button "Room" [ref=e1826]:
+                    - checkbox "Room" [ref=e1827]
+                    - generic [ref=e1828] [cursor=pointer]:
+                      - img [ref=e1830] [cursor=pointer]
+                      - generic [ref=e1832] [cursor=pointer]: Room
+                  - button "Breakfast" [ref=e1833]:
+                    - checkbox "Breakfast" [ref=e1834]
+                    - generic [ref=e1835] [cursor=pointer]:
+                      - img [ref=e1837] [cursor=pointer]
+                      - generic [ref=e1839] [cursor=pointer]: Breakfast
+                  - button "Dinner" [ref=e1840]:
+                    - checkbox "Dinner" [ref=e1841]
+                    - generic [ref=e1842] [cursor=pointer]:
+                      - img [ref=e1844] [cursor=pointer]
+                      - generic [ref=e1846] [cursor=pointer]: Dinner
+              - generic [ref=e1847]:
+                - generic [ref=e1848]:
+                  - heading "Guests who stayed here loved" [level=3] [ref=e1849]
+                  - generic [ref=e1850]:
+                    - region "Guests who stayed here loved" [ref=e1851]:
+                      - group [ref=e1852]:
+                        - generic [ref=e1854]:
+                          - generic [ref=e1856]:
+                            - generic [ref=e1858]: "N"
+                            - generic [ref=e1859]:
+                              - generic [ref=e1860]: Niem
+                              - generic [ref=e1861]:
+                                - img "United States" [ref=e1862]
+                                - generic [ref=e1863]: United States
+                          - generic [ref=e1866]:
+                            - generic [ref=e1867]: “
+                            - generic [ref=e1868]: I like the location. The hotel has good air conditioning, and the people are nice.
+                            - generic [ref=e1869]: ”
+                          - button "Read more of Niem's review" [ref=e1871] [cursor=pointer]:
+                            - generic [ref=e1872] [cursor=pointer]: Read more
+                      - group [ref=e1873]:
+                        - generic [ref=e1875]:
+                          - generic [ref=e1877]:
+                            - generic [ref=e1879]: S
+                            - generic [ref=e1880]:
+                              - generic [ref=e1881]: Swapnil
+                              - generic [ref=e1882]:
+                                - img "India" [ref=e1883]
+                                - generic [ref=e1884]: India
+                          - generic [ref=e1887]:
+                            - generic [ref=e1888]: “
+                            - generic [ref=e1889]: The hotel was in prime location, The hospitality is really good, staff here are really helpfull, also the rooms were neat and clean, Best hotel to book if you want to stay in Esplanade
+                            - generic [ref=e1890]: ”
+                          - button "Read more of Swapnil's review" [ref=e1892] [cursor=pointer]:
+                            - generic [ref=e1893] [cursor=pointer]: Read more
+                      - group [ref=e1894]:
+                        - generic [ref=e1896]:
+                          - generic [ref=e1898]:
+                            - generic [ref=e1900]: K
+                            - generic [ref=e1901]:
+                              - generic [ref=e1902]: Kassi
+                              - generic [ref=e1903]:
+                                - img "Ivory Coast" [ref=e1904]
+                                - generic [ref=e1905]: Ivory Coast
+                          - generic [ref=e1908]:
+                            - generic [ref=e1909]: “
+                            - generic [ref=e1910]: The staff members were very supportive — special thanks to Rajiv and Somnath for their professionalism. I would also like to thank the owner, Mr. Rahul Soni, who allowed me to visit the room before making any transaction. The hotel is located near...
+                            - generic [ref=e1911]: ”
+                          - button "Read more of Kassi's review" [ref=e1913] [cursor=pointer]:
+                            - generic [ref=e1914] [cursor=pointer]: Read more
+                      - group [ref=e1915]:
+                        - generic [ref=e1917]:
+                          - generic [ref=e1922]:
+                            - generic [ref=e1923]: Chowdhury
+                            - generic [ref=e1924]:
+                              - img "India" [ref=e1925]
+                              - generic [ref=e1926]: India
+                          - generic [ref=e1929]:
+                            - generic [ref=e1930]: “
+                            - generic [ref=e1931]: Excellent location, the hotel was clean with good amenities, staff were very good, food was delicious.
+                            - generic [ref=e1932]: ”
+                          - button "Read more of Chowdhury's review" [ref=e1934] [cursor=pointer]:
+                            - generic [ref=e1935] [cursor=pointer]: Read more
+                      - group [ref=e1936]:
+                        - generic [ref=e1938]:
+                          - generic [ref=e1943]:
+                            - generic [ref=e1944]: Roshni
+                            - generic [ref=e1945]:
+                              - img "India" [ref=e1946]
+                              - generic [ref=e1947]: India
+                          - generic [ref=e1950]:
+                            - generic [ref=e1951]: “
+                            - generic [ref=e1952]: One of the best places i have stayed in Kolkata. Great location also
+                            - generic [ref=e1953]: ”
+                          - button "Read more of Roshni's review" [ref=e1955] [cursor=pointer]:
+                            - generic [ref=e1956] [cursor=pointer]: Read more
+                      - group [ref=e1957]:
+                        - generic [ref=e1959]:
+                          - generic [ref=e1964]:
+                            - generic [ref=e1965]: Eun
+                            - generic [ref=e1966]:
+                              - img "South Korea" [ref=e1967]
+                              - generic [ref=e1968]: South Korea
+                          - generic [ref=e1971]:
+                            - generic [ref=e1972]: “
+                            - generic [ref=e1973]: The best hotel in Kolkata. I felt really comfortable experience ever in India. When i go back to Korea, I gonna recomend this brilliant hotel for my friends extremly!!!
+                            - generic [ref=e1974]: ”
+                          - button "Read more of Eun's review" [ref=e1976] [cursor=pointer]:
+                            - generic [ref=e1977] [cursor=pointer]: Read more
+                      - group [ref=e1978]:
+                        - generic [ref=e1980]:
+                          - generic [ref=e1985]:
+                            - generic [ref=e1986]: Antara
+                            - generic [ref=e1987]:
+                              - img "India" [ref=e1988]
+                              - generic [ref=e1989]: India
+                          - generic [ref=e1992]:
+                            - generic [ref=e1993]: “
+                            - generic [ref=e1994]: It is a really great hotel in terms of location, new market is walkable distance. The place is neat and clean both inside and out, bathrooms are clean. Water purifier is available for drinking water, and water supply is good in the bathrooms. You...
+                            - generic [ref=e1995]: ”
+                          - button "Read more of Antara's review" [ref=e1997] [cursor=pointer]:
+                            - generic [ref=e1998] [cursor=pointer]: Read more
+                      - group [ref=e1999]:
+                        - generic [ref=e2001]:
+                          - generic [ref=e2006]:
+                            - generic [ref=e2007]: Venkata
+                            - generic [ref=e2008]:
+                              - img "India" [ref=e2009]
+                              - generic [ref=e2010]: India
+                          - generic [ref=e2013]:
+                            - generic [ref=e2014]: “
+                            - generic [ref=e2015]: The staff are very cooperative. I requested for 3 hours early check in and 2 hours late check out and they accepted it very happily without charges. The reception guy (Moustaches Guy), Ajit Srivastava and Pintu are so helpful. They made stay very...
+                            - generic [ref=e2016]: ”
+                          - button "Read more of Venkata's review" [ref=e2018] [cursor=pointer]:
+                            - generic [ref=e2019] [cursor=pointer]: Read more
+                      - group [ref=e2020]:
+                        - generic [ref=e2022]:
+                          - generic [ref=e2027]:
+                            - generic [ref=e2028]: Ramakant
+                            - generic [ref=e2029]:
+                              - img "India" [ref=e2030]
+                              - generic [ref=e2031]: India
+                          - generic [ref=e2034]:
+                            - generic [ref=e2035]: “
+                            - generic [ref=e2036]: Cleanliness was top notch.cleanest linen i have ever experienced.location.behaviour of the staff.environment.cleanliness.each and everything was working in excellent condition.new property
+                            - generic [ref=e2037]: ”
+                          - button "Read more of Ramakant's review" [ref=e2039] [cursor=pointer]:
+                            - generic [ref=e2040] [cursor=pointer]: Read more
+                      - group [ref=e2041]:
+                        - generic [ref=e2043]:
+                          - generic [ref=e2048]:
+                            - generic [ref=e2049]: Verma
+                            - generic [ref=e2050]:
+                              - img "India" [ref=e2051]
+                              - generic [ref=e2052]: India
+                          - generic [ref=e2055]:
+                            - generic [ref=e2056]: “
+                            - generic [ref=e2057]: My stay at Swarnhotel was exceptional. The rooms were spotless and beautifully designed, the staff was warm and attentive. The peaceful atmosphere made it a truly relaxing and memorable experience. Worth the money — highly recommended!
+                            - generic [ref=e2058]: ”
+                          - button "Read more of Verma's review" [ref=e2060] [cursor=pointer]:
+                            - generic [ref=e2061] [cursor=pointer]: Read more
+                    - button [ref=e2062] [cursor=pointer]:
+                      - img [ref=e2065] [cursor=pointer]
+                - button "Read all reviews" [ref=e2067] [cursor=pointer]:
+                  - generic [ref=e2068] [cursor=pointer]: Read all reviews
+            - generic [ref=e2077]:
+              - heading "Quality rating" [level=3] [ref=e2078]:
+                - text: Quality rating
+                - img [ref=e2079]:
+                  - generic [ref=e2080]:
+                    - img [ref=e2082]
+                    - img [ref=e2085]
+                  - generic [ref=e2087]:
+                    - img [ref=e2089]
+                    - img [ref=e2092]
+                  - generic [ref=e2094]:
+                    - img [ref=e2096]
+                    - img [ref=e2099]
+              - generic [ref=e2101]: Booking.com rated the quality of this property as 3 out of 5 based on factors like facilities, size, location, and service.
+            - generic [ref=e2108]:
+              - generic [ref=e2109]:
+                - heading "Travelers are asking" [level=2] [ref=e2111]:
+                  - generic [ref=e2112]: Travelers are asking
+                - button "See availability" [ref=e2114] [cursor=pointer]:
+                  - generic [ref=e2115] [cursor=pointer]: See availability
+              - generic [ref=e2117]:
+                - generic [ref=e2118]:
+                  - list [ref=e2120]:
+                    - listitem [ref=e2121]:
+                      - button "Do they serve breakfast?" [ref=e2122] [cursor=pointer]:
+                        - generic [ref=e2123] [cursor=pointer]:
+                          - img [ref=e2126] [cursor=pointer]
+                          - generic [ref=e2128] [cursor=pointer]: Do they serve breakfast?
+                          - img [ref=e2131] [cursor=pointer]
+                    - listitem [ref=e2133]:
+                      - button "Can I park there?" [ref=e2134] [cursor=pointer]:
+                        - generic [ref=e2135] [cursor=pointer]:
+                          - img [ref=e2138] [cursor=pointer]
+                          - generic [ref=e2140] [cursor=pointer]: Can I park there?
+                          - img [ref=e2143] [cursor=pointer]
+                    - listitem [ref=e2145]:
+                      - button "Is there an airport shuttle service?" [ref=e2146] [cursor=pointer]:
+                        - generic [ref=e2147] [cursor=pointer]:
+                          - img [ref=e2150] [cursor=pointer]
+                          - generic [ref=e2152] [cursor=pointer]: Is there an airport shuttle service?
+                          - img [ref=e2155] [cursor=pointer]
+                    - listitem [ref=e2157]:
+                      - button "Is there a restaurant?" [ref=e2158] [cursor=pointer]:
+                        - generic [ref=e2159] [cursor=pointer]:
+                          - img [ref=e2162] [cursor=pointer]
+                          - generic [ref=e2164] [cursor=pointer]: Is there a restaurant?
+                          - img [ref=e2167] [cursor=pointer]
+                    - listitem [ref=e2169]:
+                      - button "What are the check-in and check-out times?" [ref=e2170] [cursor=pointer]:
+                        - generic [ref=e2171] [cursor=pointer]:
+                          - img [ref=e2174] [cursor=pointer]
+                          - generic [ref=e2176] [cursor=pointer]: What are the check-in and check-out times?
+                          - img [ref=e2179] [cursor=pointer]
+                    - listitem [ref=e2181]:
+                      - button "Is there a spa?" [ref=e2182] [cursor=pointer]:
+                        - generic [ref=e2183] [cursor=pointer]:
+                          - img [ref=e2186] [cursor=pointer]
+                          - generic [ref=e2188] [cursor=pointer]: Is there a spa?
+                          - img [ref=e2191] [cursor=pointer]
+                    - listitem [ref=e2193]:
+                      - button "Are there rooms with a private bathroom?" [ref=e2194] [cursor=pointer]:
+                        - generic [ref=e2195] [cursor=pointer]:
+                          - img [ref=e2198] [cursor=pointer]
+                          - generic [ref=e2200] [cursor=pointer]: Are there rooms with a private bathroom?
+                          - img [ref=e2203] [cursor=pointer]
+                    - listitem [ref=e2205]:
+                      - button "Is there a swimming pool?" [ref=e2206] [cursor=pointer]:
+                        - generic [ref=e2207] [cursor=pointer]:
+                          - img [ref=e2210] [cursor=pointer]
+                          - generic [ref=e2212] [cursor=pointer]: Is there a swimming pool?
+                          - img [ref=e2215] [cursor=pointer]
+                    - listitem [ref=e2217]:
+                      - button "What restaurants, attractions, and public transit options are nearby?" [ref=e2218] [cursor=pointer]:
+                        - generic [ref=e2219] [cursor=pointer]:
+                          - img [ref=e2222] [cursor=pointer]
+                          - generic [ref=e2224] [cursor=pointer]: What restaurants, attractions, and public transit options are nearby?
+                          - img [ref=e2227] [cursor=pointer]
+                    - listitem [ref=e2229]:
+                      - button "What's the Wi-Fi policy?" [ref=e2230] [cursor=pointer]:
+                        - generic [ref=e2231] [cursor=pointer]:
+                          - img [ref=e2234] [cursor=pointer]
+                          - generic [ref=e2236] [cursor=pointer]: What's the Wi-Fi policy?
+                          - img [ref=e2239] [cursor=pointer]
+                  - generic [ref=e2242]:
+                    - heading "Still looking?" [level=3] [ref=e2243]
+                    - button "Ask a question" [ref=e2244] [cursor=pointer]:
+                      - generic [ref=e2245] [cursor=pointer]: Ask a question
+                    - paragraph [ref=e2246]: We have an instant answer to most questions
+                - button "See other questions (2)" [ref=e2249] [cursor=pointer]:
+                  - generic [ref=e2250] [cursor=pointer]: See other questions (2)
+            - generic [ref=e2252]:
+              - generic [ref=e2253]:
+                - generic [ref=e2254]:
+                  - heading "Host Info" [level=2] [ref=e2255]:
+                    - generic [ref=e2256]: Host Info
+                  - generic [ref=e2257]:
+                    - generic [ref=e2258]: "9.7"
+                    - generic [ref=e2259]: "9.7"
+                    - generic [ref=e2260]: Host Review Score
+                    - generic [ref=e2262]: Host Review Score
+                - separator [ref=e2263]
+              - generic [ref=e2264]:
+                - img [ref=e2268]
+                - generic [ref=e2270]:
+                  - generic [ref=e2271]: At Swarn Hotels, we believe in making your stay extraordinary. Whether you're visiting for business or leisure, our thoughtfully designed spaces, exceptional service, and prime location offer the perfect blend of comfort and sophistication. Located in the heart of KOLKATA, our hotel provides you with easy access to the city’s top attractions while offering a peaceful retreat to unwind after a busy day. Indulge in world-class amenities, dine at our exquisite restaurants, and experience the warmth of our hospitality. At Swarn Hotels, we are committed to making every moment of your stay special and unforgettable. Book your stay with us today and discover a world of luxury at Swarn Hotels.
+                  - generic [ref=e2272]: Heart of Kolkata. Business area and centre point to every destination in Kolkata.
+                  - generic [ref=e2273]:
+                    - generic [ref=e2274]: "Languages spoken:"
+                    - generic [ref=e2275]:
+                      - generic [ref=e2276]: English,
+                      - generic [ref=e2277]: Hindi
+            - generic [ref=e2282]:
+              - generic [ref=e2283]:
+                - heading "Area info" [level=2] [ref=e2285]:
+                  - generic [ref=e2286]: Area info
+                - button "See availability" [ref=e2288] [cursor=pointer]:
+                  - generic [ref=e2289] [cursor=pointer]: See availability
+              - generic [ref=e2290]:
+                - link "Excellent location – show map" [ref=e2293] [cursor=pointer]:
+                  - /url: "#map_opened-hotel_surroundings"
+                  - generic [ref=e2295] [cursor=pointer]: Excellent location – show map
+                - generic [ref=e2296]:
+                  - generic [ref=e2297]:
+                    - generic [ref=e2298]:
+                      - img [ref=e2300]
+                      - heading "What's nearby" [level=3] [ref=e2302]:
+                        - generic [ref=e2303]: What's nearby
+                    - list [ref=e2304]:
+                      - listitem [ref=e2305]:
+                        - generic [ref=e2308]:
+                          - generic [ref=e2309]: Malanga Park
+                          - generic [ref=e2311]: 550 m
+                      - listitem [ref=e2312]:
+                        - generic [ref=e2315]:
+                          - generic [ref=e2316]: Curzon Park
+                          - generic [ref=e2318]: 1 km
+                      - listitem [ref=e2319]:
+                        - generic [ref=e2322]:
+                          - generic [ref=e2323]: Santosh Mitra Square
+                          - generic [ref=e2325]: 1.1 km
+                      - listitem [ref=e2326]:
+                        - generic [ref=e2329]:
+                          - generic [ref=e2330]: Ram Leela Udayan
+                          - generic [ref=e2332]: 1.4 km
+                      - listitem [ref=e2333]:
+                        - generic [ref=e2336]:
+                          - generic [ref=e2337]: Shaheed Minar
+                          - generic [ref=e2339]: 1.6 km
+                      - listitem [ref=e2340]:
+                        - generic [ref=e2343]:
+                          - generic [ref=e2344]: Nicco Park
+                          - generic [ref=e2346]: 1.8 km
+                      - listitem [ref=e2347]:
+                        - generic [ref=e2350]:
+                          - generic [ref=e2351]: Mohammad Ali Park
+                          - generic [ref=e2353]: 2 km
+                      - listitem [ref=e2354]:
+                        - generic [ref=e2357]:
+                          - generic [ref=e2358]: Entally Padda Pukur Park-Main Gate
+                          - generic [ref=e2360]: 2 km
+                      - listitem [ref=e2361]:
+                        - generic [ref=e2364]:
+                          - generic [ref=e2365]: Millennium Park
+                          - generic [ref=e2367]: 2.2 km
+                      - listitem [ref=e2368]:
+                        - generic [ref=e2371]:
+                          - generic [ref=e2372]: Park Street
+                          - generic [ref=e2374]: 2.2 km
+                  - generic [ref=e2375]:
+                    - generic [ref=e2376]:
+                      - img [ref=e2378]
+                      - heading "Restaurants & cafes" [level=3] [ref=e2380]:
+                        - generic [ref=e2381]: Restaurants & cafes
+                    - list [ref=e2382]:
+                      - listitem [ref=e2383]:
+                        - generic [ref=e2386]:
+                          - generic [ref=e2387]:
+                            - generic [ref=e2388]: Restaurant
+                            - text: Jai Mata di Food Centre
+                          - generic [ref=e2390]: 30 m
+                      - listitem [ref=e2391]:
+                        - generic [ref=e2394]:
+                          - generic [ref=e2395]:
+                            - generic [ref=e2396]: Restaurant
+                            - text: Rai Kishori Bhojnalaya
+                          - generic [ref=e2398]: 100 m
+                      - listitem [ref=e2399]:
+                        - generic [ref=e2402]:
+                          - generic [ref=e2403]:
+                            - generic [ref=e2404]: Cafe/Bar
+                            - text: Rama Coffee Day
+                          - generic [ref=e2406]: 350 m
+                  - generic [ref=e2407]:
+                    - generic [ref=e2408]:
+                      - img [ref=e2410]
+                      - heading "Top attractions" [level=3] [ref=e2412]:
+                        - generic [ref=e2413]: Top attractions
+                    - list [ref=e2414]:
+                      - listitem [ref=e2415]:
+                        - generic [ref=e2418]:
+                          - generic [ref=e2419]: Maidan
+                          - generic [ref=e2421]: 2.5 km
+                      - listitem [ref=e2422]:
+                        - generic [ref=e2425]:
+                          - generic [ref=e2426]: Marble Palace
+                          - generic [ref=e2428]: 2.8 km
+                      - listitem [ref=e2429]:
+                        - generic [ref=e2432]:
+                          - generic [ref=e2433]: Tagore Museum
+                          - generic [ref=e2435]: 3.1 km
+                      - listitem [ref=e2436]:
+                        - generic [ref=e2439]:
+                          - generic [ref=e2440]: Nehru Children's Museum
+                          - generic [ref=e2442]: 3.4 km
+                      - listitem [ref=e2443]:
+                        - generic [ref=e2446]:
+                          - generic [ref=e2447]: Indian Museum
+                          - generic [ref=e2449]: 3.5 km
+                      - listitem [ref=e2450]:
+                        - generic [ref=e2453]:
+                          - generic [ref=e2454]: Victoria Memorial
+                          - generic [ref=e2456]: 3.6 km
+                      - listitem [ref=e2457]:
+                        - generic [ref=e2460]:
+                          - generic [ref=e2461]: Birla Industrial & Technological Museum
+                          - generic [ref=e2463]: 4.4 km
+                      - listitem [ref=e2464]:
+                        - generic [ref=e2467]:
+                          - generic [ref=e2468]: Science City
+                          - generic [ref=e2470]: 5 km
+                      - listitem [ref=e2471]:
+                        - generic [ref=e2474]:
+                          - generic [ref=e2475]: Rabindra Sarobar
+                          - generic [ref=e2477]: 6 km
+                      - listitem [ref=e2478]:
+                        - generic [ref=e2481]:
+                          - generic [ref=e2482]: Gurusaday Museum
+                          - generic [ref=e2484]: 16 km
+                  - generic [ref=e2485]:
+                    - generic [ref=e2486]:
+                      - img [ref=e2488]
+                      - heading "Public transit" [level=3] [ref=e2490]:
+                        - generic [ref=e2491]: Public transit
+                    - list [ref=e2492]:
+                      - listitem [ref=e2493]:
+                        - generic [ref=e2496]:
+                          - generic [ref=e2497]:
+                            - generic [ref=e2498]: Subway
+                            - text: Esplanade Metro Station
+                          - generic [ref=e2500]: 650 m
+                      - listitem [ref=e2501]:
+                        - generic [ref=e2504]:
+                          - generic [ref=e2505]:
+                            - generic [ref=e2506]: Subway
+                            - text: Central
+                          - generic [ref=e2508]: 1.4 km
+                      - listitem [ref=e2509]:
+                        - generic [ref=e2512]:
+                          - generic [ref=e2513]:
+                            - generic [ref=e2514]: Train
+                            - text: Sealdah Train Station
+                          - generic [ref=e2516]: 1.9 km
+                      - listitem [ref=e2517]:
+                        - generic [ref=e2520]:
+                          - generic [ref=e2521]:
+                            - generic [ref=e2522]: Train
+                            - text: Sealdah (South)
+                          - generic [ref=e2524]: 1.9 km
+                  - generic [ref=e2525]:
+                    - generic [ref=e2526]:
+                      - img [ref=e2528]
+                      - heading "Closest Airports" [level=3] [ref=e2530]:
+                        - generic [ref=e2531]: Closest Airports
+                    - list [ref=e2532]:
+                      - listitem [ref=e2533]:
+                        - generic [ref=e2536]:
+                          - generic [ref=e2537]: Netaji Subhash Chandra Bose International Airport
+                          - generic [ref=e2539]: 14 km
+                - generic [ref=e2540]: Shortest estimated walking or driving distances displayed. Actual distances may vary.
+                - group [ref=e2543]:
+                  - generic [ref=e2545]: Missing some information?
+                  - generic [ref=e2547]:
+                    - button "Yes" [ref=e2549] [cursor=pointer]:
+                      - generic [ref=e2550] [cursor=pointer]: "Yes"
+                    - generic [ref=e2551]:
+                      - generic [ref=e2552]: /
+                      - button "No" [ref=e2553] [cursor=pointer]:
+                        - generic [ref=e2554] [cursor=pointer]: "No"
+            - region "Survey with 2 questions" [ref=e2556]:
+              - generic [ref=e2560]:
+                - button "Close survey" [ref=e2562] [cursor=pointer]:
+                  - img [ref=e2565] [cursor=pointer]
+                - heading "How are we doing?" [level=3] [ref=e2567]:
+                  - generic [ref=e2568]: How are we doing?
+                - generic [ref=e2569]:
+                  - img [ref=e2571]
+                  - generic [ref=e2572]:
+                    - generic [ref=e2573]:
+                      - generic "Question 1 of 2" [ref=e2574]: 1 of 2
+                      - generic "Rate how much you agree with the following statement. This is a 5-point scale, with 1 being strongly agree and 5 strongly disagree." [ref=e2576]: It's easy to select the accommodation type I need at this property
+                    - group "Rate how much you agree with the following statement. This is a 5-point scale, with 1 being strongly agree and 5 strongly disagree." [ref=e2578]:
+                      - generic [ref=e2579]:
+                        - radio "Strongly agree" [ref=e2580]
+                        - generic [ref=e2584] [cursor=pointer]: Strongly agree
+                      - generic [ref=e2585]:
+                        - radio "Agree" [ref=e2586]
+                        - generic [ref=e2590] [cursor=pointer]: Agree
+                      - generic [ref=e2591]:
+                        - radio "Neutral" [ref=e2592]
+                        - generic [ref=e2596] [cursor=pointer]: Neutral
+                      - generic [ref=e2597]:
+                        - radio "Disagree" [ref=e2598]
+                        - generic [ref=e2602] [cursor=pointer]: Disagree
+                      - generic [ref=e2603]:
+                        - radio "Strongly disagree" [ref=e2604]
+                        - generic [ref=e2608] [cursor=pointer]: Strongly disagree
+            - generic [ref=e2612]:
+              - generic [ref=e2613]:
+                - generic [ref=e2614]:
+                  - heading "House rules" [level=2] [ref=e2615]:
+                    - generic [ref=e2616]: House rules
+                  - generic [ref=e2617]: Swarn Hotel takes special requests – add in the next step!
+                - button "See availability" [ref=e2619] [cursor=pointer]:
+                  - generic [ref=e2620] [cursor=pointer]: See availability
+              - generic [ref=e2622]:
+                - generic [ref=e2623]:
+                  - generic [ref=e2625]:
+                    - img [ref=e2627]
+                    - generic [ref=e2629]: Check-in
+                  - generic [ref=e2631]: From 1:00 PM to 11:00 PM
+                - separator [ref=e2632]
+                - generic [ref=e2633]:
+                  - generic [ref=e2635]:
+                    - img [ref=e2637]
+                    - generic [ref=e2639]: Check-out
+                  - generic [ref=e2641]: Available 24 hours
+                - separator [ref=e2642]
+                - generic [ref=e2643]:
+                  - generic [ref=e2645]:
+                    - img [ref=e2647]
+                    - generic [ref=e2649]: Cancellation/ prepayment
+                  - generic [ref=e2651]:
+                    - text: Cancellation and prepayment policies vary according to accommodation type. Check what
+                    - link "conditions" [ref=e2652] [cursor=pointer]:
+                      - /url: "#availability_target"
+                    - text: apply to each option when making your selection.
+                - separator [ref=e2653]
+                - generic [ref=e2654]:
+                  - generic [ref=e2656]:
+                    - img [ref=e2658]
+                    - generic [ref=e2660]: Children & Beds
+                  - generic [ref=e2662]:
+                    - generic [ref=e2663]:
+                      - heading "Child policies" [level=3] [ref=e2664]
+                      - paragraph [ref=e2665]: Children of all ages are welcome.
+                      - paragraph [ref=e2666]: Children 18 and above will be charged as adults at this property.
+                      - paragraph [ref=e2667]: To see correct prices and occupancy info, add the number and ages of children in your group to your search.
+                    - heading "Crib and extra bed policies" [level=3] [ref=e2668]
+                    - generic [ref=e2669]:
+                      - generic [ref=e2670]: 0 - 2 years
+                      - generic [ref=e2671]:
+                        - generic [ref=e2672]:
+                          - img [ref=e2674]
+                          - generic [ref=e2676]: Crib upon request
+                        - generic [ref=e2678]: Free
+                    - generic [ref=e2679]:
+                      - generic [ref=e2680]:
+                        - text: Adult
+                        - generic [ref=e2681]: (18+ years)
+                      - generic [ref=e2682]:
+                        - generic [ref=e2683]:
+                          - img [ref=e2685]
+                          - generic [ref=e2687]: Extra bed upon request
+                        - generic [ref=e2689]: ₹ 500 per person, per night
+                    - generic [ref=e2690]:
+                      - paragraph [ref=e2691]: Prices for cribs and extra beds aren't included in the total price. They'll have to be paid for separately during your stay.
+                      - paragraph [ref=e2692]: The number of extra beds and cribs allowed depends on the option you choose. Check your selected option for more info.
+                      - paragraph [ref=e2693]: All cribs and extra beds are subject to availability.
+                - separator [ref=e2694]
+                - generic [ref=e2695]:
+                  - generic [ref=e2697]:
+                    - img [ref=e2699]
+                    - generic [ref=e2701]: No age restriction
+                  - generic [ref=e2703]: There is no age requirement for check-in
+                - separator [ref=e2704]
+                - generic [ref=e2705]:
+                  - generic [ref=e2707]:
+                    - img [ref=e2709]
+                    - generic [ref=e2711]: Pets
+                  - generic [ref=e2713]: Pets are not allowed.
+                - separator [ref=e2714]
+                - generic [ref=e2715]:
+                  - generic [ref=e2717]:
+                    - img [ref=e2719]
+                    - generic [ref=e2721]: Accepted payment methods
+                  - generic [ref=e2723]:
+                    - img "American Express" [ref=e2725]
+                    - img "Visa" [ref=e2727]
+                    - img "Mastercard" [ref=e2729]
+                    - img "Diners Club" [ref=e2731]
+                    - img "JCB" [ref=e2733]
+                    - img "Maestro" [ref=e2735]
+                    - img "Discover" [ref=e2737]
+                    - img "UnionPay credit card" [ref=e2739]
+                    - generic [ref=e2741]: Cash
+                - separator [ref=e2742]
+                - generic [ref=e2743]:
+                  - generic [ref=e2745]:
+                    - img [ref=e2747]
+                    - generic [ref=e2749]: Smoking
+                  - generic [ref=e2751]: Smoking is not allowed.
+          - generic [ref=e2754]:
+            - heading "FAQs about Swarn Hotel" [level=2] [ref=e2756]
+            - generic [ref=e2757]:
+              - generic [ref=e2759]:
+                - button "What type of room can I book at Swarn Hotel?" [ref=e2762] [cursor=pointer]:
+                  - heading "What type of room can I book at Swarn Hotel?" [level=3] [ref=e2764] [cursor=pointer]
+                  - img [ref=e2766] [cursor=pointer]
+                - separator [ref=e2768]
+                - button "What are the check-in and check-out times at Swarn Hotel?" [ref=e2771] [cursor=pointer]:
+                  - heading "What are the check-in and check-out times at Swarn Hotel?" [level=3] [ref=e2773] [cursor=pointer]
+                  - img [ref=e2775] [cursor=pointer]
+                - separator [ref=e2777]
+                - button "How much does it cost to stay at Swarn Hotel?" [ref=e2780] [cursor=pointer]:
+                  - heading "How much does it cost to stay at Swarn Hotel?" [level=3] [ref=e2782] [cursor=pointer]
+                  - img [ref=e2784] [cursor=pointer]
+              - generic [ref=e2787]:
+                - button "How far is Swarn Hotel from the center of Kolkata?" [ref=e2790] [cursor=pointer]:
+                  - heading "How far is Swarn Hotel from the center of Kolkata?" [level=3] [ref=e2792] [cursor=pointer]
+                  - img [ref=e2794] [cursor=pointer]
+                - separator [ref=e2796]
+                - button "Is Swarn Hotel popular with families?" [ref=e2799] [cursor=pointer]:
+                  - heading "Is Swarn Hotel popular with families?" [level=3] [ref=e2801] [cursor=pointer]
+                  - img [ref=e2803] [cursor=pointer]
+      - button "The Best of Kolkata Click here to see more hotels and accommodations near popular landmarks in Kolkata" [ref=e2808] [cursor=pointer]:
+        - generic [ref=e2810] [cursor=pointer]:
+          - generic [ref=e2812] [cursor=pointer]: The Best of Kolkata
+          - generic [ref=e2813] [cursor=pointer]: Click here to see more hotels and accommodations near popular landmarks in Kolkata
+        - img [ref=e2815] [cursor=pointer]
+  - contentinfo [ref=e2817]:
+    - contentinfo [ref=e2821]:
+      - navigation "Quick Links" [ref=e2824]:
+        - list [ref=e2825]:
+          - listitem [ref=e2826]:
+            - link "Countries" [ref=e2827] [cursor=pointer]:
+              - /url: https://www.booking.com/country.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2829] [cursor=pointer]: Countries
+            - text: .
+          - listitem [ref=e2830]:
+            - link "Regions" [ref=e2831] [cursor=pointer]:
+              - /url: https://www.booking.com/region.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2833] [cursor=pointer]: Regions
+            - text: .
+          - listitem [ref=e2834]:
+            - link "Cities" [ref=e2835] [cursor=pointer]:
+              - /url: https://www.booking.com/city.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2837] [cursor=pointer]: Cities
+            - text: .
+          - listitem [ref=e2838]:
+            - link "Districts" [ref=e2839] [cursor=pointer]:
+              - /url: https://www.booking.com/district.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2841] [cursor=pointer]: Districts
+            - text: .
+          - listitem [ref=e2842]:
+            - link "Airports" [ref=e2843] [cursor=pointer]:
+              - /url: https://www.booking.com/airport.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2845] [cursor=pointer]: Airports
+            - text: .
+          - listitem [ref=e2846]:
+            - link "Hotels" [ref=e2847] [cursor=pointer]:
+              - /url: https://www.booking.com/hotel/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2849] [cursor=pointer]: Hotels
+            - text: .
+          - listitem [ref=e2850]:
+            - link "Places of interest" [ref=e2851] [cursor=pointer]:
+              - /url: https://www.booking.com/landmark.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2853] [cursor=pointer]: Places of interest
+            - text: .
+          - listitem [ref=e2854]:
+            - link "Vacation Homes" [ref=e2855] [cursor=pointer]:
+              - /url: https://www.booking.com/booking-home/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2857] [cursor=pointer]: Vacation Homes
+            - text: .
+          - listitem [ref=e2858]:
+            - link "Apartments" [ref=e2859] [cursor=pointer]:
+              - /url: https://www.booking.com/apartments/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2861] [cursor=pointer]: Apartments
+            - text: .
+          - listitem [ref=e2862]:
+            - link "Resorts" [ref=e2863] [cursor=pointer]:
+              - /url: https://www.booking.com/resorts/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2865] [cursor=pointer]: Resorts
+            - text: .
+          - listitem [ref=e2866]:
+            - link "Villas" [ref=e2867] [cursor=pointer]:
+              - /url: https://www.booking.com/villas/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2869] [cursor=pointer]: Villas
+            - text: .
+          - listitem [ref=e2870]:
+            - link "Hostels" [ref=e2871] [cursor=pointer]:
+              - /url: https://www.booking.com/hostels/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2873] [cursor=pointer]: Hostels
+            - text: .
+          - listitem [ref=e2874]:
+            - link "B&Bs" [ref=e2875] [cursor=pointer]:
+              - /url: https://www.booking.com/bed-and-breakfast/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2877] [cursor=pointer]: B&Bs
+            - text: .
+          - listitem [ref=e2878]:
+            - link "Guest Houses" [ref=e2879] [cursor=pointer]:
+              - /url: https://www.booking.com/guest-house/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2881] [cursor=pointer]: Guest Houses
+            - text: .
+          - listitem [ref=e2882]:
+            - link "Unique places to stay" [ref=e2883] [cursor=pointer]:
+              - /url: https://www.booking.com/accommodations.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2885] [cursor=pointer]: Unique places to stay
+            - text: .
+          - listitem [ref=e2886]:
+            - link "Reviews" [ref=e2887] [cursor=pointer]:
+              - /url: https://www.booking.com/reviews.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2889] [cursor=pointer]: Reviews
+            - text: .
+          - listitem [ref=e2890]:
+            - link "Discover monthly stays" [ref=e2891] [cursor=pointer]:
+              - /url: https://www.booking.com/extended-stays/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+              - generic [ref=e2893] [cursor=pointer]: Discover monthly stays
+      - generic [ref=e2895]:
+        - generic [ref=e2896]:
+          - heading "Support" [level=3] [ref=e2898]
+          - list [ref=e2899]:
+            - listitem [ref=e2900]:
+              - link "Manage your trips" [ref=e2902] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/cs.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2904] [cursor=pointer]: Manage your trips
+            - listitem [ref=e2905]:
+              - link "Contact Customer Service" [ref=e2907] [cursor=pointer]:
+                - /url: https://secure.booking.com/help.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2909] [cursor=pointer]: Contact Customer Service
+            - listitem [ref=e2910]:
+              - link "Safety Resource Center" [ref=e2912] [cursor=pointer]:
+                - /url: https://www.booking.com/trust_and_safety.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2914] [cursor=pointer]: Safety Resource Center
+        - generic [ref=e2915]:
+          - heading "Discover" [level=3] [ref=e2917]
+          - list [ref=e2918]:
+            - listitem [ref=e2919]:
+              - link "Genius loyalty program" [ref=e2921] [cursor=pointer]:
+                - /url: https://www.booking.com/genius.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2923] [cursor=pointer]: Genius loyalty program
+            - listitem [ref=e2924]:
+              - link "Seasonal and holiday deals" [ref=e2926] [cursor=pointer]:
+                - /url: https://www.booking.com/deals/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2928] [cursor=pointer]: Seasonal and holiday deals
+            - listitem [ref=e2929]:
+              - link "Travel articles" [ref=e2931] [cursor=pointer]:
+                - /url: https://www.booking.com/articles.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2933] [cursor=pointer]: Travel articles
+            - listitem [ref=e2934]:
+              - link "Booking.com for Business" [ref=e2936] [cursor=pointer]:
+                - /url: https://business.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2938] [cursor=pointer]: Booking.com for Business
+            - listitem [ref=e2939]:
+              - link "Traveller Review Awards" [ref=e2941] [cursor=pointer]:
+                - /url: https://www.booking.com/traveller-awards/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2943] [cursor=pointer]: Traveller Review Awards
+            - listitem [ref=e2944]:
+              - link "Car rental" [ref=e2946] [cursor=pointer]:
+                - /url: https://www.booking.com/cars/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2948] [cursor=pointer]: Car rental
+            - listitem [ref=e2949]:
+              - link "Flight finder" [ref=e2951] [cursor=pointer]:
+                - /url: https://booking.com/pxgo?token=UmFuZG9tSVYkc2RlIyh9YWktmrwAPG7d0xk8r8arn9t7KpKAV6F0lyXSPh1kuTiBI8hYYXB1lZnLRIrJMxOmHrIEkpLmrUr_5nO2gH8CchQBDQH2PlaxW55pD_3ozKjvXdLeDxgA_fg236s7HNrRw5EqAzmoBQP_cP1rK4RSRVTI2zi8Jgiki_eZ5Nbp9VGVG-_aDt6x-d8lcPPZYHHno0RYzClRR6OmrcFYcWaIulgOdjdOAXmNNcD1ktnn2RleAW_P_GeMXbgh_viZbnbDgkcvrC948LMhukbnF0OhvAdK9mTE67SQXZ_PbIv7hRtdwhjuUnijiLCZR9ht963MAcwMn8jfhPAO-ItRbPOpesOxpDKaHlq9YF8ZZlYbFtOkxd2IwOqGHosF1JjIRyz-W_7_oiPXy8mfa5IidslfMU9RDgTb4WtULEWTPu2Lb3V_qLigA6HJs_0_8AIKQ97Q7hv74rgNxyVUjbMOiXFTwqDU4f_G1CKBGg4yf0Kp2CBfy5GYdoD7lqJOrgBGqi7_nA&label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&lang=en-us&url=https%3A%2F%2Fbooking.kayak.com%2Fin%3Fsid%3D9c969160c1ca046ff279975ea7741cac%26mc%3DINR%26bdclc%3Den-us%26p%3Dfooter_link%26a%3Dbdc%252Ffooter_link&aid=304142
+                - generic [ref=e2953] [cursor=pointer]: Flight finder
+            - listitem [ref=e2954]:
+              - link "Restaurant reservations" [ref=e2956] [cursor=pointer]:
+                - /url: https://www.opentable.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&ref=16087
+                - generic [ref=e2958] [cursor=pointer]: Restaurant reservations
+            - listitem [ref=e2959]:
+              - link "Booking.com for Travel Agents" [ref=e2961] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac&utm_campaign=booking-footer&utm_content=travel-agents-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e2963] [cursor=pointer]: Booking.com for Travel Agents
+        - generic [ref=e2964]:
+          - heading "Terms and settings" [level=3] [ref=e2966]
+          - list [ref=e2967]:
+            - listitem [ref=e2968]:
+              - link "Privacy & cookies" [ref=e2970] [cursor=pointer]:
+                - /url: https://www.booking.com/content/privacy.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2972] [cursor=pointer]: Privacy & cookies
+            - listitem [ref=e2973]:
+              - link "Terms of Service" [ref=e2975] [cursor=pointer]:
+                - /url: https://www.booking.com/content/terms.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2977] [cursor=pointer]: Terms of Service
+            - listitem [ref=e2978]:
+              - link "Accessibility Statement" [ref=e2980] [cursor=pointer]:
+                - /url: https://www.booking.com/content/accessibility_statement.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2982] [cursor=pointer]: Accessibility Statement
+            - listitem [ref=e2983]:
+              - link "Grievance officer" [ref=e2985] [cursor=pointer]:
+                - /url: https://secure.booking.com/content/complaints.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e2987] [cursor=pointer]: Grievance officer
+            - listitem [ref=e2988]:
+              - link "Modern Slavery Statement" [ref=e2990] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/modern-slavery-statement/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e2992] [cursor=pointer]: Modern Slavery Statement
+            - listitem [ref=e2993]:
+              - link "Human Rights Statement" [ref=e2995] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/about/compliance-and-ethics/human-rights/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e2997] [cursor=pointer]: Human Rights Statement
+        - generic [ref=e2998]:
+          - heading "Partners" [level=3] [ref=e3000]
+          - list [ref=e3001]:
+            - listitem [ref=e3002]:
+              - link "Extranet login" [ref=e3004] [cursor=pointer]:
+                - /url: https://admin.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac&utm_campaign=login_footer_v0&utm_medium=frontend&utm_source=extranet_login_footer
+                - generic [ref=e3006] [cursor=pointer]: Extranet login
+            - listitem [ref=e3007]:
+              - link "Partner help" [ref=e3009] [cursor=pointer]:
+                - /url: https://partner.booking.com/en-us?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac&utm_campaign=footer_list&utm_medium=frontend_footer&utm_source=booking.com
+                - generic [ref=e3011] [cursor=pointer]: Partner help
+            - listitem [ref=e3012]:
+              - link "List your property" [ref=e3014] [cursor=pointer]:
+                - /url: https://join.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&lang=en-us&sid=9c969160c1ca046ff279975ea7741cac&utm_medium=frontend&utm_source=footer_menu
+                - generic [ref=e3016] [cursor=pointer]: List your property
+            - listitem [ref=e3017]:
+              - link "Become an affiliate" [ref=e3019] [cursor=pointer]:
+                - /url: https://www.booking.com/affiliate-program/v2/index.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac&utm_campaign=booking-footer&utm_content=become-an-affiliate-link&utm_medium=referral&utm_source=booking.com
+                - generic [ref=e3021] [cursor=pointer]: Become an affiliate
+        - generic [ref=e3022]:
+          - heading "About" [level=3] [ref=e3024]
+          - list [ref=e3025]:
+            - listitem [ref=e3026]:
+              - link "About Booking.com" [ref=e3028] [cursor=pointer]:
+                - /url: https://www.booking.com/content/about.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e3030] [cursor=pointer]: About Booking.com
+            - listitem [ref=e3031]:
+              - link "How We Work" [ref=e3033] [cursor=pointer]:
+                - /url: https://www.booking.com/content/how_we_work.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e3035] [cursor=pointer]: How We Work
+            - listitem [ref=e3036]:
+              - link "Sustainability" [ref=e3038] [cursor=pointer]:
+                - /url: https://www.sustainability.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e3040] [cursor=pointer]: Sustainability
+            - listitem [ref=e3041]:
+              - link "Press center" [ref=e3043] [cursor=pointer]:
+                - /url: https://news.booking.com/en-in?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e3045] [cursor=pointer]: Press center
+            - listitem [ref=e3046]:
+              - link "Careers" [ref=e3048] [cursor=pointer]:
+                - /url: https://careers.booking.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e3050] [cursor=pointer]: Careers
+            - listitem [ref=e3051]:
+              - link "Investor relations" [ref=e3053] [cursor=pointer]:
+                - /url: https://www.bookingholdings.com/?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142
+                - generic [ref=e3055] [cursor=pointer]: Investor relations
+            - listitem [ref=e3056]:
+              - link "Corporate contact" [ref=e3058] [cursor=pointer]:
+                - /url: https://www.booking.com/content/contact-us.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e3060] [cursor=pointer]: Corporate contact
+            - listitem [ref=e3061]:
+              - link "Content guidelines and reporting" [ref=e3063] [cursor=pointer]:
+                - /url: https://www.booking.com/content-moderation-policy/overview-page.html?label=gen173nr-10CAEoggI46AdIM1gEaGyIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AuTMncgGwAIB0gIkNmRkNDdiMmYtOGE2My00MDEwLWEyN2QtZDVmZGNmMGJkZTE42AIB4AIB&aid=304142&sid=9c969160c1ca046ff279975ea7741cac
+                - generic [ref=e3065] [cursor=pointer]: Content guidelines and reporting
+      - generic [ref=e3067]:
+        - generic [ref=e3068]:
+          - 'button "Language: English (US)" [ref=e3070] [cursor=pointer]'
+          - button "Prices in Indian Rupee" [ref=e3075] [cursor=pointer]:
+            - generic [ref=e3076] [cursor=pointer]: INR
+        - separator [ref=e3077]
+        - generic [ref=e3078]:
+          - generic [ref=e3080]: Booking.com is part of Booking Holdings Inc., the world leader in online travel and related services.
+          - generic [ref=e3081]: Copyright © 1996–2025 Booking.com™. All rights reserved.
+        - generic [ref=e3082]:
+          - img "Booking.com" [ref=e3083]:
+            - img [ref=e3084]
+          - img "Priceline.com" [ref=e3086]:
+            - img [ref=e3087]
+          - img "Kayak" [ref=e3090]:
+            - img [ref=e3091]
+          - img "Agoda" [ref=e3105]:
+            - img [ref=e3106]
+          - img "OpenTable" [ref=e3114]:
+            - img [ref=e3115]
+  - text: 끖 낝 끲 낝 넌
+```
