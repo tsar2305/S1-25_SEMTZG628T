@@ -54,7 +54,7 @@ test('Search Filtering by date, location@run', async () => {
   await page.click(booking.Nopaymnt);
   await page.click(booking.NoCredCrd);
   await page.waitForSelector(booking.availablityBtn);
-  hotels=(await booking.filterHotel(6000));
+  // hotels=(await booking.filterHotel(6000));
   const promise = context.waitForEvent('page');
   await page.click(booking.availablityBtn);
   page1 = await promise;
@@ -64,9 +64,9 @@ test("Filtered page handling@confirm", async () => {
   const page = page1;
   // await page.waitForLoadState('load');
   const booking = new BookingPage(page);
-  for (var hotel of hotels) {
-    try {
-      await booking.navigateToPage(await hotel.linkurl);
+  // for (var hotel of hotels) {
+  //   try {
+  //     await booking.navigateToPage(await hotel.linkurl);
       await page.waitForSelector(booking.reserve);
        await page.waitForTimeout(3000);
       console.log(await booking.getRules());
@@ -78,12 +78,12 @@ test("Filtered page handling@confirm", async () => {
       console.log(arry);
       arry.push(await booking.completeBooking());
       await page.close();
-      break;
-    } catch (error) {
-      console.error(`Error processing hotel ${hotel.name}:`, error);
-      await page.goto('about:blank');
-    }
-  }
+    //   break;
+    // } catch (error) {
+    //   console.error(`Error processing hotel ${hotel.name}:`, error);
+    //   await page.goto('about:blank');
+    // }
+  // }
 })
 test('Email Verification@mail', async ({ page }) => {
   // test.slow();
