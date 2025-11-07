@@ -1,9 +1,3 @@
-const { randomInt } = require("node:crypto");
-const { faker, fakerEN_IN, fakerEN_US, simpleFaker, fakerBASE, fakerEN_CA } = require('@faker-js/faker');
-const { error } = require("node:console");
-const { errors } = require("playwright-extra");
-const { throws } = require("node:assert");
-var attempt=0;
 exports.BookingPage =
     class BookingPage {
 
@@ -39,12 +33,11 @@ exports.BookingPage =
             this.reserve = "//button[contains(@id,'book')]";
             this.checkboxes = "(//*[@type='checkbox'])";
             this.filterGrouped = "//button[contains(@data-testid,'filter-group:')]";
-            this.hotelHeader = "(//h2)[1]";
+            this.hotelHeader = "//h2[contains(@class,'pp-header')]";
             this.ruleContent = "//div[text()='House rules']/following::div[@data-testid='property-section--content']//*[text()]";
             this.firstName = "(//input[@name='firstname'])[1]";
             this.lastName = "(//input[@name='lastname'])[1]";
             this.email = "(//input[@name='email'])[1]";
-            this.confirmEmail = "(//input[@name='email_confirmation'])[1]";
             this.country = "//select[@name='cc1']";
             this.city = "(//input[@name='city'])[1]";
             this.zip = "(//input[@name='zip'])[1]";
@@ -71,7 +64,6 @@ exports.BookingPage =
             this.paymnt = "(//span[contains(text(),'Payment terms')])[2]";
             this.address = "(//input[@name='address1'])[1]";
             this.city = "(//input[@name='city'])[1]";
-            this.loadMore = "//*[contains(text(),'Load more result')]";
         }
         async monthNo(month) {
             var month_short = month;
@@ -81,52 +73,6 @@ exports.BookingPage =
                 "Sept": 9, "Oct": 10, "Nov": 11, "Dec": 12
             }[month_short];
             return month_number;
-        }
-        async ranData() {
-            const data = [];
-            const amenities = ['Wifi', 'Parking', 'Restraunt', 'Swimming Pool', 'Spa', 'Room Service', 'shuttle', 'Wheelchair', '24-hour front desk'];
-            const currency = ['INR', 'USD', 'ARS', 'AUD', 'CNY', 'KWD', 'QAR', 'TWD', 'NZD', 'THB'];
-            const count = faker.number.int({ min: 1, max: 3 });
-            const picked = faker.helpers.arrayElements(amenities, count);
-            const filterValue = picked.join(',');
-            data.push(faker.person.firstName());
-            data.push(faker.person.lastName());
-            data.push(data[0] + faker.number.int({ min: 11, max: 99 }) + '@mailinator.com');
-            data.push(faker.phone.number({ style: 'national' }));
-            data.push(faker.location.country());
-            data.push(filterValue);
-            data.push(currency[faker.number.int({ min: 0, max: 9 })]);
-            data.push(faker.number.int({ min: 1, max: 5 })); //member
-            data.push(faker.number.int({ min: parseInt(data[7] / 2) < 2 ? 1 : (data[7] / 2), max: data[7] - 1 <= 2 ? 2 : data[7] - 1 }));//room
-            const currentDate = new Date();
-            var arrivalDay = faker.number.int({ min: currentDate.getDate(), max: 28 });
-            var departureDay = arrivalDay + faker.number.int({ min: 1, max: 6 });
-            data.push(Math.floor(randomInt(5000, 15000) / 1000) * 1000 * data[8] * (departureDay - arrivalDay));//budget
-            var month = await this.monthShrt(currentDate.getMonth() + 1);
-            var year = await currentDate.getFullYear();
-            var arrival = arrivalDay + '.' + month + '.' + year;
-            if (currentDate.getMonth() == 12 && arrivalDay + 5 > 31) {
-                year = await currentDate.getFullYear() + 1;
-            }
-            if ((currentDate.getMonth() + 1) == 12 && arrivalDay + 5 > 31) {
-                month = await this.monthShrt(1);
-            } else if (arrivalDay + 2 > 31) {
-                month = await this.monthShrt(currentDate.getMonth() + 2);
-            }
-            var departure = departureDay + '.' + month + '.' + year;
-            data.push(arrival);
-            data.push(departure);
-            data.push(fakerEN_IN.location.city());
-            console.log(data);
-            return data;
-        }
-        async monthShrt(no) {
-            const month_short = {
-                1: "Jan", 2: "Feb", 3: "Mar", 4: "Apr",
-                5: "May", 6: "Jun", 7: "Jul", 8: "Aug",
-                9: "Sept", 10: "Oct", 11: "Nov", 12: "Dec"
-            }[no];
-            return month_short;
         }
         async navigateToPage(url) {
             await this.page.goto(url);
@@ -142,12 +88,10 @@ exports.BookingPage =
         async selectDestination(location) {
             await this.page.waitForLoadState('load');
             await this.page.waitForSelector(this.destination);
-            await this.closeSignIn();
             try {
                 await this.page.locator(this.destination).click();
                 await this.page.locator(this.destination).clear();
                 await this.page.locator(this.destination).fill(location);
-                await this.page.waitForTimeout(3000);
                 await this.autocomplete(location);
             } catch (error) {
                 await this.closeSignIn();
@@ -155,13 +99,8 @@ exports.BookingPage =
         };
         async autocomplete(value) {
             await this.page.waitForLoadState('load');
-            try {
-                await this.page.locator(("//div[text()='" + value + "']")).waitFor({ state: 'visible', timeout: 2000 });;
-                await this.page.locator(("//div[text()='" + value + "']")).click();
-            } catch (error) {
-                await this.page.keyboard.press('ArrowDown');
-                await this.page.keyboard.press('Enter');
-            }
+            await this.page.locator(("//div[text()='" + value + "']")).waitFor('visible');
+            await this.page.locator(("//div[text()='" + value + "']")).click();
         }
         async dynamicText(value) {
             return ("//div[text()='" + value + "']");
@@ -317,7 +256,7 @@ exports.BookingPage =
             // Get tax
             let taxText = await this.page.textContent(this.pricetax);
             let tax = Number(taxText.replace(/[^0-9.-]+/g, ''))
-            price += tax;
+            price +=tax; 
             await this.page.waitForTimeout(2000);
             var hotelName = await this.page.textContent(this.hotelHeader);
             if (member < 3 && room == 1) {
@@ -328,24 +267,18 @@ exports.BookingPage =
                 await this.page.hover(this.cnfrmSubmit);
                 await this.page.click(this.cnfrmSubmit);
             } else {
-                await this.page.click(this.reserve);
                 await this.page.locator(this.tableRoom).scrollIntoViewIfNeeded();
                 let recommendContent = await this.page.textContent(this.recommendContent);
                 let recommendFor = await this.page.textContent(this.recommendFor);
                 content = `${hotelName} - ${recommendContent} for ${recommendFor} at ${price}`;
                 try {
-                    await this.page.waitForSelector(this.recommendSubmit);
                     await this.page.click(this.recommendSubmit);
+                } catch (error) {
                     await this.page.hover(this.cnfrmSubmit);
                     await this.page.click(this.cnfrmSubmit);
-                    await this.page.waitForLoadState('load');
-                    await this.page.locator(this.firstName).isVisible();
-                } catch (error) {
-                    await this.page.reload();
-                    await this.reservation(member, room);
                 }
-
             }
+            await this.page.waitForLoadState('load');
             return content;
         }
         async fillDetails(firstName, lastName, email, phone, country) {
@@ -354,15 +287,12 @@ exports.BookingPage =
             await this.page.type(this.firstName, firstName, { delay: 90 });
             await this.page.type(this.lastName, lastName, { delay: 90 });
             await this.page.type(this.email, email, { delay: 90 });
-            if (await this.page.locator(this.confirmEmail).isVisible()) {
-                await this.page.type(this.confirmEmail, email, { delay: 90 });
-            }
             await this.page.selectOption(this.country, country);
-            if (await this.page.locator(this.address).isVisible()) {
-                await this.page.fill(this.address, 'test');
-                await this.page.fill(this.city, 'test');
+            if(await this.page.locator(this.address).isVisible()){
+                await this.page.fill(this.address,'test');
+                await this.page.fill(this.city,'test');
             }
-            await this.page.type(this.phone, '' + phone, { delay: 90 });
+            await this.page.type(this.phone, phone, { delay: 90 });
             var adres = await this.page.textContent(this.bookadres);
             await this.page.locator(this.finalBtn).scrollIntoViewIfNeeded();
             await this.page.click(this.finalBtn);
@@ -391,18 +321,16 @@ exports.BookingPage =
             const hotelMap = new Map();
             let hotels = await this.page.locator(this.hotels);
             for (var i = 0; i < await hotels.count(); i++) {
-                let href, rating, rateCount;
+                let href,rating,rateCount;
                 try {
-                    // await hotels.nth(i).locator(this.availableBtn).waitFor({ state: 'visible', timeout: 5000 });
-                    await hotels.nth(i).locator(this.availableBtn).scrollIntoViewIfNeeded();
-                    href = await hotels.nth(i).locator(this.availableBtn).getAttribute('href');
-                    await hotels.nth(i).locator(this.review).isVisible({'timeout':5});
-                    let rateText = await hotels.nth(i).locator(this.review).first().textContent();
-                    rating = Number(rateText.replace(/[^0-9.-]+/g, ''));
-                    let rateCnt = await hotels.nth(i).locator(this.review).last().textContent();
-                    rateCount = Number(rateCnt.replace(/[^0-9.-]+/g, ''));
+                await hotels.nth(i).locator(this.availableBtn).scrollIntoViewIfNeeded();
+                href = await hotels.nth(i).locator(this.availableBtn).getAttribute('href');
+                let rateText = await hotels.nth(i).locator(this.review).first().textContent();
+                rating = Number(rateText.replace(/[^0-9.-]+/g, ''));
+                let rateCnt = await hotels.nth(i).locator(this.review).last().textContent();
+                rateCount = Number(rateCnt.replace(/[^0-9.-]+/g, ''));   
                 } catch (error) {
-                    continue;
+                    continue
                 }
                 let priceText = await hotels.locator(this.pricing).nth(i).last().textContent();
                 let price = Number(priceText.replace(/[^0-9.-]+/g, ''));
@@ -415,10 +343,6 @@ exports.BookingPage =
                                 price: price,
                                 linkurl:href
                             });
-                        console.log(hotelMap.size);
-                        if (hotelMap.size > 3) {
-                            break;
-                        }
                     }
                 }
             }
@@ -433,7 +357,7 @@ exports.BookingPage =
             // Convert map to array with score
             const scoredHotels = [];
             for (const [name, data] of hotelMap.entries()) {
-                const score = 1000 * (data.rating * Math.log10(1 + data.reviewCount)) / data.price;
+                const score = 1000*(data.rating * Math.log10(1+data.reviewCount))/data.price;
                 scoredHotels.push({
                     name,
                     ...data,
