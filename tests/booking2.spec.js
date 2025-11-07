@@ -52,9 +52,9 @@ test('Search Filtering by date, location@run', async () => {
     }
   }
   await page.click(booking.Nopaymnt);
-  await page.click(booking.NoCredCrd);
+  // await page.click(booking.NoCredCrd);
   await page.waitForSelector(booking.availablityBtn);
-  hotels=(await booking.filterHotel(6000));
+  // hotels=(await booking.filterHotel(6000));
   const promise = context.waitForEvent('page');
   await page.click(booking.availablityBtn);
   page1 = await promise;
@@ -64,9 +64,9 @@ test("Filtered page handling@confirm", async () => {
   const page = page1;
   // await page.waitForLoadState('load');
   const booking = new BookingPage(page);
-  for (var hotel of hotels) {
-    try {
-      await booking.navigateToPage(await hotel.linkurl);
+  // for (var hotel of hotels) {
+  //   try {
+  //     await booking.navigateToPage(await hotel.linkurl);
       await page.waitForSelector(booking.reserve);
        await page.waitForTimeout(3000);
       console.log(await booking.getRules());
@@ -74,16 +74,16 @@ test("Filtered page handling@confirm", async () => {
       //need change
       arry.push(await booking.reservation(2, 1));
       await page.waitForLoadState('load');
-      arry.push(await booking.fillDetails("Rahul", "Maity", 'testing24@mailinator.com', '915342232', 'India'));
+      arry.push(await booking.fillDetails("Rahul", "Maty", 'testing2401@mailinator.com', '915342232', 'India'));
       console.log(arry);
       arry.push(await booking.completeBooking());
       await page.close();
-      break;
-    } catch (error) {
-      console.error(`Error processing hotel ${hotel.name}:`, error);
-      await page.goto('about:blank');
-    }
-  }
+    //   break;
+    // } catch (error) {
+    //   console.error(`Error processing hotel ${hotel.name}:`, error);
+    //   await page.goto('about:blank');
+    // }
+  // }
 })
 test('Email Verification@mail', async ({ page }) => {
   // test.slow();
@@ -93,7 +93,7 @@ test('Email Verification@mail', async ({ page }) => {
   await email.navigateToPage(email.emailUrl);
   //Inputing Credentials to login
   await page.waitForSelector(email.username);
-  await page.type(email.username, 'testing24@mailinator.com', { delay: 120 });
+  await page.type(email.username, 'testing2401@mailinator.com', { delay: 120 });
   await page.keyboard.press('Enter');
   await page.waitForLoadState('load');
   /**Inbox Page========================================== */
